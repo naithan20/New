@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "DTrR7ZN9czw8hJeo6G2DpVWBg4SQjCx3kRWhm5awpump",
-  "currentSymbol": "STONKZCAT",
-  "entryPriceUsd": 0.0008057,
-  "entryNotionalGbp": 6.791575,
-  "peakNotionalGbp": 6.791575,
-  "realisedNotionalGbp": 6.895,
+  "currentToken": "2sywcwJdrYWXr7h3xqNAoSKQfyutcBnFeVg5vP96pump",
+  "currentSymbol": "DCAT",
+  "entryPriceUsd": 0.0001039,
+  "entryNotionalGbp": 0.023144938646991742,
+  "peakNotionalGbp": 0.023144938646991742,
+  "realisedNotionalGbp": 0.02349739964161598,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-06",
-  "tradeCount": 1,
+  "tradeCount": 2,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -28,6 +28,16 @@
       "currentScore": 0,
       "candidateScore": 70,
       "reason": "Candidate advantage 70 points"
+    },
+    {
+      "at": "2026-09-06T19:05:04.949Z",
+      "action": "ROTATE",
+      "from": "STONKZCAT",
+      "to": "DCAT",
+      "notionalGbp": 0.0231,
+      "currentScore": 0,
+      "candidateScore": 46,
+      "reason": "Risk exit triggered at -99.6% P/L; best eligible destination selected"
     }
   ]
 }
