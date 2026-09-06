@@ -38,6 +38,14 @@
       "currentScore": 0,
       "candidateScore": 46,
       "reason": "Risk exit triggered at -99.6% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-06T19:15:08.192Z",
+      "action": "HOLD",
+      "notionalGbp": 0.023,
+      "currentScore": 38,
+      "candidateScore": 54,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
