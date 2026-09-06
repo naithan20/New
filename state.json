@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "startedAt": null,
+  "startingNotionalGbp": 7,
+  "currentToken": "FwSuQh9hcd759TARSG2sciwLCcHWyS4kYWfseWFFpump",
+  "currentSymbol": "START",
+  "entryPriceUsd": null,
+  "entryNotionalGbp": 7,
+  "peakNotionalGbp": 7,
+  "realisedNotionalGbp": 7,
+  "benchmarkStartPriceUsd": null,
+  "tradesToday": 0,
+  "tradeDate": null,
+  "tradeCount": 0,
+  "journal": []
+}
