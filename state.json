@@ -1,16 +1,33 @@
 {
   "version": 1,
-  "startedAt": null,
+  "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "FwSuQh9hcd759TARSG2sciwLCcHWyS4kYWfseWFFpump",
-  "currentSymbol": "START",
-  "entryPriceUsd": null,
-  "entryNotionalGbp": 7,
-  "peakNotionalGbp": 7,
-  "realisedNotionalGbp": 7,
-  "benchmarkStartPriceUsd": null,
-  "tradesToday": 0,
-  "tradeDate": null,
-  "tradeCount": 0,
-  "journal": []
+  "currentToken": "DTrR7ZN9czw8hJeo6G2DpVWBg4SQjCx3kRWhm5awpump",
+  "currentSymbol": "STONKZCAT",
+  "entryPriceUsd": 0.0008057,
+  "entryNotionalGbp": 6.791575,
+  "peakNotionalGbp": 6.791575,
+  "realisedNotionalGbp": 6.895,
+  "benchmarkStartPriceUsd": 0.00001397,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-06",
+  "tradeCount": 1,
+  "journal": [
+    {
+      "at": "2026-09-06T14:29:47.293Z",
+      "action": "INIT",
+      "notionalGbp": 7,
+      "reason": "Seeded paper position at $0.00001397"
+    },
+    {
+      "at": "2026-09-06T14:29:47.293Z",
+      "action": "ROTATE",
+      "from": "tina",
+      "to": "STONKZCAT",
+      "notionalGbp": 6.7916,
+      "currentScore": 0,
+      "candidateScore": 70,
+      "reason": "Candidate advantage 70 points"
+    }
+  ]
 }
