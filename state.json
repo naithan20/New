@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "2sywcwJdrYWXr7h3xqNAoSKQfyutcBnFeVg5vP96pump",
-  "currentSymbol": "DCAT",
-  "entryPriceUsd": 0.0001039,
-  "entryNotionalGbp": 0.023144938646991742,
-  "peakNotionalGbp": 0.023144938646991742,
-  "realisedNotionalGbp": 0.02349739964161598,
+  "currentToken": "ACDCA4ndipepbaCQnkYyPhayGGNDS9PqnobSDirNpump",
+  "currentSymbol": "ONLYSTICK",
+  "entryPriceUsd": 0.0007747,
+  "entryNotionalGbp": 0.015729865116737546,
+  "peakNotionalGbp": 0.015729865116737546,
+  "realisedNotionalGbp": 0.015969406209885833,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-06",
-  "tradeCount": 2,
+  "tradeCount": 3,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -78,6 +78,16 @@
       "currentScore": 28,
       "candidateScore": 64,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-06T21:17:18.017Z",
+      "action": "ROTATE",
+      "from": "DCAT",
+      "to": "ONLYSTICK",
+      "notionalGbp": 0.0157,
+      "currentScore": 12,
+      "candidateScore": 69,
+      "reason": "Risk exit triggered at -30.0% P/L; best eligible destination selected"
     }
   ]
 }
