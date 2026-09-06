@@ -6,7 +6,7 @@
   "currentSymbol": "ONLYSTICK",
   "entryPriceUsd": 0.0007747,
   "entryNotionalGbp": 0.015729865116737546,
-  "peakNotionalGbp": 0.015729865116737546,
+  "peakNotionalGbp": 0.03106582371060855,
   "realisedNotionalGbp": 0.015969406209885833,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
@@ -95,6 +95,14 @@
       "notionalGbp": 0.0129,
       "currentScore": 78,
       "candidateScore": 54,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-06T21:37:22.598Z",
+      "action": "HOLD",
+      "notionalGbp": 0.0311,
+      "currentScore": 98,
+      "candidateScore": 63,
       "reason": "Daily trade cap reached"
     }
   ]
