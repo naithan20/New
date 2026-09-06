@@ -88,6 +88,14 @@
       "currentScore": 12,
       "candidateScore": 69,
       "reason": "Risk exit triggered at -30.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-06T21:27:20.557Z",
+      "action": "HOLD",
+      "notionalGbp": 0.0129,
+      "currentScore": 78,
+      "candidateScore": 54,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
