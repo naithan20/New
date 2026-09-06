@@ -3,7 +3,7 @@ name: Paper rotation agent
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7 * * * *"
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 65
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,15 +23,25 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
       - run: npm run check
-      - run: npm start
-      - name: Persist paper state
+      - name: Run six scans at 10-minute intervals
+        shell: bash
         run: |
-          if git diff --quiet -- state.json; then
-            echo "No state change"
-            exit 0
-          fi
           git config user.name "paper-agent[bot]"
           git config user.email "paper-agent@users.noreply.github.com"
-          git add state.json
-          git commit -m "chore: update paper trading state"
-          git push
+
+          for i in 1 2 3 4 5 6; do
+            echo "=== Scan $i/6 at $(date -u +%FT%TZ) ==="
+            npm start
+
+            if ! git diff --quiet -- state.json; then
+              git add state.json
+              git commit -m "chore: update paper trading state (scan $i)"
+              git push
+            else
+              echo "No state change on scan $i"
+            fi
+
+            if [ "$i" -lt 6 ]; then
+              sleep 600
+            fi
+          done
