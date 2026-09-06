@@ -54,6 +54,14 @@
       "currentScore": 37,
       "candidateScore": 56,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-06T19:35:14.146Z",
+      "action": "HOLD",
+      "notionalGbp": 0.0212,
+      "currentScore": 40,
+      "candidateScore": 42,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
