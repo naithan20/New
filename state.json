@@ -294,6 +294,14 @@
       "currentScore": 0,
       "candidateScore": 75,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-07T16:44:53.774Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 73,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
