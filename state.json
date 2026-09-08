@@ -6,7 +6,7 @@
   "currentSymbol": "BTC",
   "entryPriceUsd": 0.002004,
   "entryNotionalGbp": 0.0000010000590163988682,
-  "peakNotionalGbp": 0.0000010000590163988682,
+  "peakNotionalGbp": 0.0000015904132161991981,
   "realisedNotionalGbp": 0.0000010152883415216935,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
@@ -423,6 +423,14 @@
       "notionalGbp": 0,
       "currentScore": 67,
       "candidateScore": 55,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-08T04:25:58.398Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 33,
+      "candidateScore": 65,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
