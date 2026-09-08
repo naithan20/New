@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "F3hJ64M6xTmHYGgqkcgVPZx7sVMxb9FqUHBeXby3pump",
-  "currentSymbol": "ZCATWIF",
-  "entryPriceUsd": 0.0001927,
-  "entryNotionalGbp": 0.00008452146599469936,
-  "peakNotionalGbp": 0.00008452146599469936,
-  "realisedNotionalGbp": 0.0000858085949184765,
+  "currentToken": "E4Ap4icMLwKot8rkkTbq5JkS5kZxt5XCE3yfxbzYBjHx",
+  "currentSymbol": "BTC",
+  "entryPriceUsd": 0.002004,
+  "entryNotionalGbp": 0.0000010000590163988682,
+  "peakNotionalGbp": 0.0000010000590163988682,
+  "realisedNotionalGbp": 0.0000010152883415216935,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-07",
-  "tradeCount": 6,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-08",
+  "tradeCount": 7,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -406,6 +406,16 @@
       "currentScore": 0,
       "candidateScore": 78,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-08T00:07:25.477Z",
+      "action": "ROTATE",
+      "from": "ZCATWIF",
+      "to": "BTC",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 78,
+      "reason": "Risk exit triggered at -98.8% P/L; best eligible destination selected"
     }
   ]
 }
