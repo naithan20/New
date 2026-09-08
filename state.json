@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8RDq8d3uD9mD5K75f1dEGyubN6jGArDMZaA8J4MNpump",
-  "currentSymbol": "ONLYPUMP",
-  "entryPriceUsd": 0.001675,
-  "entryNotionalGbp": 0.000001257880892896291,
-  "peakNotionalGbp": 0.000001257880892896291,
-  "realisedNotionalGbp": 0.0000012770364394886204,
+  "currentToken": "E4Ap4icMLwKot8rkkTbq5JkS5kZxt5XCE3yfxbzYBjHx",
+  "currentSymbol": "BTC",
+  "entryPriceUsd": 0.002803,
+  "entryNotionalGbp": 0.000001063046989196259,
+  "peakNotionalGbp": 0.000001063046989196259,
+  "realisedNotionalGbp": 0.0000010792355220266588,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-08",
-  "tradeCount": 8,
+  "tradeCount": 9,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -458,6 +458,16 @@
       "currentScore": 59,
       "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-08T05:06:06.338Z",
+      "action": "ROTATE",
+      "from": "ONLYPUMP",
+      "to": "BTC",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 57,
+      "reason": "Risk exit triggered at -12.9% P/L; best eligible destination selected"
     }
   ]
 }
