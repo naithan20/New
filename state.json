@@ -6,7 +6,7 @@
   "currentSymbol": "BTC",
   "entryPriceUsd": 0.002803,
   "entryNotionalGbp": 0.000001063046989196259,
-  "peakNotionalGbp": 0.000001063046989196259,
+  "peakNotionalGbp": 0.000001425233887049426,
   "realisedNotionalGbp": 0.0000010792355220266588,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
@@ -468,6 +468,14 @@
       "currentScore": 58,
       "candidateScore": 57,
       "reason": "Risk exit triggered at -12.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-08T05:16:08.326Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 52,
+      "candidateScore": 64,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
