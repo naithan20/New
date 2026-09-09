@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "E4Ap4icMLwKot8rkkTbq5JkS5kZxt5XCE3yfxbzYBjHx",
-  "currentSymbol": "BTC",
-  "entryPriceUsd": 0.002803,
-  "entryNotionalGbp": 0.000001063046989196259,
-  "peakNotionalGbp": 0.000001425233887049426,
-  "realisedNotionalGbp": 0.0000010792355220266588,
+  "currentToken": "GLRyB95LzCyyY8TVfwZVDyrVcZuSJPJJoaPTnyWs89mv",
+  "currentSymbol": "MUCHWOW",
+  "entryPriceUsd": 0.001151,
+  "entryNotionalGbp": 0.0000010810695040467565,
+  "peakNotionalGbp": 0.0000010810695040467565,
+  "realisedNotionalGbp": 0.000001097532491418027,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-08",
-  "tradeCount": 9,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-09",
+  "tradeCount": 10,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -668,6 +668,16 @@
       "currentScore": 75,
       "candidateScore": 70,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-09T00:06:48.894Z",
+      "action": "ROTATE",
+      "from": "BTC",
+      "to": "MUCHWOW",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 81,
+      "reason": "Candidate advantage 30 points"
     }
   ]
 }
