@@ -6,7 +6,7 @@
   "currentSymbol": "HAPPYCAT",
   "entryPriceUsd": 0.001537,
   "entryNotionalGbp": 7.337571457307335e-7,
-  "peakNotionalGbp": 7.337571457307335e-7,
+  "peakNotionalGbp": 7.962959785809131e-7,
   "realisedNotionalGbp": 7.449311124169883e-7,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
@@ -705,6 +705,14 @@
       "notionalGbp": 0,
       "currentScore": 64,
       "candidateScore": 62,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-09T00:47:00.607Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 73,
+      "candidateScore": 76,
       "reason": "Daily trade cap reached"
     }
   ]
