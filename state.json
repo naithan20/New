@@ -6,7 +6,7 @@
   "currentSymbol": "STONKSZN",
   "entryPriceUsd": 0.0003255,
   "entryNotionalGbp": 1.98241559814382e-9,
-  "peakNotionalGbp": 1.98241559814382e-9,
+  "peakNotionalGbp": 2.1492917498769712e-9,
   "realisedNotionalGbp": 2.012604668166315e-9,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
@@ -972,6 +972,14 @@
       "currentScore": 0,
       "candidateScore": 59,
       "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-10T00:17:46.997Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 52,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
