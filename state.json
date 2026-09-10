@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HQSXsxD2BhpA8v21TwTjv6Tbkr8yYH3B8RkGS1Bspump",
-  "currentSymbol": "STONKSZN",
-  "entryPriceUsd": 0.0003255,
-  "entryNotionalGbp": 1.98241559814382e-9,
-  "peakNotionalGbp": 2.1492917498769712e-9,
-  "realisedNotionalGbp": 2.012604668166315e-9,
+  "currentToken": "B3s2eaFZFcbFPEjAgqpC6ZDqHSqZBqdPPXkpM85Ne7Wi",
+  "currentSymbol": "FUCKPUMP",
+  "entryPriceUsd": 0.0001107,
+  "entryNotionalGbp": 2.0563423423986563e-9,
+  "peakNotionalGbp": 2.0563423423986563e-9,
+  "realisedNotionalGbp": 2.0876572004047272e-9,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-10",
-  "tradeCount": 13,
+  "tradeCount": 14,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -988,6 +988,16 @@
       "currentScore": 56,
       "candidateScore": 51,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-10T00:37:51.573Z",
+      "action": "ROTATE",
+      "from": "STONKSZN",
+      "to": "FUCKPUMP",
+      "notionalGbp": 0,
+      "currentScore": 64,
+      "candidateScore": 80,
+      "reason": "Candidate advantage 16 points"
     }
   ]
 }
