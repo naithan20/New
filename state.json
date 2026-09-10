@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HtqYi2DcSbmCRu2UUAZUuhERimKoWRqUfqA8j8Popump",
-  "currentSymbol": "HAPPYCAT",
-  "entryPriceUsd": 0.001537,
-  "entryNotionalGbp": 7.337571457307335e-7,
-  "peakNotionalGbp": 7.962959785809131e-7,
-  "realisedNotionalGbp": 7.449311124169883e-7,
+  "currentToken": "HQSXsxD2BhpA8v21TwTjv6Tbkr8yYH3B8RkGS1Bspump",
+  "currentSymbol": "STONKSZN",
+  "entryPriceUsd": 0.0003255,
+  "entryNotionalGbp": 1.98241559814382e-9,
+  "peakNotionalGbp": 1.98241559814382e-9,
+  "realisedNotionalGbp": 2.012604668166315e-9,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-09",
-  "tradeCount": 12,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-10",
+  "tradeCount": 13,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -962,6 +962,16 @@
       "currentScore": 0,
       "candidateScore": 51,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-10T00:07:44.653Z",
+      "action": "ROTATE",
+      "from": "HAPPYCAT",
+      "to": "STONKSZN",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 59,
+      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
     }
   ]
 }
