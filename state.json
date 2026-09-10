@@ -998,6 +998,14 @@
       "currentScore": 64,
       "candidateScore": 80,
       "reason": "Candidate advantage 16 points"
+    },
+    {
+      "at": "2026-09-10T00:47:53.885Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 54,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
