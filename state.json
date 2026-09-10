@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "B3s2eaFZFcbFPEjAgqpC6ZDqHSqZBqdPPXkpM85Ne7Wi",
-  "currentSymbol": "FUCKPUMP",
-  "entryPriceUsd": 0.0001107,
-  "entryNotionalGbp": 2.0563423423986563e-9,
-  "peakNotionalGbp": 2.0563423423986563e-9,
-  "realisedNotionalGbp": 2.0876572004047272e-9,
+  "currentToken": "GTUVAyrC5obw8X9gMygt4PeHop4UYCDzMVAYdnhQpump",
+  "currentSymbol": "CARELESS",
+  "entryPriceUsd": 0.0002714,
+  "entryNotionalGbp": 4.347079290839035e-10,
+  "peakNotionalGbp": 4.347079290839035e-10,
+  "realisedNotionalGbp": 4.4132784678568885e-10,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-10",
-  "tradeCount": 14,
+  "tradeCount": 15,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -1014,6 +1014,16 @@
       "currentScore": 66,
       "candidateScore": 59,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-10T05:53:46.522Z",
+      "action": "ROTATE",
+      "from": "FUCKPUMP",
+      "to": "CARELESS",
+      "notionalGbp": 0,
+      "currentScore": 39,
+      "candidateScore": 57,
+      "reason": "Risk exit triggered at -78.2% P/L; best eligible destination selected"
     }
   ]
 }
