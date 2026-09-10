@@ -6,7 +6,7 @@
   "currentSymbol": "CARELESS",
   "entryPriceUsd": 0.0002714,
   "entryNotionalGbp": 4.347079290839035e-10,
-  "peakNotionalGbp": 4.347079290839035e-10,
+  "peakNotionalGbp": 4.882055150507508e-10,
   "realisedNotionalGbp": 4.4132784678568885e-10,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
@@ -1024,6 +1024,14 @@
       "currentScore": 39,
       "candidateScore": 57,
       "reason": "Risk exit triggered at -78.2% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-10T06:03:49.571Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 67,
+      "candidateScore": 31,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
