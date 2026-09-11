@@ -6,7 +6,7 @@
   "currentSymbol": "CAT",
   "entryPriceUsd": 0.0003043,
   "entryNotionalGbp": 3.3240761479724587e-12,
-  "peakNotionalGbp": 3.3240761479724587e-12,
+  "peakNotionalGbp": 3.342646405782361e-12,
   "realisedNotionalGbp": 3.374696596926354e-12,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
@@ -1266,6 +1266,14 @@
       "currentScore": 0,
       "candidateScore": 67,
       "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-11T01:09:44.600Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 67,
+      "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
