@@ -6,7 +6,7 @@
   "currentSymbol": "POLLY",
   "entryPriceUsd": 0.001012,
   "entryNotionalGbp": 1.9533297716934342e-13,
-  "peakNotionalGbp": 1.9533297716934342e-13,
+  "peakNotionalGbp": 2.0208856432440963e-13,
   "realisedNotionalGbp": 1.9830759103486642e-13,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
@@ -1341,6 +1341,14 @@
       "notionalGbp": 0,
       "currentScore": 46,
       "candidateScore": 61,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-11T06:32:32.251Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 66,
+      "candidateScore": 68,
       "reason": "Daily trade cap reached"
     }
   ]
