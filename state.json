@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
-  "currentSymbol": "CATAI",
-  "entryPriceUsd": 0.0005084,
-  "entryNotionalGbp": 1.2520852232784663e-13,
-  "peakNotionalGbp": 1.2520852232784663e-13,
-  "realisedNotionalGbp": 1.2711525109426054e-13,
+  "currentToken": "3URpNcV9wAPjwMAyuBsPjwwkGN9wFJuwcRs3RMbdpair",
+  "currentSymbol": "PAIRZ",
+  "entryPriceUsd": 0.002122,
+  "entryNotionalGbp": 1.0277092177682455e-13,
+  "peakNotionalGbp": 1.0277092177682455e-13,
+  "realisedNotionalGbp": 1.0433596119474574e-13,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-12",
-  "tradeCount": 19,
+  "tradeCount": 20,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -1560,6 +1560,16 @@
       "currentScore": 44,
       "candidateScore": 88,
       "reason": "Risk exit triggered at -33.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-12T01:13:37.953Z",
+      "action": "ROTATE",
+      "from": "CATAI",
+      "to": "PAIRZ",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 59,
+      "reason": "Risk exit triggered at -15.4% P/L; best eligible destination selected"
     }
   ]
 }
