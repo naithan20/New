@@ -14,16 +14,6 @@
   "tradeCount": 21,
   "journal": [
     {
-      "at": "2026-09-06T14:29:47.293Z",
-      "action": "ROTATE",
-      "from": "tina",
-      "to": "STONKZCAT",
-      "notionalGbp": 6.7916,
-      "currentScore": 0,
-      "candidateScore": 70,
-      "reason": "Candidate advantage 70 points"
-    },
-    {
       "at": "2026-09-06T19:05:04.949Z",
       "action": "ROTATE",
       "from": "STONKZCAT",
@@ -1653,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 70,
       "candidateScore": 61,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T10:48:43.164Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 55,
+      "candidateScore": 66,
       "reason": "Daily trade cap reached"
     }
   ]
