@@ -15,12 +15,6 @@
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
-      "action": "INIT",
-      "notionalGbp": 7,
-      "reason": "Seeded paper position at $0.00001397"
-    },
-    {
-      "at": "2026-09-06T14:29:47.293Z",
       "action": "ROTATE",
       "from": "tina",
       "to": "STONKZCAT",
@@ -1651,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 63,
       "candidateScore": 60,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T10:38:41.156Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 70,
+      "candidateScore": 61,
       "reason": "Daily trade cap reached"
     }
   ]
