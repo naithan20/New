@@ -14,16 +14,6 @@
   "tradeCount": 21,
   "journal": [
     {
-      "at": "2026-09-06T21:17:18.017Z",
-      "action": "ROTATE",
-      "from": "DCAT",
-      "to": "ONLYSTICK",
-      "notionalGbp": 0.0157,
-      "currentScore": 12,
-      "candidateScore": 69,
-      "reason": "Risk exit triggered at -30.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-06T21:27:20.557Z",
       "action": "HOLD",
       "notionalGbp": 0.0129,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 52,
       "candidateScore": 76,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T14:23:02.047Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 63,
+      "candidateScore": 49,
       "reason": "Daily trade cap reached"
     }
   ]
