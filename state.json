@@ -14,14 +14,6 @@
   "tradeCount": 21,
   "journal": [
     {
-      "at": "2026-09-07T00:27:57.599Z",
-      "action": "HOLD",
-      "notionalGbp": 0.0001,
-      "currentScore": 69,
-      "candidateScore": 67,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-07T00:37:59.652Z",
       "action": "ROTATE",
       "from": "USTONK",
@@ -1643,6 +1635,14 @@
       "notionalGbp": 0,
       "currentScore": 48,
       "candidateScore": 88,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T19:13:56.426Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 32,
+      "candidateScore": 75,
       "reason": "Daily trade cap reached"
     }
   ]
