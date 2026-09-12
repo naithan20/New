@@ -14,16 +14,6 @@
   "tradeCount": 21,
   "journal": [
     {
-      "at": "2026-09-06T19:05:04.949Z",
-      "action": "ROTATE",
-      "from": "STONKZCAT",
-      "to": "DCAT",
-      "notionalGbp": 0.0231,
-      "currentScore": 0,
-      "candidateScore": 46,
-      "reason": "Risk exit triggered at -99.6% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-06T19:15:08.192Z",
       "action": "HOLD",
       "notionalGbp": 0.023,
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 55,
       "candidateScore": 66,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T10:58:44.978Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 60,
       "reason": "Daily trade cap reached"
     }
   ]
