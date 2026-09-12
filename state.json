@@ -6,7 +6,7 @@
   "currentSymbol": "CATAI",
   "entryPriceUsd": 0.0004817,
   "entryNotionalGbp": 1.0379897122349262e-13,
-  "peakNotionalGbp": 1.0379897122349262e-13,
+  "peakNotionalGbp": 1.2258923547653093e-13,
   "realisedNotionalGbp": 1.0537966621674379e-13,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
@@ -1580,6 +1580,14 @@
       "currentScore": 62,
       "candidateScore": 79,
       "reason": "Candidate advantage 17 points"
+    },
+    {
+      "at": "2026-09-12T01:33:41.777Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 84,
+      "candidateScore": 59,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
