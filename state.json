@@ -2,16 +2,16 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr",
-  "currentSymbol": "POLLY",
-  "entryPriceUsd": 0.001012,
-  "entryNotionalGbp": 1.9533297716934342e-13,
-  "peakNotionalGbp": 3.0766874071930174e-13,
-  "realisedNotionalGbp": 1.9830759103486642e-13,
+  "currentToken": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
+  "currentSymbol": "CATAI",
+  "entryPriceUsd": 0.0005084,
+  "entryNotionalGbp": 1.2520852232784663e-13,
+  "peakNotionalGbp": 1.2520852232784663e-13,
+  "realisedNotionalGbp": 1.2711525109426054e-13,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-11",
-  "tradeCount": 18,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-12",
+  "tradeCount": 19,
   "journal": [
     {
       "at": "2026-09-06T14:29:47.293Z",
@@ -1550,6 +1550,16 @@
       "currentScore": 35,
       "candidateScore": 61,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T01:03:35.508Z",
+      "action": "ROTATE",
+      "from": "POLLY",
+      "to": "CATAI",
+      "notionalGbp": 0,
+      "currentScore": 44,
+      "candidateScore": 88,
+      "reason": "Risk exit triggered at -33.9% P/L; best eligible destination selected"
     }
   ]
 }
