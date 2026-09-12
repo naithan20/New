@@ -14,16 +14,6 @@
   "tradeCount": 21,
   "journal": [
     {
-      "at": "2026-09-07T00:17:55.613Z",
-      "action": "ROTATE",
-      "from": "DCAT",
-      "to": "USTONK",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 75,
-      "reason": "Candidate advantage 17 points"
-    },
-    {
       "at": "2026-09-07T00:27:57.599Z",
       "action": "HOLD",
       "notionalGbp": 0.0001,
@@ -1645,6 +1635,14 @@
       "notionalGbp": 0,
       "currentScore": 47,
       "candidateScore": 60,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T17:52:55.603Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 48,
+      "candidateScore": 88,
       "reason": "Daily trade cap reached"
     }
   ]
