@@ -14,16 +14,6 @@
   "tradeCount": 21,
   "journal": [
     {
-      "at": "2026-09-07T00:37:59.652Z",
-      "action": "ROTATE",
-      "from": "USTONK",
-      "to": "ZCATWIF",
-      "notionalGbp": 0.0001,
-      "currentScore": 59,
-      "candidateScore": 93,
-      "reason": "Risk exit triggered at 131.3% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-07T04:26:53.936Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1643,6 +1633,14 @@
       "notionalGbp": 0,
       "currentScore": 32,
       "candidateScore": 75,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-12T19:23:58.215Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 45,
+      "candidateScore": 65,
       "reason": "Daily trade cap reached"
     }
   ]
