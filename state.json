@@ -6,21 +6,13 @@
   "currentSymbol": "aicate",
   "entryPriceUsd": 0.00009575,
   "entryNotionalGbp": 4.497066132359945e-15,
-  "peakNotionalGbp": 4.497066132359945e-15,
+  "peakNotionalGbp": 4.53839687070435e-15,
   "realisedNotionalGbp": 4.565549372954258e-15,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-13",
   "tradeCount": 22,
   "journal": [
-    {
-      "at": "2026-09-07T05:17:04.380Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 47,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-07T10:10:39.525Z",
       "action": "HOLD",
@@ -1644,6 +1636,14 @@
       "currentScore": 10,
       "candidateScore": 65,
       "reason": "Risk exit triggered at -95.5% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-13T22:22:29.081Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
