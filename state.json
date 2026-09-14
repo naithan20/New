@@ -14,14 +14,6 @@
   "tradeCount": 25,
   "journal": [
     {
-      "at": "2026-09-08T04:36:00.365Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 66,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-08T04:46:02.457Z",
       "action": "ROTATE",
       "from": "BTC",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 86,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-14T19:46:56.541Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 77,
       "reason": "Daily trade cap reached"
     }
   ]
