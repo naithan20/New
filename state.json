@@ -6,21 +6,13 @@
   "currentSymbol": "bikecate",
   "entryPriceUsd": 0.0005857,
   "entryNotionalGbp": 4.015479758603216e-15,
-  "peakNotionalGbp": 5.220740713977034e-15,
+  "peakNotionalGbp": 6.120230118670122e-15,
   "realisedNotionalGbp": 4.076629196551488e-15,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-14",
   "tradeCount": 23,
   "journal": [
-    {
-      "at": "2026-09-07T20:51:03.215Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 76,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-07T21:01:06.626Z",
       "action": "HOLD",
@@ -1645,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 67,
       "candidateScore": 47,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-14T06:48:48.983Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 82,
+      "candidateScore": 44,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
