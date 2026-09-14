@@ -14,14 +14,6 @@
   "tradeCount": 25,
   "journal": [
     {
-      "at": "2026-09-07T23:57:23.034Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 78,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-09-08T00:07:25.477Z",
       "action": "ROTATE",
       "from": "ZCATWIF",
@@ -1650,6 +1642,14 @@
       "currentScore": 34,
       "candidateScore": 80,
       "reason": "Candidate advantage 46 points"
+    },
+    {
+      "at": "2026-09-14T14:45:37.954Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 46,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
