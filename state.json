@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "CYSx8M2ZRKoRcfswcJnDjHYz139erQwwCpHRd7Zbpump",
-  "currentSymbol": "HACHIMI",
-  "entryPriceUsd": 0.0001351,
-  "entryNotionalGbp": 4.844455689899851e-15,
-  "peakNotionalGbp": 4.844455689899851e-15,
-  "realisedNotionalGbp": 4.9182291268018794e-15,
+  "currentToken": "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump",
+  "currentSymbol": "SAILOR",
+  "entryPriceUsd": 0.0002925,
+  "entryNotionalGbp": 4.717607328993382e-15,
+  "peakNotionalGbp": 4.717607328993382e-15,
+  "realisedNotionalGbp": 4.7894490649679e-15,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-14",
-  "tradeCount": 24,
+  "tradeCount": 25,
   "journal": [
-    {
-      "at": "2026-09-07T23:47:20.324Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 69,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-07T23:57:23.034Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 67,
       "candidateScore": 41,
       "reason": "Risk exit triggered at 24.3% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-14T14:35:35.257Z",
+      "action": "ROTATE",
+      "from": "HACHIMI",
+      "to": "SAILOR",
+      "notionalGbp": 0,
+      "currentScore": 34,
+      "candidateScore": 80,
+      "reason": "Candidate advantage 46 points"
     }
   ]
 }
