@@ -14,16 +14,6 @@
   "tradeCount": 25,
   "journal": [
     {
-      "at": "2026-09-08T04:46:02.457Z",
-      "action": "ROTATE",
-      "from": "BTC",
-      "to": "ONLYPUMP",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 70,
-      "reason": "Risk exit triggered at 29.6% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-08T04:56:04.299Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 77,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-14T19:56:59.265Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 62,
       "reason": "Daily trade cap reached"
     }
   ]
