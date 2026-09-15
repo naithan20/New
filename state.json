@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump",
-  "currentSymbol": "SAILOR",
-  "entryPriceUsd": 0.0002925,
-  "entryNotionalGbp": 4.717607328993382e-15,
-  "peakNotionalGbp": 4.717607328993382e-15,
-  "realisedNotionalGbp": 4.7894490649679e-15,
+  "currentToken": "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump",
+  "currentSymbol": "clarity",
+  "entryPriceUsd": 0.00008737,
+  "entryNotionalGbp": 4.046661714877933e-17,
+  "peakNotionalGbp": 4.046661714877933e-17,
+  "realisedNotionalGbp": 4.1082860049522164e-17,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-14",
-  "tradeCount": 25,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-15",
+  "tradeCount": 26,
   "journal": [
-    {
-      "at": "2026-09-08T10:14:40.078Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 33,
-      "candidateScore": 63,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-08T10:24:42.043Z",
       "action": "HOLD",
@@ -1644,6 +1636,16 @@
       "currentScore": 0,
       "candidateScore": 44,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-15T01:24:09.288Z",
+      "action": "ROTATE",
+      "from": "SAILOR",
+      "to": "clarity",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 53,
+      "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
     }
   ]
 }
