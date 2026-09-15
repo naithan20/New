@@ -14,16 +14,6 @@
   "tradeCount": 28,
   "journal": [
     {
-      "at": "2026-09-09T00:16:51.807Z",
-      "action": "ROTATE",
-      "from": "MUCHWOW",
-      "to": "MSFT",
-      "notionalGbp": 0,
-      "currentScore": 37,
-      "candidateScore": 90,
-      "reason": "Candidate advantage 53 points"
-    },
-    {
       "at": "2026-09-09T00:26:54.715Z",
       "action": "ROTATE",
       "from": "MSFT",
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 68,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-15T18:37:52.708Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 69,
       "reason": "Daily trade cap reached"
     }
   ]
