@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump",
-  "currentSymbol": "clarity",
-  "entryPriceUsd": 0.00008737,
-  "entryNotionalGbp": 4.046661714877933e-17,
-  "peakNotionalGbp": 4.046661714877933e-17,
-  "realisedNotionalGbp": 4.1082860049522164e-17,
+  "currentToken": "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump",
+  "currentSymbol": "BIKE MJ",
+  "entryPriceUsd": 0.0003157,
+  "entryNotionalGbp": 5.4374139388853214e-17,
+  "peakNotionalGbp": 5.4374139388853214e-17,
+  "realisedNotionalGbp": 5.52021719683789e-17,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-15",
-  "tradeCount": 26,
+  "tradeCount": 27,
   "journal": [
-    {
-      "at": "2026-09-08T15:07:26.739Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 42,
-      "candidateScore": 64,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-08T15:17:29.309Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 41,
       "candidateScore": 56,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-15T07:38:33.324Z",
+      "action": "ROTATE",
+      "from": "clarity",
+      "to": "BIKE MJ",
+      "notionalGbp": 0,
+      "currentScore": 22,
+      "candidateScore": 81,
+      "reason": "Candidate advantage 59 points"
     }
   ]
 }
