@@ -6,21 +6,13 @@
   "currentSymbol": "BIKE MJ",
   "entryPriceUsd": 0.0003157,
   "entryNotionalGbp": 5.4374139388853214e-17,
-  "peakNotionalGbp": 5.4374139388853214e-17,
+  "peakNotionalGbp": 5.712987657675835e-17,
   "realisedNotionalGbp": 5.52021719683789e-17,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-09-15",
   "tradeCount": 27,
   "journal": [
-    {
-      "at": "2026-09-08T15:17:29.309Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 61,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-08T18:34:19.417Z",
       "action": "HOLD",
@@ -1648,6 +1640,14 @@
       "currentScore": 22,
       "candidateScore": 81,
       "reason": "Candidate advantage 59 points"
+    },
+    {
+      "at": "2026-09-15T07:48:35.337Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 74,
+      "candidateScore": 78,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
