@@ -14,16 +14,6 @@
   "tradeCount": 28,
   "journal": [
     {
-      "at": "2026-09-09T00:26:54.715Z",
-      "action": "ROTATE",
-      "from": "MSFT",
-      "to": "HAPPYCAT",
-      "notionalGbp": 0,
-      "currentScore": 69,
-      "candidateScore": 62,
-      "reason": "Risk exit triggered at -20.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-09T00:36:57.613Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1645,6 +1635,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 69,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-15T18:47:54.960Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 61,
       "reason": "Daily trade cap reached"
     }
   ]
