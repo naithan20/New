@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump",
-  "currentSymbol": "clarity",
-  "entryPriceUsd": 0.000123,
-  "entryNotionalGbp": 4.0406066272256625e-17,
-  "peakNotionalGbp": 4.0406066272256625e-17,
-  "realisedNotionalGbp": 4.102138707843312e-17,
+  "currentToken": "H7Y3TzFyyfPBnn5Dpwa5m79NdgDQnFS8TcAtQe2Tpump",
+  "currentSymbol": "ALLCAT",
+  "entryPriceUsd": 0.0009793,
+  "entryNotionalGbp": 1.3612675528201607e-18,
+  "peakNotionalGbp": 1.3612675528201607e-18,
+  "realisedNotionalGbp": 1.3819975155534627e-18,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-15",
-  "tradeCount": 28,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-16",
+  "tradeCount": 29,
   "journal": [
-    {
-      "at": "2026-09-09T05:16:56.138Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 28,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-09T05:26:58.981Z",
       "action": "HOLD",
@@ -1644,6 +1636,16 @@
       "currentScore": 0,
       "candidateScore": 65,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-16T01:21:14.903Z",
+      "action": "ROTATE",
+      "from": "clarity",
+      "to": "ALLCAT",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 76,
+      "reason": "Risk exit triggered at -96.5% P/L; best eligible destination selected"
     }
   ]
 }
