@@ -6,21 +6,13 @@
   "currentSymbol": "ALLCAT",
   "entryPriceUsd": 0.0009793,
   "entryNotionalGbp": 1.3612675528201607e-18,
-  "peakNotionalGbp": 1.563796586258226e-18,
+  "peakNotionalGbp": 1.5929874558683798e-18,
   "realisedNotionalGbp": 1.3819975155534627e-18,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-16",
   "tradeCount": 29,
   "journal": [
-    {
-      "at": "2026-09-09T10:07:46.466Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 52,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-09T10:17:48.838Z",
       "action": "HOLD",
@@ -1644,6 +1636,14 @@
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 64,
+      "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-16T02:11:25.159Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 59,
       "candidateScore": 53,
       "reason": "No candidate cleared the rotation threshold"
     }
