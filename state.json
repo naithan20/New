@@ -6,21 +6,13 @@
   "currentSymbol": "ALLCAT",
   "entryPriceUsd": 0.0009793,
   "entryNotionalGbp": 1.3612675528201607e-18,
-  "peakNotionalGbp": 1.3612675528201607e-18,
+  "peakNotionalGbp": 1.563796586258226e-18,
   "realisedNotionalGbp": 1.3819975155534627e-18,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-16",
   "tradeCount": 29,
   "journal": [
-    {
-      "at": "2026-09-09T05:26:58.981Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 28,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-09T09:37:38.739Z",
       "action": "HOLD",
@@ -1646,6 +1638,14 @@
       "currentScore": 0,
       "candidateScore": 76,
       "reason": "Risk exit triggered at -96.5% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-16T01:31:17.148Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 83,
+      "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
