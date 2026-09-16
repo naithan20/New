@@ -14,14 +14,6 @@
   "tradeCount": 31,
   "journal": [
     {
-      "at": "2026-09-10T00:27:49.436Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 56,
-      "candidateScore": 51,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-10T00:37:51.573Z",
       "action": "ROTATE",
       "from": "STONKSZN",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 56,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-16T22:45:00.741Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 64,
       "reason": "Daily trade cap reached"
     }
   ]
