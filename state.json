@@ -14,16 +14,6 @@
   "tradeCount": 31,
   "journal": [
     {
-      "at": "2026-09-10T00:37:51.573Z",
-      "action": "ROTATE",
-      "from": "STONKSZN",
-      "to": "FUCKPUMP",
-      "notionalGbp": 0,
-      "currentScore": 64,
-      "candidateScore": 80,
-      "reason": "Candidate advantage 16 points"
-    },
-    {
       "at": "2026-09-10T00:47:53.885Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 64,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-16T22:55:02.770Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 66,
       "reason": "Daily trade cap reached"
     }
   ]
