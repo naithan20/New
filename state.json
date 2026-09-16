@@ -14,16 +14,6 @@
   "tradeCount": 31,
   "journal": [
     {
-      "at": "2026-09-10T00:07:44.653Z",
-      "action": "ROTATE",
-      "from": "HAPPYCAT",
-      "to": "STONKSZN",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 59,
-      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-10T00:17:46.997Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1645,6 +1635,14 @@
     },
     {
       "at": "2026-09-16T22:14:53.803Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 59,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-16T22:24:56.166Z",
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 0,
