@@ -6,21 +6,13 @@
   "currentSymbol": "FAPMAX",
   "entryPriceUsd": 0.0002631,
   "entryNotionalGbp": 3.398593245413828e-22,
-  "peakNotionalGbp": 3.398593245413828e-22,
+  "peakNotionalGbp": 3.779659382774938e-22,
   "realisedNotionalGbp": 3.4503484725013483e-22,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-09-17",
   "tradeCount": 33,
   "journal": [
-    {
-      "at": "2026-09-10T11:30:51.599Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 33,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-10T11:40:54.315Z",
       "action": "HOLD",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 53,
       "candidateScore": 57,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-17T06:43:56.619Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 62,
+      "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
