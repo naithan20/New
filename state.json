@@ -14,16 +14,6 @@
   "tradeCount": 34,
   "journal": [
     {
-      "at": "2026-09-11T00:59:41.425Z",
-      "action": "ROTATE",
-      "from": "CARELESS",
-      "to": "CAT",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 67,
-      "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-11T01:09:44.600Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 76,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-17T23:51:09.214Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 71,
       "reason": "Daily trade cap reached"
     }
   ]
