@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump",
-  "currentSymbol": "PAIDDOGE",
-  "entryPriceUsd": 0.0007738,
-  "entryNotionalGbp": 2.409366856646627e-22,
-  "peakNotionalGbp": 3.680371704001439e-22,
-  "realisedNotionalGbp": 2.446057722483885e-22,
+  "currentToken": "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump",
+  "currentSymbol": "FAPMAX",
+  "entryPriceUsd": 0.0002631,
+  "entryNotionalGbp": 3.398593245413828e-22,
+  "peakNotionalGbp": 3.398593245413828e-22,
+  "realisedNotionalGbp": 3.4503484725013483e-22,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-17",
-  "tradeCount": 32,
+  "tradeCount": 33,
   "journal": [
-    {
-      "at": "2026-09-10T11:10:46.206Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 28,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-10T11:20:49.126Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 52,
       "candidateScore": 54,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-17T06:23:51.571Z",
+      "action": "ROTATE",
+      "from": "PAIDDOGE",
+      "to": "FAPMAX",
+      "notionalGbp": 0,
+      "currentScore": 52,
+      "candidateScore": 68,
+      "reason": "Candidate advantage 16 points"
     }
   ]
 }
