@@ -6,21 +6,13 @@
   "currentSymbol": "PAIDDOGE",
   "entryPriceUsd": 0.0007738,
   "entryNotionalGbp": 2.409366856646627e-22,
-  "peakNotionalGbp": 2.689286836502574e-22,
+  "peakNotionalGbp": 3.680371704001439e-22,
   "realisedNotionalGbp": 2.446057722483885e-22,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-17",
   "tradeCount": 32,
   "journal": [
-    {
-      "at": "2026-09-10T06:33:58.896Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 32,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-10T06:44:01.800Z",
       "action": "HOLD",
@@ -1645,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 53,
       "candidateScore": 63,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-17T06:03:45.816Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 65,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
