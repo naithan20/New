@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "5bCrnEgVDx4DRjdpgBY5eLFdiS72FpjVmGhSxBDhpump",
-  "currentSymbol": "XCHAN",
-  "entryPriceUsd": 0.0002307,
-  "entryNotionalGbp": 8.639302512798941e-27,
-  "peakNotionalGbp": 8.639302512798941e-27,
-  "realisedNotionalGbp": 8.770865495227352e-27,
+  "currentToken": "5cT9mMKGwJP42xdgwSxu9zsYCScCXqwpq49GfQoXpump",
+  "currentSymbol": "catwifout",
+  "entryPriceUsd": 0.0007815,
+  "entryNotionalGbp": 4.8032479171196466e-27,
+  "peakNotionalGbp": 4.8032479171196466e-27,
+  "realisedNotionalGbp": 4.876393824486951e-27,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-18",
-  "tradeCount": 36,
+  "tradeCount": 37,
   "journal": [
-    {
-      "at": "2026-09-11T01:29:49.375Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 55,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-11T01:39:51.588Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 60,
       "candidateScore": 94,
       "reason": "Candidate advantage 34 points"
+    },
+    {
+      "at": "2026-09-18T00:21:15.254Z",
+      "action": "ROTATE",
+      "from": "XCHAN",
+      "to": "catwifout",
+      "notionalGbp": 0,
+      "currentScore": 62,
+      "candidateScore": 66,
+      "reason": "Risk exit triggered at -42.7% P/L; best eligible destination selected"
     }
   ]
 }
