@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump",
-  "currentSymbol": "PAIDDOGE",
-  "entryPriceUsd": 0.0009839,
-  "entryNotionalGbp": 2.684542410391773e-24,
-  "peakNotionalGbp": 2.9522053949018177e-24,
-  "realisedNotionalGbp": 2.7254237668952012e-24,
+  "currentToken": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
+  "currentSymbol": "PERK",
+  "entryPriceUsd": 0.001464,
+  "entryNotionalGbp": 8.404957067169923e-27,
+  "peakNotionalGbp": 8.404957067169923e-27,
+  "realisedNotionalGbp": 8.532951337228349e-27,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-17",
-  "tradeCount": 34,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-18",
+  "tradeCount": 35,
   "journal": [
-    {
-      "at": "2026-09-11T01:09:44.600Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 56,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-11T01:19:47.144Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 71,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-18T00:01:11.083Z",
+      "action": "ROTATE",
+      "from": "PAIDDOGE",
+      "to": "PERK",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 62,
+      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
     }
   ]
 }
