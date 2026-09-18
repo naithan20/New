@@ -14,16 +14,6 @@
   "tradeCount": 37,
   "journal": [
     {
-      "at": "2026-09-11T05:52:22.643Z",
-      "action": "ROTATE",
-      "from": "CAT",
-      "to": "Stocklana",
-      "notionalGbp": 0,
-      "currentScore": 21,
-      "candidateScore": 67,
-      "reason": "Risk exit triggered at -85.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-11T06:02:25.225Z",
       "action": "ROTATE",
       "from": "Stocklana",
@@ -1653,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 45,
       "candidateScore": 59,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-18T04:54:03.838Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 48,
+      "candidateScore": 80,
       "reason": "Daily trade cap reached"
     }
   ]
