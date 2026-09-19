@@ -6,23 +6,13 @@
   "currentSymbol": "TIGRINO",
   "entryPriceUsd": 0.00395,
   "entryNotionalGbp": 2.144362307428423e-29,
-  "peakNotionalGbp": 2.3403407360313748e-29,
+  "peakNotionalGbp": 2.541747929969589e-29,
   "realisedNotionalGbp": 2.1770175709933228e-29,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-19",
   "tradeCount": 38,
   "journal": [
-    {
-      "at": "2026-09-12T01:13:37.953Z",
-      "action": "ROTATE",
-      "from": "CATAI",
-      "to": "PAIRZ",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 59,
-      "reason": "Risk exit triggered at -15.4% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-09-12T01:23:39.823Z",
       "action": "ROTATE",
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 43,
       "candidateScore": 59,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-19T00:43:07.961Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 66,
+      "candidateScore": 51,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
