@@ -6,21 +6,13 @@
   "currentSymbol": "TIGRINO",
   "entryPriceUsd": 0.002816,
   "entryNotionalGbp": 1.1109156236874485e-29,
-  "peakNotionalGbp": 1.2588536062452584e-29,
+  "peakNotionalGbp": 1.37404798199694e-29,
   "realisedNotionalGbp": 1.1278331204948715e-29,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-09-19",
   "tradeCount": 40,
   "journal": [
-    {
-      "at": "2026-09-12T17:52:55.603Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 48,
-      "candidateScore": 88,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-12T19:13:56.426Z",
       "action": "HOLD",
@@ -1649,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 67,
       "candidateScore": 62,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-19T20:43:07.536Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 61,
+      "candidateScore": 70,
       "reason": "Daily trade cap reached"
     }
   ]
