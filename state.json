@@ -14,16 +14,6 @@
   "tradeCount": 38,
   "journal": [
     {
-      "at": "2026-09-12T01:23:39.823Z",
-      "action": "ROTATE",
-      "from": "PAIRZ",
-      "to": "CATAI",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 79,
-      "reason": "Candidate advantage 17 points"
-    },
-    {
       "at": "2026-09-12T01:33:41.777Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 66,
       "candidateScore": 51,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-19T00:53:09.888Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 44,
+      "candidateScore": 50,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
