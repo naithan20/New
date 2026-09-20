@@ -14,16 +14,6 @@
   "tradeCount": 43,
   "journal": [
     {
-      "at": "2026-09-14T14:35:35.257Z",
-      "action": "ROTATE",
-      "from": "HACHIMI",
-      "to": "SAILOR",
-      "notionalGbp": 0,
-      "currentScore": 34,
-      "candidateScore": 80,
-      "reason": "Candidate advantage 46 points"
-    },
-    {
       "at": "2026-09-14T14:45:37.954Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 51,
       "candidateScore": 71,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-20T15:58:40.188Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 65,
       "reason": "Daily trade cap reached"
     }
   ]
