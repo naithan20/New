@@ -14,16 +14,6 @@
   "tradeCount": 43,
   "journal": [
     {
-      "at": "2026-09-15T01:24:09.288Z",
-      "action": "ROTATE",
-      "from": "SAILOR",
-      "to": "clarity",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 53,
-      "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-15T01:34:12.067Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 55,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-20T21:48:52.996Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 66,
       "reason": "Daily trade cap reached"
     }
   ]
