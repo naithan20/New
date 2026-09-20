@@ -14,16 +14,6 @@
   "tradeCount": 43,
   "journal": [
     {
-      "at": "2026-09-14T14:25:33.033Z",
-      "action": "ROTATE",
-      "from": "bikecate",
-      "to": "HACHIMI",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 41,
-      "reason": "Risk exit triggered at 24.3% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-14T14:35:35.257Z",
       "action": "ROTATE",
       "from": "HACHIMI",
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 53,
       "candidateScore": 63,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-20T12:07:57.933Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 71,
       "reason": "Daily trade cap reached"
     }
   ]
