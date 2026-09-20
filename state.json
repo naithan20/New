@@ -14,14 +14,6 @@
   "tradeCount": 42,
   "journal": [
     {
-      "at": "2026-09-14T01:48:59.044Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 36,
-      "candidateScore": 63,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-14T06:08:40.744Z",
       "action": "ROTATE",
       "from": "aicate",
@@ -1652,6 +1644,14 @@
       "currentScore": 55,
       "candidateScore": 69,
       "reason": "Risk exit triggered at -16.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-20T06:16:55.359Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 75,
+      "candidateScore": 67,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
