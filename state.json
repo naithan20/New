@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
-  "currentSymbol": "INU",
-  "entryPriceUsd": 0.001629,
-  "entryNotionalGbp": 3.759910292514664e-32,
-  "peakNotionalGbp": 3.759910292514664e-32,
-  "realisedNotionalGbp": 3.817167809659557e-32,
+  "currentToken": "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump",
+  "currentSymbol": "fomopay",
+  "entryPriceUsd": 0.0003846,
+  "entryNotionalGbp": 2.938073763157896e-32,
+  "peakNotionalGbp": 2.938073763157896e-32,
+  "realisedNotionalGbp": 2.982816003205986e-32,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-21",
-  "tradeCount": 44,
+  "tradeCount": 45,
   "journal": [
-    {
-      "at": "2026-09-15T07:38:33.324Z",
-      "action": "ROTATE",
-      "from": "clarity",
-      "to": "BIKE MJ",
-      "notionalGbp": 0,
-      "currentScore": 22,
-      "candidateScore": 81,
-      "reason": "Candidate advantage 59 points"
-    },
     {
       "at": "2026-09-15T07:48:35.337Z",
       "action": "HOLD",
@@ -1648,6 +1638,16 @@
       "currentScore": 60,
       "candidateScore": 57,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-21T00:30:47.829Z",
+      "action": "ROTATE",
+      "from": "INU",
+      "to": "fomopay",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 55,
+      "reason": "Risk exit triggered at -19.5% P/L; best eligible destination selected"
     }
   ]
 }
