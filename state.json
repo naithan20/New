@@ -6,21 +6,13 @@
   "currentSymbol": "INU",
   "entryPriceUsd": 0.001856,
   "entryNotionalGbp": 2.4926008763649875e-32,
-  "peakNotionalGbp": 2.5610936806185515e-32,
+  "peakNotionalGbp": 2.962649533007092e-32,
   "realisedNotionalGbp": 2.530559265345165e-32,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-09-21",
   "tradeCount": 46,
   "journal": [
-    {
-      "at": "2026-09-15T13:28:14.489Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 18,
-      "candidateScore": 21,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-15T13:38:17.695Z",
       "action": "HOLD",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 54,
       "candidateScore": 58,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-21T06:33:04.458Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 68,
+      "candidateScore": 56,
       "reason": "Daily trade cap reached"
     }
   ]
