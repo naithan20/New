@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump",
-  "currentSymbol": "fomopay",
-  "entryPriceUsd": 0.0003846,
-  "entryNotionalGbp": 2.938073763157896e-32,
-  "peakNotionalGbp": 3.1313479862673466e-32,
-  "realisedNotionalGbp": 2.982816003205986e-32,
+  "currentToken": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
+  "currentSymbol": "INU",
+  "entryPriceUsd": 0.001856,
+  "entryNotionalGbp": 2.4926008763649875e-32,
+  "peakNotionalGbp": 2.4926008763649875e-32,
+  "realisedNotionalGbp": 2.530559265345165e-32,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-21",
-  "tradeCount": 45,
+  "tradeCount": 46,
   "journal": [
-    {
-      "at": "2026-09-15T08:18:42.184Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 39,
-      "candidateScore": 55,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-15T08:28:44.358Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 62,
       "candidateScore": 65,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-21T06:13:00.435Z",
+      "action": "ROTATE",
+      "from": "fomopay",
+      "to": "INU",
+      "notionalGbp": 0,
+      "currentScore": 37,
+      "candidateScore": 68,
+      "reason": "Risk exit triggered at -12.6% P/L; best eligible destination selected"
     }
   ]
 }
