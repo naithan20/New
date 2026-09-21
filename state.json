@@ -14,16 +14,6 @@
   "tradeCount": 46,
   "journal": [
     {
-      "at": "2026-09-16T01:21:14.903Z",
-      "action": "ROTATE",
-      "from": "clarity",
-      "to": "ALLCAT",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 76,
-      "reason": "Risk exit triggered at -96.5% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-16T01:31:17.148Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 43,
       "candidateScore": 65,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-21T23:33:27.223Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 38,
+      "candidateScore": 84,
       "reason": "Daily trade cap reached"
     }
   ]
