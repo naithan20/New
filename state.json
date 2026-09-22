@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
-  "currentSymbol": "INU",
-  "entryPriceUsd": 0.001856,
-  "entryNotionalGbp": 2.4926008763649875e-32,
-  "peakNotionalGbp": 2.962649533007092e-32,
-  "realisedNotionalGbp": 2.530559265345165e-32,
+  "currentToken": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
+  "currentSymbol": "SATOSHINU",
+  "entryPriceUsd": 0.001119,
+  "entryNotionalGbp": 1.3798859497318005e-32,
+  "peakNotionalGbp": 1.3798859497318005e-32,
+  "realisedNotionalGbp": 1.4008994413520818e-32,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-21",
-  "tradeCount": 46,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-22",
+  "tradeCount": 47,
   "journal": [
-    {
-      "at": "2026-09-16T01:51:21.096Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 60,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-16T02:01:23.191Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 47,
       "candidateScore": 77,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-22T00:03:33.498Z",
+      "action": "ROTATE",
+      "from": "INU",
+      "to": "SATOSHINU",
+      "notionalGbp": 0,
+      "currentScore": 37,
+      "candidateScore": 66,
+      "reason": "Risk exit triggered at -42.9% P/L; best eligible destination selected"
     }
   ]
 }
