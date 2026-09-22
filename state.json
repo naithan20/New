@@ -14,16 +14,6 @@
   "tradeCount": 49,
   "journal": [
     {
-      "at": "2026-09-17T00:26:00.380Z",
-      "action": "ROTATE",
-      "from": "BOBY",
-      "to": "PAIDDOGE",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 60,
-      "reason": "Risk exit triggered at -94.5% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-17T00:36:02.241Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 65,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-22T22:21:02.666Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 52,
       "reason": "Daily trade cap reached"
     }
   ]
