@@ -14,14 +14,6 @@
   "tradeCount": 49,
   "journal": [
     {
-      "at": "2026-09-16T18:59:26.002Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 67,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-09-16T22:04:51.564Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 73,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-22T18:58:15.311Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 54,
       "reason": "Daily trade cap reached"
     }
   ]
