@@ -6,21 +6,13 @@
   "currentSymbol": "CATEWALK",
   "entryPriceUsd": 0.0007033,
   "entryNotionalGbp": 6.691606377409072e-33,
-  "peakNotionalGbp": 7.097879080829186e-33,
+  "peakNotionalGbp": 7.899006987807494e-33,
   "realisedNotionalGbp": 6.793509012598042e-33,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-09-22",
   "tradeCount": 48,
   "journal": [
-    {
-      "at": "2026-09-16T08:07:21.112Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 42,
-      "candidateScore": 18,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-16T08:17:22.957Z",
       "action": "HOLD",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 47,
       "candidateScore": 49,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-22T05:35:10.930Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 55,
+      "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
