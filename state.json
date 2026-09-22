@@ -6,23 +6,13 @@
   "currentSymbol": "CATEWALK",
   "entryPriceUsd": 0.0007033,
   "entryNotionalGbp": 6.691606377409072e-33,
-  "peakNotionalGbp": 6.691606377409072e-33,
+  "peakNotionalGbp": 6.790558042879077e-33,
   "realisedNotionalGbp": 6.793509012598042e-33,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-09-22",
   "tradeCount": 48,
   "journal": [
-    {
-      "at": "2026-09-16T07:37:15.908Z",
-      "action": "ROTATE",
-      "from": "ALLCAT",
-      "to": "feg",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 34,
-      "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-09-16T07:47:17.581Z",
       "action": "HOLD",
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 58,
       "candidateScore": 46,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-22T05:05:04.006Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 68,
+      "candidateScore": 77,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
