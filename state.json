@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
-  "currentSymbol": "SATOSHINU",
-  "entryPriceUsd": 0.001119,
-  "entryNotionalGbp": 1.3798859497318005e-32,
-  "peakNotionalGbp": 1.3798859497318005e-32,
-  "realisedNotionalGbp": 1.4008994413520818e-32,
+  "currentToken": "BLSuVTxKYDL4vm4XmG3oEJfsSGfJZF3cgy98ri68pump",
+  "currentSymbol": "CATEWALK",
+  "entryPriceUsd": 0.0007033,
+  "entryNotionalGbp": 6.691606377409072e-33,
+  "peakNotionalGbp": 6.691606377409072e-33,
+  "realisedNotionalGbp": 6.793509012598042e-33,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-22",
-  "tradeCount": 47,
+  "tradeCount": 48,
   "journal": [
-    {
-      "at": "2026-09-16T02:01:23.191Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 64,
-      "candidateScore": 53,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-16T02:11:25.159Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 37,
       "candidateScore": 66,
       "reason": "Risk exit triggered at -42.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-22T04:44:59.081Z",
+      "action": "ROTATE",
+      "from": "SATOSHINU",
+      "to": "CATEWALK",
+      "notionalGbp": 0,
+      "currentScore": 42,
+      "candidateScore": 72,
+      "reason": "Risk exit triggered at -50.0% P/L; best eligible destination selected"
     }
   ]
 }
