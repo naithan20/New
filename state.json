@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BLSuVTxKYDL4vm4XmG3oEJfsSGfJZF3cgy98ri68pump",
-  "currentSymbol": "CATEWALK",
-  "entryPriceUsd": 0.0007033,
-  "entryNotionalGbp": 6.691606377409072e-33,
-  "peakNotionalGbp": 7.899006987807494e-33,
-  "realisedNotionalGbp": 6.793509012598042e-33,
+  "currentToken": "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump",
+  "currentSymbol": "KITTY ",
+  "entryPriceUsd": 0.0003804,
+  "entryNotionalGbp": 7.589963762721962e-33,
+  "peakNotionalGbp": 7.589963762721962e-33,
+  "realisedNotionalGbp": 7.705546967230419e-33,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-22",
-  "tradeCount": 48,
+  "tradeCount": 49,
   "journal": [
-    {
-      "at": "2026-09-16T08:27:24.715Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 49,
-      "candidateScore": 22,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-16T13:26:54.093Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 56,
       "candidateScore": 66,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-22T10:02:49.247Z",
+      "action": "ROTATE",
+      "from": "CATEWALK",
+      "to": "KITTY ",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 87,
+      "reason": "Candidate advantage 28 points"
     }
   ]
 }
