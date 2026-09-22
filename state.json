@@ -14,14 +14,6 @@
   "tradeCount": 48,
   "journal": [
     {
-      "at": "2026-09-16T02:11:25.159Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 53,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-16T07:37:15.908Z",
       "action": "ROTATE",
       "from": "ALLCAT",
@@ -1650,6 +1642,14 @@
       "currentScore": 42,
       "candidateScore": 72,
       "reason": "Risk exit triggered at -50.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-22T04:55:01.743Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 46,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
