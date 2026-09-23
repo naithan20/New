@@ -14,16 +14,6 @@
   "tradeCount": 50,
   "journal": [
     {
-      "at": "2026-09-17T11:34:21.185Z",
-      "action": "ROTATE",
-      "from": "FAPMAX",
-      "to": "PAIDDOGE",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 54,
-      "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-17T11:44:24.368Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1645,6 +1635,14 @@
       "notionalGbp": 0,
       "currentScore": 41,
       "candidateScore": 49,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-23T06:12:44.922Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 43,
+      "candidateScore": 52,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
