@@ -14,16 +14,6 @@
   "tradeCount": 52,
   "journal": [
     {
-      "at": "2026-09-18T00:21:15.254Z",
-      "action": "ROTATE",
-      "from": "XCHAN",
-      "to": "catwifout",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 66,
-      "reason": "Risk exit triggered at -42.7% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-18T04:33:59.127Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1642,6 +1632,14 @@
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 34,
+      "candidateScore": 54,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-23T23:47:29.101Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 48,
       "candidateScore": 54,
       "reason": "Daily trade cap reached"
     }
