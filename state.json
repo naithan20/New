@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
-  "currentSymbol": "UPTOBER",
-  "entryPriceUsd": 0.0001588,
-  "entryNotionalGbp": 5.817228611466661e-35,
-  "peakNotionalGbp": 6.905211544467668e-35,
-  "realisedNotionalGbp": 5.905815849204732e-35,
+  "currentToken": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
+  "currentSymbol": "SATOSHINU",
+  "entryPriceUsd": 0.0005669,
+  "entryNotionalGbp": 4.883428428851242e-35,
+  "peakNotionalGbp": 4.883428428851242e-35,
+  "realisedNotionalGbp": 4.95779535923984e-35,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-23",
-  "tradeCount": 50,
+  "tradeCount": 51,
   "journal": [
-    {
-      "at": "2026-09-17T12:04:29.685Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 50,
-      "candidateScore": 60,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-17T12:14:32.476Z",
       "action": "HOLD",
@@ -1644,6 +1636,16 @@
       "currentScore": 40,
       "candidateScore": 37,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-23T06:42:50.694Z",
+      "action": "ROTATE",
+      "from": "UPTOBER",
+      "to": "SATOSHINU",
+      "notionalGbp": 0,
+      "currentScore": 45,
+      "candidateScore": 44,
+      "reason": "Risk exit triggered at -13.5% P/L; best eligible destination selected"
     }
   ]
 }
