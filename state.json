@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump",
-  "currentSymbol": "KITTY ",
-  "entryPriceUsd": 0.0003804,
-  "entryNotionalGbp": 7.589963762721962e-33,
-  "peakNotionalGbp": 7.589963762721962e-33,
-  "realisedNotionalGbp": 7.705546967230419e-33,
+  "currentToken": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
+  "currentSymbol": "UPTOBER",
+  "entryPriceUsd": 0.0001588,
+  "entryNotionalGbp": 5.817228611466661e-35,
+  "peakNotionalGbp": 5.817228611466661e-35,
+  "realisedNotionalGbp": 5.905815849204732e-35,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-22",
-  "tradeCount": 49,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-23",
+  "tradeCount": 50,
   "journal": [
-    {
-      "at": "2026-09-17T01:06:09.435Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 49,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-17T01:16:11.261Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 0,
       "candidateScore": 61,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-23T00:22:38.497Z",
+      "action": "ROTATE",
+      "from": "KITTY ",
+      "to": "UPTOBER",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 58,
+      "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
     }
   ]
 }
