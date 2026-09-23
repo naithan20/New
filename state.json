@@ -14,14 +14,6 @@
   "tradeCount": 50,
   "journal": [
     {
-      "at": "2026-09-17T06:53:59.059Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 70,
-      "candidateScore": 61,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-17T11:34:21.185Z",
       "action": "ROTATE",
       "from": "FAPMAX",
@@ -1645,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 38,
       "candidateScore": 43,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-23T06:02:42.930Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 41,
+      "candidateScore": 49,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
