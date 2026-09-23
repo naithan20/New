@@ -6,23 +6,13 @@
   "currentSymbol": "UPTOBER",
   "entryPriceUsd": 0.0001588,
   "entryNotionalGbp": 5.817228611466661e-35,
-  "peakNotionalGbp": 6.388694394457089e-35,
+  "peakNotionalGbp": 6.494928418218129e-35,
   "realisedNotionalGbp": 5.905815849204732e-35,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-23",
   "tradeCount": 50,
   "journal": [
-    {
-      "at": "2026-09-17T06:23:51.571Z",
-      "action": "ROTATE",
-      "from": "PAIDDOGE",
-      "to": "FAPMAX",
-      "notionalGbp": 0,
-      "currentScore": 52,
-      "candidateScore": 68,
-      "reason": "Candidate advantage 16 points"
-    },
     {
       "at": "2026-09-17T06:33:54.264Z",
       "action": "HOLD",
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 55,
       "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-23T01:02:46.458Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 62,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
