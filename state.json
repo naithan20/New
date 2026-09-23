@@ -14,16 +14,6 @@
   "tradeCount": 52,
   "journal": [
     {
-      "at": "2026-09-18T00:11:13.118Z",
-      "action": "ROTATE",
-      "from": "PERK",
-      "to": "XCHAN",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 94,
-      "reason": "Candidate advantage 34 points"
-    },
-    {
       "at": "2026-09-18T00:21:15.254Z",
       "action": "ROTATE",
       "from": "XCHAN",
@@ -1645,6 +1635,14 @@
       "notionalGbp": 0,
       "currentScore": 62,
       "candidateScore": 56,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-23T23:37:27.213Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 34,
+      "candidateScore": 54,
       "reason": "Daily trade cap reached"
     }
   ]
