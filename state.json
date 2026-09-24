@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "4WECKfvfgEiojyZJq5Xm12Hvk76rhM4VHQAZGaELpump",
-  "currentSymbol": "JEANCOIN",
-  "entryPriceUsd": 0.0005175,
-  "entryNotionalGbp": 3.617858349037468e-35,
-  "peakNotionalGbp": 3.6423269562290255e-35,
-  "realisedNotionalGbp": 3.6729526386167187e-35,
+  "currentToken": "7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump",
+  "currentSymbol": "NPC",
+  "entryPriceUsd": 0.0005344,
+  "entryNotionalGbp": 4.900625517994299e-35,
+  "peakNotionalGbp": 4.900625517994299e-35,
+  "realisedNotionalGbp": 4.975254332989135e-35,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-24",
-  "tradeCount": 53,
+  "tradeCount": 54,
   "journal": [
-    {
-      "at": "2026-09-18T05:14:07.786Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 54,
-      "candidateScore": 66,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-18T05:24:09.769Z",
       "action": "HOLD",
@@ -1644,6 +1636,16 @@
       "currentScore": 51,
       "candidateScore": 53,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-24T04:37:39.862Z",
+      "action": "ROTATE",
+      "from": "JEANCOIN",
+      "to": "NPC",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 87,
+      "reason": "Candidate advantage 22 points"
     }
   ]
 }
