@@ -6,21 +6,13 @@
   "currentSymbol": "NPC",
   "entryPriceUsd": 0.0005344,
   "entryNotionalGbp": 4.900625517994299e-35,
-  "peakNotionalGbp": 4.900625517994299e-35,
+  "peakNotionalGbp": 5.67735265379916e-35,
   "realisedNotionalGbp": 4.975254332989135e-35,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-09-24",
   "tradeCount": 54,
   "journal": [
-    {
-      "at": "2026-09-18T05:24:09.769Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 41,
-      "candidateScore": 70,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-18T09:38:28.804Z",
       "action": "HOLD",
@@ -1646,6 +1638,14 @@
       "currentScore": 65,
       "candidateScore": 87,
       "reason": "Candidate advantage 22 points"
+    },
+    {
+      "at": "2026-09-24T04:47:42.281Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 66,
+      "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
