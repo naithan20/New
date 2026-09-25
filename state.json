@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
-  "currentSymbol": "ARENA",
-  "entryPriceUsd": 0.0003894,
-  "entryNotionalGbp": 1.9971055787546764e-34,
-  "peakNotionalGbp": 1.9971055787546764e-34,
-  "realisedNotionalGbp": 2.0275183540656612e-34,
+  "currentToken": "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump",
+  "currentSymbol": "OG",
+  "entryPriceUsd": 0.000335,
+  "entryNotionalGbp": 1.963019194602189e-34,
+  "peakNotionalGbp": 1.963019194602189e-34,
+  "realisedNotionalGbp": 1.992912887921004e-34,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-25",
-  "tradeCount": 57,
+  "tradeCount": 58,
   "journal": [
-    {
-      "at": "2026-09-19T06:05:48.343Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 37,
-      "candidateScore": 64,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-19T06:15:50.696Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 65,
       "candidateScore": 64,
       "reason": "Risk exit triggered at -22.1% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-25T02:05:13.036Z",
+      "action": "ROTATE",
+      "from": "ARENA",
+      "to": "OG",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 79,
+      "reason": "Candidate advantage 26 points"
     }
   ]
 }
