@@ -14,14 +14,6 @@
   "tradeCount": 55,
   "journal": [
     {
-      "at": "2026-09-19T01:03:11.821Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 68,
-      "candidateScore": 79,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-19T05:45:42.557Z",
       "action": "ROTATE",
       "from": "TIGRINO",
@@ -1645,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 62,
       "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-25T01:35:07.287Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 67,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
