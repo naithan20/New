@@ -6,21 +6,13 @@
   "currentSymbol": "JEANCOIN",
   "entryPriceUsd": 0.000867,
   "entryNotionalGbp": 4.42550982817309e-35,
-  "peakNotionalGbp": 2.7956767392046153e-34,
+  "peakNotionalGbp": 2.8416162875939552e-34,
   "realisedNotionalGbp": 4.4929033788559293e-35,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-24",
+  "tradesToday": 0,
+  "tradeDate": "2026-09-25",
   "tradeCount": 55,
   "journal": [
-    {
-      "at": "2026-09-19T00:53:09.888Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 44,
-      "candidateScore": 50,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-09-19T01:03:11.821Z",
       "action": "HOLD",
@@ -1646,6 +1638,14 @@
       "currentScore": 55,
       "candidateScore": 72,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-25T01:25:05.139Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 62,
+      "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
