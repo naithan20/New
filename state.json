@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump",
-  "currentSymbol": "OG",
-  "entryPriceUsd": 0.0004398,
-  "entryNotionalGbp": 2.641615988049745e-34,
-  "peakNotionalGbp": 2.641615988049745e-34,
-  "realisedNotionalGbp": 2.6818436426900963e-34,
+  "currentToken": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
+  "currentSymbol": "ARENA",
+  "entryPriceUsd": 0.0003894,
+  "entryNotionalGbp": 1.9971055787546764e-34,
+  "peakNotionalGbp": 1.9971055787546764e-34,
+  "realisedNotionalGbp": 2.0275183540656612e-34,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-25",
-  "tradeCount": 56,
+  "tradeCount": 57,
   "journal": [
-    {
-      "at": "2026-09-19T05:55:45.909Z",
-      "action": "ROTATE",
-      "from": "Meepcat",
-      "to": "TIGRINO",
-      "notionalGbp": 0,
-      "currentScore": 47,
-      "candidateScore": 76,
-      "reason": "Risk exit triggered at -16.9% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-09-19T06:05:48.343Z",
       "action": "HOLD",
@@ -1646,6 +1636,16 @@
       "currentScore": 53,
       "candidateScore": 75,
       "reason": "Candidate advantage 22 points"
+    },
+    {
+      "at": "2026-09-25T01:55:11.148Z",
+      "action": "ROTATE",
+      "from": "OG",
+      "to": "ARENA",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 64,
+      "reason": "Risk exit triggered at -22.1% P/L; best eligible destination selected"
     }
   ]
 }
