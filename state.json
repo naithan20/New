@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GgsSaetRZNCuP9HEWjbojtVWByRWFxpr93S1wtGFpump",
-  "currentSymbol": "BLUEPRINT",
-  "entryPriceUsd": 0.0001892,
-  "entryNotionalGbp": 1.4309861015745317e-36,
-  "peakNotionalGbp": 1.4309861015745317e-36,
-  "realisedNotionalGbp": 1.4527777680959713e-36,
+  "currentToken": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+  "currentSymbol": "Holdoween",
+  "entryPriceUsd": 0.001248,
+  "entryNotionalGbp": 1.160161941502451e-36,
+  "peakNotionalGbp": 1.160161941502451e-36,
+  "realisedNotionalGbp": 1.1778293822359908e-36,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-09-26",
-  "tradeCount": 59,
+  "tradeCount": 60,
   "journal": [
-    {
-      "at": "2026-09-19T21:23:15.702Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 62,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-19T22:55:47.544Z",
       "action": "HOLD",
@@ -1650,6 +1642,16 @@
       "currentScore": 0,
       "candidateScore": 57,
       "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-26T01:38:19.217Z",
+      "action": "ROTATE",
+      "from": "BLUEPRINT",
+      "to": "Holdoween",
+      "notionalGbp": 0,
+      "currentScore": 29,
+      "candidateScore": 48,
+      "reason": "Risk exit triggered at -16.4% P/L; best eligible destination selected"
     }
   ]
 }
