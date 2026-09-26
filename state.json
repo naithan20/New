@@ -14,14 +14,6 @@
   "tradeCount": 61,
   "journal": [
     {
-      "at": "2026-09-19T23:45:58.804Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 54,
-      "candidateScore": 60,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-09-20T01:00:39.167Z",
       "action": "ROTATE",
       "from": "TIGRINO",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 24,
       "candidateScore": 49,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-26T07:44:20.798Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 35,
+      "candidateScore": 63,
       "reason": "Daily trade cap reached"
     }
   ]
