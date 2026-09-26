@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "D5qLnkRpzvuizsp4BfcrEWgUHiwrLoxVNZHoCx3Rpump",
-  "currentSymbol": "OG",
-  "entryPriceUsd": 0.000335,
-  "entryNotionalGbp": 1.963019194602189e-34,
-  "peakNotionalGbp": 1.963019194602189e-34,
-  "realisedNotionalGbp": 1.992912887921004e-34,
+  "currentToken": "GgsSaetRZNCuP9HEWjbojtVWByRWFxpr93S1wtGFpump",
+  "currentSymbol": "BLUEPRINT",
+  "entryPriceUsd": 0.0001892,
+  "entryNotionalGbp": 1.4309861015745317e-36,
+  "peakNotionalGbp": 1.4309861015745317e-36,
+  "realisedNotionalGbp": 1.4527777680959713e-36,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-25",
-  "tradeCount": 58,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-26",
+  "tradeCount": 59,
   "journal": [
-    {
-      "at": "2026-09-19T21:13:13.655Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 54,
-      "candidateScore": 64,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-19T21:23:15.702Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 84,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-26T01:28:16.817Z",
+      "action": "ROTATE",
+      "from": "OG",
+      "to": "BLUEPRINT",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 57,
+      "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
     }
   ]
 }
