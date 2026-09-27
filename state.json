@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GgsSaetRZNCuP9HEWjbojtVWByRWFxpr93S1wtGFpump",
-  "currentSymbol": "BLUEPRINT",
-  "entryPriceUsd": 0.0001719,
-  "entryNotionalGbp": 1.0832270526865007e-36,
-  "peakNotionalGbp": 3.274887139506541e-36,
-  "realisedNotionalGbp": 1.0997228961284272e-36,
+  "currentToken": "9zriPbmELWGzEqEJH29qQY4TZ4xVMQLVLXV3RtSDpump",
+  "currentSymbol": "XPAY",
+  "entryPriceUsd": 0.0002923,
+  "entryNotionalGbp": 9.207485716069207e-37,
+  "peakNotionalGbp": 9.207485716069207e-37,
+  "realisedNotionalGbp": 9.347701234588028e-37,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 0,
+  "tradesToday": 1,
   "tradeDate": "2026-09-27",
-  "tradeCount": 61,
+  "tradeCount": 62,
   "journal": [
-    {
-      "at": "2026-09-20T21:28:47.109Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 61,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-20T21:38:50.427Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 43,
       "candidateScore": 64,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-27T01:41:15.301Z",
+      "action": "ROTATE",
+      "from": "BLUEPRINT",
+      "to": "XPAY",
+      "notionalGbp": 0,
+      "currentScore": 24,
+      "candidateScore": 82,
+      "reason": "Risk exit triggered at -12.4% P/L; best eligible destination selected"
     }
   ]
 }
