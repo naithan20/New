@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
-  "currentSymbol": "UPTOBER",
-  "entryPriceUsd": 0.0002217,
-  "entryNotionalGbp": 5.1894625875561994e-37,
-  "peakNotionalGbp": 5.1894625875561994e-37,
-  "realisedNotionalGbp": 5.268489936605279e-37,
+  "currentToken": "9zriPbmELWGzEqEJH29qQY4TZ4xVMQLVLXV3RtSDpump",
+  "currentSymbol": "XPAY",
+  "entryPriceUsd": 0.0002775,
+  "entryNotionalGbp": 5.1666679843264085e-37,
+  "peakNotionalGbp": 5.1666679843264085e-37,
+  "realisedNotionalGbp": 5.245348207437978e-37,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-27",
-  "tradeCount": 63,
+  "tradeCount": 64,
   "journal": [
-    {
-      "at": "2026-09-20T21:48:52.996Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 66,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-20T21:58:55.650Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 81,
       "candidateScore": 48,
       "reason": "Risk exit triggered at -41.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-27T02:01:20.442Z",
+      "action": "ROTATE",
+      "from": "UPTOBER",
+      "to": "XPAY",
+      "notionalGbp": 0,
+      "currentScore": 50,
+      "candidateScore": 72,
+      "reason": "Candidate advantage 22 points"
     }
   ]
 }
