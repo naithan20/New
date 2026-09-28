@@ -6,21 +6,13 @@
   "currentSymbol": "e/acc",
   "entryPriceUsd": 0.008932,
   "entryNotionalGbp": 4.6175822052358756e-39,
-  "peakNotionalGbp": 4.6175822052358756e-39,
+  "peakNotionalGbp": 5.676338178850192e-39,
   "realisedNotionalGbp": 4.687900715975508e-39,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-09-28",
   "tradeCount": 66,
   "journal": [
-    {
-      "at": "2026-09-21T23:33:27.223Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 38,
-      "candidateScore": 84,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-21T23:43:29.783Z",
       "action": "HOLD",
@@ -1651,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 77,
       "candidateScore": 66,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-28T01:16:37.147Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 76,
+      "candidateScore": 84,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
