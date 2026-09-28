@@ -14,16 +14,6 @@
   "tradeCount": 67,
   "journal": [
     {
-      "at": "2026-09-22T04:44:59.081Z",
-      "action": "ROTATE",
-      "from": "SATOSHINU",
-      "to": "CATEWALK",
-      "notionalGbp": 0,
-      "currentScore": 42,
-      "candidateScore": 72,
-      "reason": "Risk exit triggered at -50.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-22T04:55:01.743Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 69,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-28T07:03:42.930Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 60,
       "reason": "Daily trade cap reached"
     }
   ]
