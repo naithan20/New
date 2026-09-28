@@ -6,21 +6,13 @@
   "currentSymbol": "INSTA",
   "entryPriceUsd": 0.0009153,
   "entryNotionalGbp": 4.852058585772986e-39,
-  "peakNotionalGbp": 4.852058585772986e-39,
+  "peakNotionalGbp": 5.338165624247129e-39,
   "realisedNotionalGbp": 4.9259478028152145e-39,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-09-28",
   "tradeCount": 65,
   "journal": [
-    {
-      "at": "2026-09-21T20:10:19.660Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 36,
-      "candidateScore": 55,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-21T23:13:21.322Z",
       "action": "HOLD",
@@ -1650,6 +1642,14 @@
       "currentScore": 0,
       "candidateScore": 78,
       "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-28T00:46:30.141Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 79,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
