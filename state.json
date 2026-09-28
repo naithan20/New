@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU",
-  "currentSymbol": "e/acc",
-  "entryPriceUsd": 0.008932,
-  "entryNotionalGbp": 4.6175822052358756e-39,
-  "peakNotionalGbp": 5.676338178850192e-39,
-  "realisedNotionalGbp": 4.687900715975508e-39,
+  "currentToken": "C5zyCRUo23yLHDfcYWWTZNVh4yxWgQ8PFr1zx1Zrpump",
+  "currentSymbol": "x/acc",
+  "entryPriceUsd": 0.0002653,
+  "entryNotionalGbp": 4.654141222189959e-39,
+  "peakNotionalGbp": 4.654141222189959e-39,
+  "realisedNotionalGbp": 4.725016469228385e-39,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-28",
-  "tradeCount": 66,
+  "tradeCount": 67,
   "journal": [
-    {
-      "at": "2026-09-21T23:43:29.783Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 34,
-      "candidateScore": 60,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-21T23:53:31.658Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 76,
       "candidateScore": 84,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-28T01:26:39.614Z",
+      "action": "ROTATE",
+      "from": "e/acc",
+      "to": "x/acc",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 82,
+      "reason": "Candidate advantage 24 points"
     }
   ]
 }
