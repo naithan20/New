@@ -14,16 +14,6 @@
   "tradeCount": 67,
   "journal": [
     {
-      "at": "2026-09-22T10:02:49.247Z",
-      "action": "ROTATE",
-      "from": "CATEWALK",
-      "to": "KITTY ",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 87,
-      "reason": "Candidate advantage 28 points"
-    },
-    {
       "at": "2026-09-22T10:12:51.053Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 62,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-28T15:50:38.639Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 60,
       "reason": "Daily trade cap reached"
     }
   ]
