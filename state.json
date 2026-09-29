@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "C5zyCRUo23yLHDfcYWWTZNVh4yxWgQ8PFr1zx1Zrpump",
-  "currentSymbol": "x/acc",
-  "entryPriceUsd": 0.0002653,
-  "entryNotionalGbp": 4.654141222189959e-39,
-  "peakNotionalGbp": 4.654141222189959e-39,
-  "realisedNotionalGbp": 4.725016469228385e-39,
+  "currentToken": "HGN8K3x5ZLfYNjvE8b1hCqqu7RwupuKU6EkEhemzpump",
+  "currentSymbol": "SNOWBALL",
+  "entryPriceUsd": 0.0001617,
+  "entryNotionalGbp": 4.141111051277452e-41,
+  "peakNotionalGbp": 4.141111051277452e-41,
+  "realisedNotionalGbp": 4.204173656119241e-41,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-09-28",
-  "tradeCount": 67,
+  "tradesToday": 1,
+  "tradeDate": "2026-09-29",
+  "tradeCount": 68,
   "journal": [
-    {
-      "at": "2026-09-22T15:24:27.832Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 5,
-      "candidateScore": 65,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-22T15:34:30.192Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 90,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-29T01:50:14.453Z",
+      "action": "ROTATE",
+      "from": "x/acc",
+      "to": "SNOWBALL",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 81,
+      "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
     }
   ]
 }
