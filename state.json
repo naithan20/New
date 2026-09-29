@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump",
-  "currentSymbol": "HOOKEDCAT",
-  "entryPriceUsd": 0.0011,
-  "entryNotionalGbp": 5.175693955125888e-41,
-  "peakNotionalGbp": 5.726199584898368e-41,
-  "realisedNotionalGbp": 5.25451162956943e-41,
+  "currentToken": "9k7NgXqiJ7tvLtiB6HXdJHnKZZynFz46AB6Eg4Uwpump",
+  "currentSymbol": "INUINK",
+  "entryPriceUsd": 0.001597,
+  "entryNotionalGbp": 3.2060554717853793e-41,
+  "peakNotionalGbp": 3.2060554717853793e-41,
+  "realisedNotionalGbp": 3.254878651558761e-41,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-29",
-  "tradeCount": 69,
+  "tradeCount": 70,
   "journal": [
-    {
-      "at": "2026-09-22T19:28:22.021Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 55,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-22T19:38:24.119Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 51,
       "candidateScore": 65,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-29T08:21:51.630Z",
+      "action": "ROTATE",
+      "from": "HOOKEDCAT",
+      "to": "INUINK",
+      "notionalGbp": 0,
+      "currentScore": 42,
+      "candidateScore": 66,
+      "reason": "Risk exit triggered at -36.2% P/L; best eligible destination selected"
     }
   ]
 }
