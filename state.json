@@ -14,16 +14,6 @@
   "tradeCount": 70,
   "journal": [
     {
-      "at": "2026-09-23T00:22:38.497Z",
-      "action": "ROTATE",
-      "from": "KITTY ",
-      "to": "UPTOBER",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 58,
-      "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-23T00:32:40.511Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1653,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 51,
       "candidateScore": 54,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-29T16:02:45.430Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 63,
       "reason": "Daily trade cap reached"
     }
   ]
