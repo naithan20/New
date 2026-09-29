@@ -14,14 +14,6 @@
   "tradeCount": 70,
   "journal": [
     {
-      "at": "2026-09-22T22:51:10.353Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 61,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-09-23T00:22:38.497Z",
       "action": "ROTATE",
       "from": "KITTY ",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 44,
       "candidateScore": 53,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-29T15:52:41.906Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 54,
       "reason": "Daily trade cap reached"
     }
   ]
