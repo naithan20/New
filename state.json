@@ -14,14 +14,6 @@
   "tradeCount": 73,
   "journal": [
     {
-      "at": "2026-09-23T23:57:30.901Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 35,
-      "candidateScore": 62,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-09-24T00:07:32.747Z",
       "action": "ROTATE",
       "from": "INU",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 39,
       "candidateScore": 76,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-30T19:50:21.185Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 36,
+      "candidateScore": 78,
       "reason": "Daily trade cap reached"
     }
   ]
