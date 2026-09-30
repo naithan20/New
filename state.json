@@ -14,16 +14,6 @@
   "tradeCount": 71,
   "journal": [
     {
-      "at": "2026-09-23T11:35:46.064Z",
-      "action": "ROTATE",
-      "from": "SATOSHINU",
-      "to": "INU",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 67,
-      "reason": "Candidate advantage 24 points"
-    },
-    {
       "at": "2026-09-23T11:45:47.952Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 85,
       "candidateScore": 55,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-09-30T00:50:59.756Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 74,
+      "candidateScore": 73,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
