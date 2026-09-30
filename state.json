@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "J47Jmw8ndwu6Vt6ZubD9C9VUVHi6uWsBE2XPsEjmpump",
-  "currentSymbol": "FKCANCER",
-  "entryPriceUsd": 0.0002356,
-  "entryNotionalGbp": 1.2693925063372986e-43,
-  "peakNotionalGbp": 1.2693925063372986e-43,
-  "realisedNotionalGbp": 1.2887233566876128e-43,
+  "currentToken": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
+  "currentSymbol": "PARASITE",
+  "entryPriceUsd": 0.0008848,
+  "entryNotionalGbp": 5.104119994617246e-44,
+  "peakNotionalGbp": 5.104119994617246e-44,
+  "realisedNotionalGbp": 5.181847710271316e-44,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-09-30",
-  "tradeCount": 72,
+  "tradeCount": 73,
   "journal": [
-    {
-      "at": "2026-09-23T12:05:51.674Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 51,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-23T12:15:53.596Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 79,
       "candidateScore": 58,
       "reason": "Risk exit triggered at 67.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-09-30T06:37:36.128Z",
+      "action": "ROTATE",
+      "from": "FKCANCER",
+      "to": "PARASITE",
+      "notionalGbp": 0,
+      "currentScore": 27,
+      "candidateScore": 65,
+      "reason": "Risk exit triggered at -58.6% P/L; best eligible destination selected"
     }
   ]
 }
