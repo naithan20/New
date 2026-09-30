@@ -14,14 +14,6 @@
   "tradeCount": 73,
   "journal": [
     {
-      "at": "2026-09-24T00:27:36.798Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 53,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-09-24T04:37:39.862Z",
       "action": "ROTATE",
       "from": "JEANCOIN",
@@ -1651,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 44,
       "candidateScore": 46,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-09-30T23:52:05.581Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 38,
+      "candidateScore": 48,
       "reason": "Daily trade cap reached"
     }
   ]
