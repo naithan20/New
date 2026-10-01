@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump",
-  "currentSymbol": "DEGEN",
-  "entryPriceUsd": 0.0005712,
-  "entryNotionalGbp": 4.527783108942648e-46,
-  "peakNotionalGbp": 5.037475780344981e-46,
-  "realisedNotionalGbp": 4.5967341207539575e-46,
+  "currentToken": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
+  "currentSymbol": "PUMPGU",
+  "entryPriceUsd": 0.0002174,
+  "entryNotionalGbp": 4.489103003754e-46,
+  "peakNotionalGbp": 4.489103003754e-46,
+  "realisedNotionalGbp": 4.557464978430457e-46,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-01",
-  "tradeCount": 75,
+  "tradeCount": 76,
   "journal": [
-    {
-      "at": "2026-09-24T15:27:45.028Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 68,
-      "candidateScore": 56,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-24T15:37:47.816Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 33,
       "candidateScore": 45,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-01T13:53:25.131Z",
+      "action": "ROTATE",
+      "from": "DEGEN",
+      "to": "PUMPGU",
+      "notionalGbp": 0,
+      "currentScore": 37,
+      "candidateScore": 69,
+      "reason": "Candidate advantage 32 points"
     }
   ]
 }
