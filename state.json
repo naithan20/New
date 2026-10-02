@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
-  "currentSymbol": "PUMPGU",
-  "entryPriceUsd": 0.0002174,
-  "entryNotionalGbp": 4.489103003754e-46,
-  "peakNotionalGbp": 4.489103003754e-46,
-  "realisedNotionalGbp": 4.557464978430457e-46,
+  "currentToken": "4K8V9yH6kKRLS46BTG68Te1QHLkb7an8J5YcWQ3ppump",
+  "currentSymbol": "SACC",
+  "entryPriceUsd": 0.0003269,
+  "entryNotionalGbp": 1.7059140420825054e-46,
+  "peakNotionalGbp": 1.7059140420825054e-46,
+  "realisedNotionalGbp": 1.7318924285101577e-46,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-01",
-  "tradeCount": 76,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-02",
+  "tradeCount": 77,
   "journal": [
-    {
-      "at": "2026-09-24T22:58:53.454Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 57,
-      "candidateScore": 63,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-24T23:08:55.876Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 35,
       "candidateScore": 81,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-02T02:12:25.591Z",
+      "action": "ROTATE",
+      "from": "PUMPGU",
+      "to": "SACC",
+      "notionalGbp": 0,
+      "currentScore": 20,
+      "candidateScore": 55,
+      "reason": "Risk exit triggered at -60.8% P/L; best eligible destination selected"
     }
   ]
 }
