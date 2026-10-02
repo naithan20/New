@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "4K8V9yH6kKRLS46BTG68Te1QHLkb7an8J5YcWQ3ppump",
-  "currentSymbol": "SACC",
-  "entryPriceUsd": 0.0003269,
-  "entryNotionalGbp": 1.7059140420825054e-46,
-  "peakNotionalGbp": 2.149483003774194e-46,
-  "realisedNotionalGbp": 1.7318924285101577e-46,
+  "currentToken": "ERxLYPjqeFfLsnChuPnvS6f3y5Me8BjgJi9oWaTJpump",
+  "currentSymbol": "e/acc",
+  "entryPriceUsd": 0.0003798,
+  "entryNotionalGbp": 2.0464964407709193e-46,
+  "peakNotionalGbp": 2.0464964407709193e-46,
+  "realisedNotionalGbp": 2.0776613611887506e-46,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-02",
-  "tradeCount": 77,
+  "tradeCount": 78,
   "journal": [
-    {
-      "at": "2026-09-25T01:45:09.193Z",
-      "action": "ROTATE",
-      "from": "JEANCOIN",
-      "to": "OG",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 75,
-      "reason": "Candidate advantage 22 points"
-    },
     {
       "at": "2026-09-25T01:55:11.148Z",
       "action": "ROTATE",
@@ -1656,6 +1646,16 @@
       "currentScore": 65,
       "candidateScore": 61,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-02T02:52:35.870Z",
+      "action": "ROTATE",
+      "from": "SACC",
+      "to": "e/acc",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 81,
+      "reason": "Candidate advantage 16 points"
     }
   ]
 }
