@@ -6,21 +6,13 @@
   "currentSymbol": "PARASITE",
   "entryPriceUsd": 0.0008744,
   "entryNotionalGbp": 4.747992145334632e-46,
-  "peakNotionalGbp": 4.747992145334632e-46,
+  "peakNotionalGbp": 4.793604146730802e-46,
   "realisedNotionalGbp": 4.820296594248358e-46,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-02",
   "tradeCount": 79,
   "journal": [
-    {
-      "at": "2026-09-25T08:00:50.155Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 65,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-25T08:10:52.681Z",
       "action": "HOLD",
@@ -1654,6 +1646,14 @@
       "currentScore": 51,
       "candidateScore": 68,
       "reason": "Candidate advantage 17 points"
+    },
+    {
+      "at": "2026-10-02T10:19:32.591Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 55,
+      "candidateScore": 55,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
