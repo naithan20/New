@@ -14,16 +14,6 @@
   "tradeCount": 85,
   "journal": [
     {
-      "at": "2026-09-27T01:41:15.301Z",
-      "action": "ROTATE",
-      "from": "BLUEPRINT",
-      "to": "XPAY",
-      "notionalGbp": 0,
-      "currentScore": 24,
-      "candidateScore": 82,
-      "reason": "Risk exit triggered at -12.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-27T01:51:17.899Z",
       "action": "ROTATE",
       "from": "XPAY",
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 77,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-04T13:49:13.312Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 67,
       "reason": "Daily trade cap reached"
     }
   ]
