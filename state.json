@@ -14,16 +14,6 @@
   "tradeCount": 85,
   "journal": [
     {
-      "at": "2026-09-27T02:01:20.442Z",
-      "action": "ROTATE",
-      "from": "UPTOBER",
-      "to": "XPAY",
-      "notionalGbp": 0,
-      "currentScore": 50,
-      "candidateScore": 72,
-      "reason": "Candidate advantage 22 points"
-    },
-    {
       "at": "2026-09-27T02:11:23.109Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1655,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 84,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-04T18:06:08.072Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 50,
       "reason": "Daily trade cap reached"
     }
   ]
