@@ -6,21 +6,13 @@
   "currentSymbol": "HUMAN",
   "entryPriceUsd": 0.000246,
   "entryNotionalGbp": 4.013580122019714e-50,
-  "peakNotionalGbp": 5.059395105033794e-50,
+  "peakNotionalGbp": 7.255443415699864e-50,
   "realisedNotionalGbp": 4.0747006314920953e-50,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-05",
   "tradeCount": 87,
   "journal": [
-    {
-      "at": "2026-09-27T18:37:53.551Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 61,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-27T18:47:56.242Z",
       "action": "HOLD",
@@ -1657,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 69,
       "candidateScore": 60,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-05T01:29:08.923Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 88,
+      "candidateScore": 66,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
