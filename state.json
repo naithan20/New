@@ -14,16 +14,6 @@
   "tradeCount": 88,
   "journal": [
     {
-      "at": "2026-09-28T00:36:27.055Z",
-      "action": "ROTATE",
-      "from": "XPAY",
-      "to": "INSTA",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 78,
-      "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-28T00:46:30.141Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 66,
       "candidateScore": 62,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-05T16:15:07.616Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 66,
+      "candidateScore": 68,
       "reason": "Daily trade cap reached"
     }
   ]
