@@ -6,21 +6,13 @@
   "currentSymbol": "AGENTCAT",
   "entryPriceUsd": 0.01575,
   "entryNotionalGbp": 3.321045111225219e-50,
-  "peakNotionalGbp": 6.47972801701276e-50,
+  "peakNotionalGbp": 6.916208231630933e-50,
   "realisedNotionalGbp": 3.3716194022591054e-50,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-05",
   "tradeCount": 88,
   "journal": [
-    {
-      "at": "2026-09-27T22:02:52.104Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 67,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-27T22:12:54.395Z",
       "action": "HOLD",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 60,
       "candidateScore": 65,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-05T07:15:04.098Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 75,
+      "candidateScore": 59,
       "reason": "Daily trade cap reached"
     }
   ]
