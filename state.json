@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "F6oVSkuXnKQZZutsuxr6tK3XJWkSUu6XgKzjEi3Jpump",
-  "currentSymbol": "BASILISK",
-  "entryPriceUsd": 0.0001103,
-  "entryNotionalGbp": 1.8679042065259874e-48,
-  "peakNotionalGbp": 1.8679042065259874e-48,
-  "realisedNotionalGbp": 1.8963494482497335e-48,
+  "currentToken": "CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump",
+  "currentSymbol": "AGENTCAT",
+  "entryPriceUsd": 0.01761,
+  "entryNotionalGbp": 4.280152828298496e-50,
+  "peakNotionalGbp": 4.280152828298496e-50,
+  "realisedNotionalGbp": 4.345332820607611e-50,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-04",
-  "tradeCount": 85,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-05",
+  "tradeCount": 86,
   "journal": [
-    {
-      "at": "2026-09-27T14:32:31.438Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 67,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-27T14:42:33.363Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 0,
       "candidateScore": 55,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-05T00:49:00.928Z",
+      "action": "ROTATE",
+      "from": "BASILISK",
+      "to": "AGENTCAT",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 66,
+      "reason": "Risk exit triggered at -97.6% P/L; best eligible destination selected"
     }
   ]
 }
