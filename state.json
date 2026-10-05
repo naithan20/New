@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump",
-  "currentSymbol": "AGENTCAT",
-  "entryPriceUsd": 0.01761,
-  "entryNotionalGbp": 4.280152828298496e-50,
-  "peakNotionalGbp": 4.280152828298496e-50,
-  "realisedNotionalGbp": 4.345332820607611e-50,
+  "currentToken": "2w2K6Yxc5VqTGcrnrkGWETHsjjGEZ83T8TCYwmTBpump",
+  "currentSymbol": "HUMAN",
+  "entryPriceUsd": 0.000246,
+  "entryNotionalGbp": 4.013580122019714e-50,
+  "peakNotionalGbp": 4.013580122019714e-50,
+  "realisedNotionalGbp": 4.0747006314920953e-50,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-05",
-  "tradeCount": 86,
+  "tradeCount": 87,
   "journal": [
-    {
-      "at": "2026-09-27T14:42:33.363Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 66,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-27T18:17:48.484Z",
       "action": "HOLD",
@@ -1656,6 +1648,16 @@
       "currentScore": 0,
       "candidateScore": 66,
       "reason": "Risk exit triggered at -97.6% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-05T00:59:02.966Z",
+      "action": "ROTATE",
+      "from": "AGENTCAT",
+      "to": "HUMAN",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 84,
+      "reason": "Candidate advantage 27 points"
     }
   ]
 }
