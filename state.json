@@ -14,16 +14,6 @@
   "tradeCount": 91,
   "journal": [
     {
-      "at": "2026-09-29T01:50:14.453Z",
-      "action": "ROTATE",
-      "from": "x/acc",
-      "to": "SNOWBALL",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 81,
-      "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-29T02:00:16.676Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 34,
       "candidateScore": 92,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-06T17:06:38.140Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 48,
+      "candidateScore": 78,
       "reason": "Daily trade cap reached"
     }
   ]
