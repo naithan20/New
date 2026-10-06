@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump",
-  "currentSymbol": "MINTRO",
-  "entryPriceUsd": 0.002198,
-  "entryNotionalGbp": 2.290279751130177e-53,
-  "peakNotionalGbp": 2.5872450509809964e-53,
-  "realisedNotionalGbp": 2.3251571077463725e-53,
+  "currentToken": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
+  "currentSymbol": "SK",
+  "entryPriceUsd": 0.0001071,
+  "entryNotionalGbp": 7.9946594169884e-54,
+  "peakNotionalGbp": 7.9946594169884e-54,
+  "realisedNotionalGbp": 8.116405499480609e-54,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-06",
-  "tradeCount": 90,
+  "tradeCount": 91,
   "journal": [
-    {
-      "at": "2026-09-28T16:00:41.093Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 84,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-28T16:10:43.549Z",
       "action": "HOLD",
@@ -1658,6 +1650,16 @@
       "currentScore": 60,
       "candidateScore": 67,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-06T10:07:11.497Z",
+      "action": "ROTATE",
+      "from": "MINTRO",
+      "to": "SK",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 52,
+      "reason": "Risk exit triggered at -64.0% P/L; best eligible destination selected"
     }
   ]
 }
