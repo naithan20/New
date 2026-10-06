@@ -6,21 +6,13 @@
   "currentSymbol": "SK",
   "entryPriceUsd": 0.0001071,
   "entryNotionalGbp": 7.9946594169884e-54,
-  "peakNotionalGbp": 8.830702231836861e-54,
+  "peakNotionalGbp": 1.0360959169729132e-53,
   "realisedNotionalGbp": 8.116405499480609e-54,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-06",
   "tradeCount": 91,
   "journal": [
-    {
-      "at": "2026-09-28T22:32:38.555Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 77,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-28T22:42:41.090Z",
       "action": "HOLD",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 50,
       "candidateScore": 68,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-06T16:46:32.306Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 39,
+      "candidateScore": 79,
       "reason": "Daily trade cap reached"
     }
   ]
