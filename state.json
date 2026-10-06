@@ -6,21 +6,13 @@
   "currentSymbol": "MINTRO",
   "entryPriceUsd": 0.002198,
   "entryNotionalGbp": 2.290279751130177e-53,
-  "peakNotionalGbp": 2.3465468605755956e-53,
+  "peakNotionalGbp": 2.406981904054008e-53,
   "realisedNotionalGbp": 2.3251571077463725e-53,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-06",
   "tradeCount": 90,
   "journal": [
-    {
-      "at": "2026-09-28T15:30:34.053Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 70,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-28T15:40:36.311Z",
       "action": "HOLD",
@@ -1657,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 59,
       "candidateScore": 48,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-06T03:24:32.221Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 66,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
