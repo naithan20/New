@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
-  "currentSymbol": "SK",
-  "entryPriceUsd": 0.00007472,
-  "entryNotionalGbp": 3.142374149401344e-53,
-  "peakNotionalGbp": 3.142374149401344e-53,
-  "realisedNotionalGbp": 3.190227562844004e-53,
+  "currentToken": "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump",
+  "currentSymbol": "MINTRO",
+  "entryPriceUsd": 0.002198,
+  "entryNotionalGbp": 2.290279751130177e-53,
+  "peakNotionalGbp": 2.290279751130177e-53,
+  "realisedNotionalGbp": 2.3251571077463725e-53,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-06",
-  "tradeCount": 89,
+  "tradeCount": 90,
   "journal": [
-    {
-      "at": "2026-09-28T07:33:49.515Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 60,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-28T15:20:31.591Z",
       "action": "HOLD",
@@ -1656,6 +1648,16 @@
       "currentScore": 60,
       "candidateScore": 73,
       "reason": "Risk exit triggered at -99.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-06T03:04:26.205Z",
+      "action": "ROTATE",
+      "from": "SK",
+      "to": "MINTRO",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 58,
+      "reason": "Risk exit triggered at -24.9% P/L; best eligible destination selected"
     }
   ]
 }
