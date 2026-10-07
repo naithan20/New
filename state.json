@@ -6,21 +6,13 @@
   "currentSymbol": "SI276",
   "entryPriceUsd": 0.0002672,
   "entryNotionalGbp": 1.1099993377008364e-53,
-  "peakNotionalGbp": 1.1099993377008364e-53,
+  "peakNotionalGbp": 1.1648346343237818e-53,
   "realisedNotionalGbp": 1.1269028809145548e-53,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-07",
   "tradeCount": 94,
   "journal": [
-    {
-      "at": "2026-09-29T16:12:48.041Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 39,
-      "candidateScore": 88,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-29T16:22:50.602Z",
       "action": "HOLD",
@@ -1660,6 +1652,14 @@
       "currentScore": 56,
       "candidateScore": 85,
       "reason": "Candidate advantage 29 points"
+    },
+    {
+      "at": "2026-10-07T02:17:51.921Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 68,
+      "candidateScore": 61,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
