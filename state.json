@@ -6,21 +6,13 @@
   "currentSymbol": "GOMO",
   "entryPriceUsd": 0.002124,
   "entryNotionalGbp": 1.2739394793070846e-53,
-  "peakNotionalGbp": 1.2739394793070846e-53,
+  "peakNotionalGbp": 1.3435143284594487e-53,
   "realisedNotionalGbp": 1.2933395729005935e-53,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-07",
   "tradeCount": 92,
   "journal": [
-    {
-      "at": "2026-09-29T09:12:02.836Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 51,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-29T15:42:38.453Z",
       "action": "HOLD",
@@ -1656,6 +1648,14 @@
       "currentScore": 49,
       "candidateScore": 85,
       "reason": "Risk exit triggered at 64.2% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-07T01:37:40.462Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 66,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
