@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
-  "currentSymbol": "SK",
-  "entryPriceUsd": 0.0001071,
-  "entryNotionalGbp": 7.9946594169884e-54,
-  "peakNotionalGbp": 1.8004779191200767e-53,
-  "realisedNotionalGbp": 8.116405499480609e-54,
+  "currentToken": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+  "currentSymbol": "GOMO",
+  "entryPriceUsd": 0.002124,
+  "entryNotionalGbp": 1.2739394793070846e-53,
+  "peakNotionalGbp": 1.2739394793070846e-53,
+  "realisedNotionalGbp": 1.2933395729005935e-53,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-06",
-  "tradeCount": 91,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-07",
+  "tradeCount": 92,
   "journal": [
-    {
-      "at": "2026-09-29T09:02:00.530Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 52,
-      "candidateScore": 52,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-29T09:12:02.836Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 31,
       "candidateScore": 84,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-07T01:27:37.439Z",
+      "action": "ROTATE",
+      "from": "SK",
+      "to": "GOMO",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 85,
+      "reason": "Risk exit triggered at 64.2% P/L; best eligible destination selected"
     }
   ]
 }
