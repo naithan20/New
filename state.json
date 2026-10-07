@@ -14,16 +14,6 @@
   "tradeCount": 94,
   "journal": [
     {
-      "at": "2026-09-30T01:11:04.072Z",
-      "action": "ROTATE",
-      "from": "SS",
-      "to": "FKCANCER",
-      "notionalGbp": 0,
-      "currentScore": 79,
-      "candidateScore": 58,
-      "reason": "Risk exit triggered at 67.8% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-30T06:37:36.128Z",
       "action": "ROTATE",
       "from": "FKCANCER",
@@ -1657,6 +1647,14 @@
       "notionalGbp": 0,
       "currentScore": 29,
       "candidateScore": 73,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-07T22:06:49.053Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 34,
+      "candidateScore": 85,
       "reason": "Daily trade cap reached"
     }
   ]
