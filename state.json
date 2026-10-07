@@ -14,16 +14,6 @@
   "tradeCount": 94,
   "journal": [
     {
-      "at": "2026-09-30T00:20:53.616Z",
-      "action": "ROTATE",
-      "from": "INUINK",
-      "to": "SS",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 80,
-      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-09-30T00:30:55.658Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 30,
       "candidateScore": 80,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-07T16:42:25.366Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 48,
+      "candidateScore": 70,
       "reason": "Daily trade cap reached"
     }
   ]
