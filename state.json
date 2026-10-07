@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
-  "currentSymbol": "RARINU",
-  "entryPriceUsd": 0.00104,
-  "entryNotionalGbp": 1.144063838491934e-53,
-  "peakNotionalGbp": 1.144063838491934e-53,
-  "realisedNotionalGbp": 1.161486130448664e-53,
+  "currentToken": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+  "currentSymbol": "SI276",
+  "entryPriceUsd": 0.0002672,
+  "entryNotionalGbp": 1.1099993377008364e-53,
+  "peakNotionalGbp": 1.1099993377008364e-53,
+  "realisedNotionalGbp": 1.1269028809145548e-53,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-07",
-  "tradeCount": 93,
+  "tradeCount": 94,
   "journal": [
-    {
-      "at": "2026-09-29T16:02:45.430Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 63,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-29T16:12:48.041Z",
       "action": "HOLD",
@@ -1658,6 +1650,16 @@
       "currentScore": 60,
       "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-07T02:07:48.843Z",
+      "action": "ROTATE",
+      "from": "RARINU",
+      "to": "SI276",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 85,
+      "reason": "Candidate advantage 29 points"
     }
   ]
 }
