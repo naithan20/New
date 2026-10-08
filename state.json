@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-  "currentSymbol": "SI276",
-  "entryPriceUsd": 0.0002672,
-  "entryNotionalGbp": 1.1099993377008364e-53,
-  "peakNotionalGbp": 2.1310990278462917e-53,
-  "realisedNotionalGbp": 1.1269028809145548e-53,
+  "currentToken": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+  "currentSymbol": "MISTAKE",
+  "entryPriceUsd": 0.006327,
+  "entryNotionalGbp": 1.9422970616245533e-53,
+  "peakNotionalGbp": 1.9422970616245533e-53,
+  "realisedNotionalGbp": 1.9718751894665516e-53,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-07",
-  "tradeCount": 94,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-08",
+  "tradeCount": 95,
   "journal": [
-    {
-      "at": "2026-09-30T07:17:47.020Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 40,
-      "candidateScore": 60,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-30T07:27:49.630Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 46,
       "candidateScore": 61,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-08T01:50:40.227Z",
+      "action": "ROTATE",
+      "from": "SI276",
+      "to": "MISTAKE",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 74,
+      "reason": "Candidate advantage 17 points"
     }
   ]
 }
