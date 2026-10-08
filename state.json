@@ -14,16 +14,6 @@
   "tradeCount": 97,
   "journal": [
     {
-      "at": "2026-10-01T00:02:07.633Z",
-      "action": "ROTATE",
-      "from": "PARASITE",
-      "to": "GENNYWEALTH",
-      "notionalGbp": 0,
-      "currentScore": 42,
-      "candidateScore": 47,
-      "reason": "Risk exit triggered at -64.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-01T00:12:09.506Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 37,
       "candidateScore": 73,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-08T17:04:55.027Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 41,
+      "candidateScore": 95,
       "reason": "Daily trade cap reached"
     }
   ]
