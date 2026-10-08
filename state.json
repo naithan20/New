@@ -14,14 +14,6 @@
   "tradeCount": 97,
   "journal": [
     {
-      "at": "2026-09-30T23:52:05.581Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 38,
-      "candidateScore": 48,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-01T00:02:07.633Z",
       "action": "ROTATE",
       "from": "PARASITE",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 52,
       "candidateScore": 75,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-08T16:54:52.806Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 37,
+      "candidateScore": 73,
       "reason": "Daily trade cap reached"
     }
   ]
