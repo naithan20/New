@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "5xTqC8MhGcgnWTM8cdxgJLfV2KAbSqMMT4KeA4hrpump",
-  "currentSymbol": "HUMAN",
-  "entryPriceUsd": 0.000206,
-  "entryNotionalGbp": 1.7048646457566685e-53,
-  "peakNotionalGbp": 1.7048646457566685e-53,
-  "realisedNotionalGbp": 1.7308270515296127e-53,
+  "currentToken": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+  "currentSymbol": "SI276",
+  "entryPriceUsd": 0.0004955,
+  "entryNotionalGbp": 1.2534241222090196e-53,
+  "peakNotionalGbp": 1.2534241222090196e-53,
+  "realisedNotionalGbp": 1.2725117991969743e-53,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-08",
-  "tradeCount": 96,
+  "tradeCount": 97,
   "journal": [
-    {
-      "at": "2026-09-30T13:36:50.865Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 74,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-09-30T13:46:53.577Z",
       "action": "HOLD",
@@ -1658,6 +1650,16 @@
       "currentScore": 44,
       "candidateScore": 93,
       "reason": "Candidate advantage 49 points"
+    },
+    {
+      "at": "2026-10-08T02:10:44.868Z",
+      "action": "ROTATE",
+      "from": "HUMAN",
+      "to": "SI276",
+      "notionalGbp": 0,
+      "currentScore": 84,
+      "candidateScore": 57,
+      "reason": "Risk exit triggered at -24.2% P/L; best eligible destination selected"
     }
   ]
 }
