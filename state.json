@@ -14,16 +14,6 @@
   "tradeCount": 100,
   "journal": [
     {
-      "at": "2026-10-01T13:53:25.131Z",
-      "action": "ROTATE",
-      "from": "DEGEN",
-      "to": "PUMPGU",
-      "notionalGbp": 0,
-      "currentScore": 37,
-      "candidateScore": 69,
-      "reason": "Candidate advantage 32 points"
-    },
-    {
       "at": "2026-10-01T18:49:41.725Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1662,6 +1652,14 @@
       "currentScore": 57,
       "candidateScore": 62,
       "reason": "Risk exit triggered at -34.3% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-09T09:05:40.630Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 51,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
