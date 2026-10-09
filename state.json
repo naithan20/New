@@ -14,14 +14,6 @@
   "tradeCount": 100,
   "journal": [
     {
-      "at": "2026-10-01T23:57:09.315Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 35,
-      "candidateScore": 81,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-02T02:12:25.591Z",
       "action": "ROTATE",
       "from": "PUMPGU",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 42,
       "candidateScore": 50,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-09T21:46:47.621Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 35,
+      "candidateScore": 84,
       "reason": "Daily trade cap reached"
     }
   ]
