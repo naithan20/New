@@ -14,16 +14,6 @@
   "tradeCount": 103,
   "journal": [
     {
-      "at": "2026-10-03T01:06:21.736Z",
-      "action": "ROTATE",
-      "from": "PARASITE",
-      "to": "www",
-      "notionalGbp": 0,
-      "currentScore": 68,
-      "candidateScore": 71,
-      "reason": "Risk exit triggered at -41.9% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-03T01:16:24.637Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 52,
       "candidateScore": 73,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-10T20:21:06.959Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 52,
+      "candidateScore": 71,
       "reason": "Daily trade cap reached"
     }
   ]
