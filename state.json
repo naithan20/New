@@ -6,21 +6,13 @@
   "currentSymbol": "qOMPUTE",
   "entryPriceUsd": 0.004821,
   "entryNotionalGbp": 1.3065783970629909e-53,
-  "peakNotionalGbp": 1.3065783970629909e-53,
+  "peakNotionalGbp": 1.4529281864042096e-53,
   "realisedNotionalGbp": 1.3264755300131886e-53,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-10",
   "tradeCount": 101,
   "journal": [
-    {
-      "at": "2026-10-02T03:02:38.427Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 72,
-      "candidateScore": 55,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-02T09:39:23.947Z",
       "action": "HOLD",
@@ -1658,6 +1650,14 @@
       "currentScore": 33,
       "candidateScore": 79,
       "reason": "Risk exit triggered at -34.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-10T01:52:19.066Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 81,
+      "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
