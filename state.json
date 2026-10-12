@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump",
-  "currentSymbol": "SUPMKT",
-  "entryPriceUsd": 0.001331,
-  "entryNotionalGbp": 2.5187952171688668e-57,
-  "peakNotionalGbp": 1.4635884454984236e-56,
-  "realisedNotionalGbp": 2.5571525047399663e-57,
+  "currentToken": "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump",
+  "currentSymbol": "SEAN",
+  "entryPriceUsd": 0.001754,
+  "entryNotionalGbp": 5.585299615698913e-60,
+  "peakNotionalGbp": 5.585299615698913e-60,
+  "realisedNotionalGbp": 5.670354939795851e-60,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-11",
-  "tradeCount": 106,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-12",
+  "tradeCount": 107,
   "journal": [
-    {
-      "at": "2026-10-04T01:11:59.781Z",
-      "action": "ROTATE",
-      "from": "PAYR",
-      "to": "PURRSWORD",
-      "notionalGbp": 0,
-      "currentScore": 47,
-      "candidateScore": 75,
-      "reason": "Candidate advantage 28 points"
-    },
     {
       "at": "2026-10-04T01:22:02.427Z",
       "action": "ROTATE",
@@ -1658,6 +1648,16 @@
       "currentScore": 0,
       "candidateScore": 76,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-12T01:14:24.486Z",
+      "action": "ROTATE",
+      "from": "SUPMKT",
+      "to": "SEAN",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 92,
+      "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
     }
   ]
 }
