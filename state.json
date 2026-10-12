@@ -6,23 +6,13 @@
   "currentSymbol": "SEAN",
   "entryPriceUsd": 0.001754,
   "entryNotionalGbp": 5.585299615698913e-60,
-  "peakNotionalGbp": 5.585299615698913e-60,
+  "peakNotionalGbp": 7.804771583852929e-60,
   "realisedNotionalGbp": 5.670354939795851e-60,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-12",
   "tradeCount": 107,
   "journal": [
-    {
-      "at": "2026-10-04T01:22:02.427Z",
-      "action": "ROTATE",
-      "from": "PURRSWORD",
-      "to": "BASILISK",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 66,
-      "reason": "Candidate advantage 13 points"
-    },
     {
       "at": "2026-10-04T06:46:30.691Z",
       "action": "HOLD",
@@ -1658,6 +1648,14 @@
       "currentScore": 0,
       "candidateScore": 92,
       "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-12T01:24:27.141Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 90,
+      "candidateScore": 70,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
