@@ -6,21 +6,13 @@
   "currentSymbol": "GOIF",
   "entryPriceUsd": 0.01021,
   "entryNotionalGbp": 3.507264937047662e-60,
-  "peakNotionalGbp": 3.7820751182071263e-60,
+  "peakNotionalGbp": 3.7958156272650994e-60,
   "realisedNotionalGbp": 3.5606750629925505e-60,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-12",
   "tradeCount": 109,
   "journal": [
-    {
-      "at": "2026-10-04T18:16:10.274Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 52,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-04T18:26:12.294Z",
       "action": "HOLD",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 52,
       "candidateScore": 80,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-12T19:27:48.983Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 52,
+      "candidateScore": 86,
       "reason": "Daily trade cap reached"
     }
   ]
