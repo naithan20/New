@@ -6,21 +6,13 @@
   "currentSymbol": "HUMPH",
   "entryPriceUsd": 0.003797,
   "entryNotionalGbp": 3.836106149072159e-60,
-  "peakNotionalGbp": 5.222236682790095e-60,
+  "peakNotionalGbp": 5.387925755333638e-60,
   "realisedNotionalGbp": 3.894524009210314e-60,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-13",
   "tradeCount": 110,
   "journal": [
-    {
-      "at": "2026-10-05T01:09:04.798Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 94,
-      "candidateScore": 77,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-05T01:19:06.774Z",
       "action": "HOLD",
@@ -1657,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 52,
       "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-13T09:59:22.324Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 55,
+      "candidateScore": 60,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
