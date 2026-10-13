@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HCkhfdDNF2dqMxxtL51AzgWU26MBNkUkEzGAHtqkpump",
-  "currentSymbol": "BatCat",
-  "entryPriceUsd": 0.0002612,
-  "entryNotionalGbp": 3.164142294870912e-60,
-  "peakNotionalGbp": 3.406419652824274e-60,
-  "realisedNotionalGbp": 3.212327202914631e-60,
+  "currentToken": "1zXbHKTS2VzhJuiFadePVVrMK9f94GCRtLmV2PUpump",
+  "currentSymbol": "DOPEUS",
+  "entryPriceUsd": 0.0000946,
+  "entryNotionalGbp": 3.3320258158677655e-60,
+  "peakNotionalGbp": 3.3320258158677655e-60,
+  "realisedNotionalGbp": 3.382767325754077e-60,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-13",
-  "tradeCount": 111,
+  "tradeCount": 112,
   "journal": [
-    {
-      "at": "2026-10-05T07:05:01.563Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 65,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-05T07:15:04.098Z",
       "action": "HOLD",
@@ -1658,6 +1650,16 @@
       "currentScore": 50,
       "candidateScore": 62,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-13T18:02:54.837Z",
+      "action": "ROTATE",
+      "from": "BatCat",
+      "to": "DOPEUS",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 68,
+      "reason": "Candidate advantage 12 points"
     }
   ]
 }
