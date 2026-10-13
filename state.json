@@ -6,23 +6,13 @@
   "currentSymbol": "BatCat",
   "entryPriceUsd": 0.0002612,
   "entryNotionalGbp": 3.164142294870912e-60,
-  "peakNotionalGbp": 3.164142294870912e-60,
+  "peakNotionalGbp": 3.406419652824274e-60,
   "realisedNotionalGbp": 3.212327202914631e-60,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-13",
   "tradeCount": 111,
   "journal": [
-    {
-      "at": "2026-10-05T01:39:10.912Z",
-      "action": "ROTATE",
-      "from": "HUMAN",
-      "to": "AGENTCAT",
-      "notionalGbp": 0,
-      "currentScore": 63,
-      "candidateScore": 57,
-      "reason": "Risk exit triggered at -14.7% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-10-05T06:54:58.938Z",
       "action": "HOLD",
@@ -1660,6 +1650,14 @@
       "currentScore": 59,
       "candidateScore": 54,
       "reason": "Risk exit triggered at -15.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-13T17:42:50.657Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 62,
+      "candidateScore": 63,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
