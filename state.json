@@ -14,16 +14,6 @@
   "tradeCount": 115,
   "journal": [
     {
-      "at": "2026-10-06T10:07:11.497Z",
-      "action": "ROTATE",
-      "from": "MINTRO",
-      "to": "SK",
-      "notionalGbp": 0,
-      "currentScore": 49,
-      "candidateScore": 52,
-      "reason": "Risk exit triggered at -64.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-06T10:17:13.546Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1661,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 51,
       "candidateScore": 58,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-14T13:58:43.857Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 57,
       "reason": "Daily trade cap reached"
     }
   ]
