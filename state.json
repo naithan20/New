@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GZBTotcV7TPvquqQgjKKStyd4yk7nQ7gGttqLjwtpump",
-  "currentSymbol": "Hydra",
-  "entryPriceUsd": 0.0002699,
-  "entryNotionalGbp": 7.249432080551554e-62,
-  "peakNotionalGbp": 7.249432080551554e-62,
-  "realisedNotionalGbp": 7.359829523402593e-62,
+  "currentToken": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+  "currentSymbol": "SI276",
+  "entryPriceUsd": 0.001143,
+  "entryNotionalGbp": 4.6803668438956e-62,
+  "peakNotionalGbp": 4.6803668438956e-62,
+  "realisedNotionalGbp": 4.751641465883858e-62,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-14",
-  "tradeCount": 114,
+  "tradeCount": 115,
   "journal": [
-    {
-      "at": "2026-10-06T02:54:22.661Z",
-      "action": "ROTATE",
-      "from": "AGENTCAT",
-      "to": "SK",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 73,
-      "reason": "Risk exit triggered at -99.9% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-10-06T03:04:26.205Z",
       "action": "ROTATE",
@@ -1664,6 +1654,16 @@
       "currentScore": 43,
       "candidateScore": 54,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-14T07:50:08.956Z",
+      "action": "ROTATE",
+      "from": "Hydra",
+      "to": "SI276",
+      "notionalGbp": 0,
+      "currentScore": 30,
+      "candidateScore": 51,
+      "reason": "Risk exit triggered at -33.5% P/L; best eligible destination selected"
     }
   ]
 }
