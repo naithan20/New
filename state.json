@@ -14,14 +14,6 @@
   "tradeCount": 116,
   "journal": [
     {
-      "at": "2026-10-07T01:57:46.141Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 55,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-07T02:07:48.843Z",
       "action": "ROTATE",
       "from": "RARINU",
@@ -1658,6 +1650,14 @@
       "currentScore": 51,
       "candidateScore": 68,
       "reason": "Candidate advantage 17 points"
+    },
+    {
+      "at": "2026-10-15T02:14:43.945Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 67,
+      "candidateScore": 55,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
