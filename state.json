@@ -6,21 +6,13 @@
   "currentSymbol": "STREAM",
   "entryPriceUsd": 0.001903,
   "entryNotionalGbp": 5.2203724604985585e-62,
-  "peakNotionalGbp": 1.2306143382972431e-61,
+  "peakNotionalGbp": 1.2391183606974245e-61,
   "realisedNotionalGbp": 5.299870518272648e-62,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-15",
   "tradeCount": 116,
   "journal": [
-    {
-      "at": "2026-10-07T08:33:59.717Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 41,
-      "candidateScore": 62,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-07T08:44:02.263Z",
       "action": "HOLD",
@@ -1654,6 +1646,14 @@
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 61,
+      "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-15T07:40:15.722Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 64,
       "candidateScore": 53,
       "reason": "No candidate cleared the rotation threshold"
     }
