@@ -6,21 +6,13 @@
   "currentSymbol": "FROPE",
   "entryPriceUsd": 0.0002768,
   "entryNotionalGbp": 1.3148073147770277e-61,
-  "peakNotionalGbp": 1.3148073147770277e-61,
+  "peakNotionalGbp": 1.732809640284175e-61,
   "realisedNotionalGbp": 1.3348297611949521e-61,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-15",
   "tradeCount": 117,
   "journal": [
-    {
-      "at": "2026-10-07T08:54:04.398Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 31,
-      "candidateScore": 62,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-07T09:04:06.748Z",
       "action": "HOLD",
@@ -1658,6 +1650,14 @@
       "currentScore": 65,
       "candidateScore": 82,
       "reason": "Candidate advantage 17 points"
+    },
+    {
+      "at": "2026-10-15T08:00:21.145Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 79,
+      "candidateScore": 68,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
