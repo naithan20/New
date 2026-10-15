@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-  "currentSymbol": "SI276",
-  "entryPriceUsd": 0.001143,
-  "entryNotionalGbp": 4.6803668438956e-62,
-  "peakNotionalGbp": 5.810534165781151e-62,
-  "realisedNotionalGbp": 4.751641465883858e-62,
+  "currentToken": "9a98oQHtxfqmr4EyzsP6wfw69uYAK3JbUeVEuNW1pump",
+  "currentSymbol": "STREAM",
+  "entryPriceUsd": 0.001903,
+  "entryNotionalGbp": 5.2203724604985585e-62,
+  "peakNotionalGbp": 5.2203724604985585e-62,
+  "realisedNotionalGbp": 5.299870518272648e-62,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 0,
+  "tradesToday": 1,
   "tradeDate": "2026-10-15",
-  "tradeCount": 115,
+  "tradeCount": 116,
   "journal": [
-    {
-      "at": "2026-10-07T01:47:43.340Z",
-      "action": "ROTATE",
-      "from": "GOMO",
-      "to": "RARINU",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 69,
-      "reason": "Candidate advantage 18 points"
-    },
     {
       "at": "2026-10-07T01:57:46.141Z",
       "action": "HOLD",
@@ -1658,6 +1648,16 @@
       "currentScore": 57,
       "candidateScore": 63,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-15T02:04:40.474Z",
+      "action": "ROTATE",
+      "from": "SI276",
+      "to": "STREAM",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 68,
+      "reason": "Candidate advantage 17 points"
     }
   ]
 }
