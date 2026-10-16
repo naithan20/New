@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
-  "currentSymbol": "AKITA",
-  "entryPriceUsd": 0.0000514,
-  "entryNotionalGbp": 3.6766535892333676e-64,
-  "peakNotionalGbp": 3.6766535892333676e-64,
-  "realisedNotionalGbp": 3.7326432378003735e-64,
+  "currentToken": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+  "currentSymbol": "SYCAMORE",
+  "entryPriceUsd": 0.000304,
+  "entryNotionalGbp": 3.764972405686896e-64,
+  "peakNotionalGbp": 3.764972405686896e-64,
+  "realisedNotionalGbp": 3.82230701084964e-64,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-16",
-  "tradeCount": 120,
+  "tradeCount": 121,
   "journal": [
-    {
-      "at": "2026-10-08T09:01:17.740Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 30,
-      "candidateScore": 56,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-08T09:11:20.017Z",
       "action": "HOLD",
@@ -1658,6 +1650,16 @@
       "currentScore": 57,
       "candidateScore": 66,
       "reason": "Risk exit triggered at -34.7% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-16T01:43:32.834Z",
+      "action": "ROTATE",
+      "from": "AKITA",
+      "to": "SYCAMORE",
+      "notionalGbp": 0,
+      "currentScore": 61,
+      "candidateScore": 74,
+      "reason": "Candidate advantage 13 points"
     }
   ]
 }
