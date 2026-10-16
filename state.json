@@ -14,16 +14,6 @@
   "tradeCount": 121,
   "journal": [
     {
-      "at": "2026-10-09T08:55:38.542Z",
-      "action": "ROTATE",
-      "from": "OWLNIGHT",
-      "to": "SI276",
-      "notionalGbp": 0,
-      "currentScore": 57,
-      "candidateScore": 62,
-      "reason": "Risk exit triggered at -34.3% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-09T09:05:40.630Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1655,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 79,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-16T21:19:03.989Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 77,
       "reason": "Daily trade cap reached"
     }
   ]
