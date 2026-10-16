@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
-  "currentSymbol": "SYCAMORE",
-  "entryPriceUsd": 0.0007493,
-  "entryNotionalGbp": 1.581208734995234e-63,
-  "peakNotionalGbp": 1.581208734995234e-63,
-  "realisedNotionalGbp": 1.605288055832725e-63,
+  "currentToken": "Ch7gZZqhZRnHnLJJsdpypNghGn3fDjuxQtr5qeWPpump",
+  "currentSymbol": "grokazon",
+  "entryPriceUsd": 0.0002149,
+  "entryNotionalGbp": 5.804422226507378e-64,
+  "peakNotionalGbp": 5.804422226507378e-64,
+  "realisedNotionalGbp": 5.8928144431546986e-64,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-15",
-  "tradeCount": 118,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-16",
+  "tradeCount": 119,
   "journal": [
-    {
-      "at": "2026-10-08T02:30:49.301Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 37,
-      "candidateScore": 54,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-08T02:40:51.496Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 43,
       "candidateScore": 76,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-16T01:13:26.015Z",
+      "action": "ROTATE",
+      "from": "SYCAMORE",
+      "to": "grokazon",
+      "notionalGbp": 0,
+      "currentScore": 80,
+      "candidateScore": 91,
+      "reason": "Risk exit triggered at -62.2% P/L; best eligible destination selected"
     }
   ]
 }
