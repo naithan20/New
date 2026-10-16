@@ -14,16 +14,6 @@
   "tradeCount": 121,
   "journal": [
     {
-      "at": "2026-10-09T02:03:07.198Z",
-      "action": "ROTATE",
-      "from": "SI276",
-      "to": "OP_INU",
-      "notionalGbp": 0,
-      "currentScore": 48,
-      "candidateScore": 79,
-      "reason": "Candidate advantage 31 points"
-    },
-    {
       "at": "2026-10-09T02:13:09.103Z",
       "action": "ROTATE",
       "from": "OP_INU",
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 64,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-16T17:41:17.768Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 84,
       "reason": "Daily trade cap reached"
     }
   ]
