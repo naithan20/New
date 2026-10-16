@@ -14,14 +14,6 @@
   "tradeCount": 121,
   "journal": [
     {
-      "at": "2026-10-09T02:53:16.553Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 74,
-      "candidateScore": 80,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-09T08:55:38.542Z",
       "action": "ROTATE",
       "from": "OWLNIGHT",
@@ -1655,6 +1647,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 57,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-16T21:09:00.868Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 79,
       "reason": "Daily trade cap reached"
     }
   ]
