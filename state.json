@@ -14,16 +14,6 @@
   "tradeCount": 121,
   "journal": [
     {
-      "at": "2026-10-09T02:13:09.103Z",
-      "action": "ROTATE",
-      "from": "OP_INU",
-      "to": "OWLNIGHT",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 75,
-      "reason": "Risk exit triggered at -16.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-09T02:23:11.066Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1657,6 +1647,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 84,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-16T17:51:20.490Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 64,
       "reason": "Daily trade cap reached"
     }
   ]
