@@ -14,16 +14,6 @@
   "tradeCount": 124,
   "journal": [
     {
-      "at": "2026-10-10T01:42:16.008Z",
-      "action": "ROTATE",
-      "from": "SI276",
-      "to": "qOMPUTE",
-      "notionalGbp": 0,
-      "currentScore": 33,
-      "candidateScore": 79,
-      "reason": "Risk exit triggered at -34.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-10T01:52:19.066Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 29,
       "candidateScore": 57,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-17T09:33:49.456Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 40,
+      "candidateScore": 55,
       "reason": "Daily trade cap reached"
     }
   ]
