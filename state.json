@@ -6,21 +6,13 @@
   "currentSymbol": "XSTOK",
   "entryPriceUsd": 0.0002779,
   "entryNotionalGbp": 2.161968740675608e-68,
-  "peakNotionalGbp": 2.682428289978228e-68,
+  "peakNotionalGbp": 2.7843418938028076e-68,
   "realisedNotionalGbp": 2.1948921225133076e-68,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-17",
   "tradeCount": 124,
   "journal": [
-    {
-      "at": "2026-10-09T22:06:52.497Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 64,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-09T22:16:55.247Z",
       "action": "HOLD",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 44,
       "candidateScore": 63,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-17T05:05:04.934Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 36,
+      "candidateScore": 60,
       "reason": "Daily trade cap reached"
     }
   ]
