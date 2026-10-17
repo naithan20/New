@@ -14,16 +14,6 @@
   "tradeCount": 124,
   "journal": [
     {
-      "at": "2026-10-10T02:02:21.902Z",
-      "action": "ROTATE",
-      "from": "qOMPUTE",
-      "to": "SQI",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 84,
-      "reason": "Candidate advantage 22 points"
-    },
-    {
       "at": "2026-10-10T02:12:24.506Z",
       "action": "ROTATE",
       "from": "SQI",
@@ -1657,6 +1647,14 @@
       "notionalGbp": 0,
       "currentScore": 29,
       "candidateScore": 50,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-17T09:53:53.749Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 27,
+      "candidateScore": 61,
       "reason": "Daily trade cap reached"
     }
   ]
