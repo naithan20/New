@@ -14,16 +14,6 @@
   "tradeCount": 124,
   "journal": [
     {
-      "at": "2026-10-10T02:12:24.506Z",
-      "action": "ROTATE",
-      "from": "SQI",
-      "to": "qOMPUTE",
-      "notionalGbp": 0,
-      "currentScore": 63,
-      "candidateScore": 79,
-      "reason": "Risk exit triggered at -60.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-10T02:22:27.166Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1655,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 27,
       "candidateScore": 61,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-17T10:03:55.945Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 25,
+      "candidateScore": 53,
       "reason": "Daily trade cap reached"
     }
   ]
