@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
-  "currentSymbol": "XSTOK",
-  "entryPriceUsd": 0.0002779,
-  "entryNotionalGbp": 2.161968740675608e-68,
-  "peakNotionalGbp": 2.7843418938028076e-68,
-  "realisedNotionalGbp": 2.1948921225133076e-68,
+  "currentToken": "CY27QvCQBCmLBuz3V7c8snEeD4z67iyoSTkwo35Ypump",
+  "currentSymbol": "Eternia",
+  "entryPriceUsd": 0.0003506,
+  "entryNotionalGbp": 1.3865721752616764e-68,
+  "peakNotionalGbp": 1.3865721752616764e-68,
+  "realisedNotionalGbp": 1.407687487575306e-68,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-17",
-  "tradeCount": 124,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-18",
+  "tradeCount": 125,
   "journal": [
-    {
-      "at": "2026-10-11T00:08:49.771Z",
-      "action": "ROTATE",
-      "from": "qOMPUTE",
-      "to": "WWWCAT",
-      "notionalGbp": 0,
-      "currentScore": 40,
-      "candidateScore": 79,
-      "reason": "Risk exit triggered at -97.3% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-10-11T00:18:51.742Z",
       "action": "ROTATE",
@@ -1654,6 +1644,16 @@
       "currentScore": 18,
       "candidateScore": 64,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-18T00:55:13.392Z",
+      "action": "ROTATE",
+      "from": "XSTOK",
+      "to": "Eternia",
+      "notionalGbp": 0,
+      "currentScore": 17,
+      "candidateScore": 77,
+      "reason": "Risk exit triggered at -33.9% P/L; best eligible destination selected"
     }
   ]
 }
