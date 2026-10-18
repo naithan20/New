@@ -14,16 +14,6 @@
   "tradeCount": 125,
   "journal": [
     {
-      "at": "2026-10-11T00:18:51.742Z",
-      "action": "ROTATE",
-      "from": "WWWCAT",
-      "to": "LAUNCHER",
-      "notionalGbp": 0,
-      "currentScore": 61,
-      "candidateScore": 70,
-      "reason": "Risk exit triggered at -18.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-11T05:36:59.207Z",
       "action": "ROTATE",
       "from": "LAUNCHER",
@@ -1654,6 +1644,14 @@
       "currentScore": 17,
       "candidateScore": 77,
       "reason": "Risk exit triggered at -33.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-18T01:05:15.318Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 64,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
