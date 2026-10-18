@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
-  "currentSymbol": "MINTER",
-  "entryPriceUsd": 0.004107,
-  "entryNotionalGbp": 1.1219678137721882e-68,
-  "peakNotionalGbp": 1.1219678137721882e-68,
-  "realisedNotionalGbp": 1.1390536180428308e-68,
+  "currentToken": "7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump",
+  "currentSymbol": "iMolest ",
+  "entryPriceUsd": 0.00009874,
+  "entryNotionalGbp": 1.1399809633128167e-68,
+  "peakNotionalGbp": 1.1399809633128167e-68,
+  "realisedNotionalGbp": 1.1573410795053977e-68,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-18",
-  "tradeCount": 126,
+  "tradeCount": 127,
   "journal": [
-    {
-      "at": "2026-10-11T05:57:04.622Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 56,
-      "candidateScore": 49,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-11T06:07:06.995Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 70,
       "candidateScore": 69,
       "reason": "Risk exit triggered at -16.6% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-18T01:35:20.916Z",
+      "action": "ROTATE",
+      "from": "MINTER",
+      "to": "iMolest ",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 74,
+      "reason": "Candidate advantage 17 points"
     }
   ]
 }
