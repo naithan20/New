@@ -14,16 +14,6 @@
   "tradeCount": 127,
   "journal": [
     {
-      "at": "2026-10-12T09:24:47.908Z",
-      "action": "ROTATE",
-      "from": "SEAN",
-      "to": "CLAUDINU",
-      "notionalGbp": 0,
-      "currentScore": 49,
-      "candidateScore": 76,
-      "reason": "Candidate advantage 27 points"
-    },
-    {
       "at": "2026-10-12T09:34:50.178Z",
       "action": "ROTATE",
       "from": "CLAUDINU",
@@ -1650,6 +1640,14 @@
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 0,
+      "candidateScore": 63,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-18T21:14:14.413Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 27,
       "candidateScore": 63,
       "reason": "Daily trade cap reached"
     }
