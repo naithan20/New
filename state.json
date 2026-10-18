@@ -14,16 +14,6 @@
   "tradeCount": 127,
   "journal": [
     {
-      "at": "2026-10-12T09:34:50.178Z",
-      "action": "ROTATE",
-      "from": "CLAUDINU",
-      "to": "GOIF",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 52,
-      "reason": "Risk exit triggered at -33.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-12T09:44:52.541Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 27,
       "candidateScore": 63,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-18T21:24:17.890Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 29,
+      "candidateScore": 65,
       "reason": "Daily trade cap reached"
     }
   ]
