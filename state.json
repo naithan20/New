@@ -14,16 +14,6 @@
   "tradeCount": 130,
   "journal": [
     {
-      "at": "2026-10-13T17:32:48.676Z",
-      "action": "ROTATE",
-      "from": "HUMPH",
-      "to": "BatCat",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 54,
-      "reason": "Risk exit triggered at -15.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-13T17:42:50.657Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 82,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-19T15:51:33.774Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 81,
       "reason": "Daily trade cap reached"
     }
   ]
