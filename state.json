@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump",
-  "currentSymbol": "iMolest ",
-  "entryPriceUsd": 0.00009874,
-  "entryNotionalGbp": 1.1399809633128167e-68,
-  "peakNotionalGbp": 1.1399809633128167e-68,
-  "realisedNotionalGbp": 1.1573410795053977e-68,
+  "currentToken": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
+  "currentSymbol": "Doomsday",
+  "entryPriceUsd": 0.0005557,
+  "entryNotionalGbp": 1.0266192572557297e-69,
+  "peakNotionalGbp": 1.0266192572557297e-69,
+  "realisedNotionalGbp": 1.0422530530515023e-69,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-18",
-  "tradeCount": 127,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-19",
+  "tradeCount": 128,
   "journal": [
-    {
-      "at": "2026-10-12T19:37:51.581Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 76,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-12T19:47:54.166Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 75,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-19T01:08:14.078Z",
+      "action": "ROTATE",
+      "from": "iMolest ",
+      "to": "Doomsday",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 69,
+      "reason": "Risk exit triggered at -90.7% P/L; best eligible destination selected"
     }
   ]
 }
