@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
-  "currentSymbol": "Doomsday",
-  "entryPriceUsd": 0.0005557,
-  "entryNotionalGbp": 1.0266192572557297e-69,
-  "peakNotionalGbp": 1.0266192572557297e-69,
-  "realisedNotionalGbp": 1.0422530530515023e-69,
+  "currentToken": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
+  "currentSymbol": "startupSI",
+  "entryPriceUsd": 0.005247,
+  "entryNotionalGbp": 9.63250255265869e-70,
+  "peakNotionalGbp": 9.63250255265869e-70,
+  "realisedNotionalGbp": 9.779190408790549e-70,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-19",
-  "tradeCount": 128,
+  "tradeCount": 129,
   "journal": [
-    {
-      "at": "2026-10-12T19:47:54.166Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 83,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-13T01:16:42.614Z",
       "action": "ROTATE",
@@ -1650,6 +1642,16 @@
       "currentScore": 0,
       "candidateScore": 69,
       "reason": "Risk exit triggered at -90.7% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-19T01:18:16.542Z",
+      "action": "ROTATE",
+      "from": "Doomsday",
+      "to": "startupSI",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 71,
+      "reason": "Candidate advantage 13 points"
     }
   ]
 }
