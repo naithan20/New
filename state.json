@@ -6,23 +6,13 @@
   "currentSymbol": "startupSI",
   "entryPriceUsd": 0.005247,
   "entryNotionalGbp": 9.63250255265869e-70,
-  "peakNotionalGbp": 9.63250255265869e-70,
+  "peakNotionalGbp": 1.0330110894570316e-69,
   "realisedNotionalGbp": 9.779190408790549e-70,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-19",
   "tradeCount": 129,
   "journal": [
-    {
-      "at": "2026-10-13T01:16:42.614Z",
-      "action": "ROTATE",
-      "from": "GOIF",
-      "to": "HUMPH",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 88,
-      "reason": "Candidate advantage 37 points"
-    },
     {
       "at": "2026-10-13T01:26:45.260Z",
       "action": "HOLD",
@@ -1652,6 +1642,14 @@
       "currentScore": 58,
       "candidateScore": 71,
       "reason": "Candidate advantage 13 points"
+    },
+    {
+      "at": "2026-10-19T01:28:18.809Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 57,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
