@@ -14,14 +14,6 @@
   "tradeCount": 130,
   "journal": [
     {
-      "at": "2026-10-13T17:52:52.793Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 50,
-      "candidateScore": 62,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-13T18:02:54.837Z",
       "action": "ROTATE",
       "from": "BatCat",
@@ -1649,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 64,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-19T16:11:40.205Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 69,
       "reason": "Daily trade cap reached"
     }
   ]
