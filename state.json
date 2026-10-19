@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
-  "currentSymbol": "startupSI",
-  "entryPriceUsd": 0.005247,
-  "entryNotionalGbp": 9.63250255265869e-70,
-  "peakNotionalGbp": 1.2696471822791597e-69,
-  "realisedNotionalGbp": 9.779190408790549e-70,
+  "currentToken": "4EwkXtSRpVxMAHM8ecRDdfK3gjR2F2JgTmqqqwNQpump",
+  "currentSymbol": "LSCW",
+  "entryPriceUsd": 0.0002226,
+  "entryNotionalGbp": 1.2024544601024162e-69,
+  "peakNotionalGbp": 1.2024544601024162e-69,
+  "realisedNotionalGbp": 1.2207659493425546e-69,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-19",
-  "tradeCount": 129,
+  "tradeCount": 130,
   "journal": [
-    {
-      "at": "2026-10-13T09:19:13.035Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 46,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-13T09:29:15.623Z",
       "action": "HOLD",
@@ -1650,6 +1642,16 @@
       "currentScore": 69,
       "candidateScore": 69,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-19T08:00:42.332Z",
+      "action": "ROTATE",
+      "from": "startupSI",
+      "to": "LSCW",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 75,
+      "reason": "Candidate advantage 18 points"
     }
   ]
 }
