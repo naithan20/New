@@ -14,16 +14,6 @@
   "tradeCount": 133,
   "journal": [
     {
-      "at": "2026-10-14T07:50:08.956Z",
-      "action": "ROTATE",
-      "from": "Hydra",
-      "to": "SI276",
-      "notionalGbp": 0,
-      "currentScore": 30,
-      "candidateScore": 51,
-      "reason": "Risk exit triggered at -33.5% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-14T08:00:11.883Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 41,
       "candidateScore": 53,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-20T06:36:43.589Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 59,
       "reason": "Daily trade cap reached"
     }
   ]
