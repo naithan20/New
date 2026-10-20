@@ -6,21 +6,13 @@
   "currentSymbol": "MOMO",
   "entryPriceUsd": 0.0001483,
   "entryNotionalGbp": 5.2089029235178994e-74,
-  "peakNotionalGbp": 5.2089029235178994e-74,
+  "peakNotionalGbp": 5.472333617559601e-74,
   "realisedNotionalGbp": 5.2882263182922835e-74,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-20",
   "tradeCount": 133,
   "journal": [
-    {
-      "at": "2026-10-14T07:30:04.607Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 20,
-      "candidateScore": 57,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-14T07:40:07.007Z",
       "action": "HOLD",
@@ -1650,6 +1642,14 @@
       "currentScore": 45,
       "candidateScore": 70,
       "reason": "Candidate advantage 25 points"
+    },
+    {
+      "at": "2026-10-20T06:16:38.493Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 74,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
