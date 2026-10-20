@@ -14,16 +14,6 @@
   "tradeCount": 131,
   "journal": [
     {
-      "at": "2026-10-14T01:49:06.503Z",
-      "action": "ROTATE",
-      "from": "DOPEUS",
-      "to": "Pumpoween",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 48,
-      "reason": "Risk exit triggered at -97.7% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-14T01:59:09.411Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 70,
       "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-20T00:36:01.762Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 57,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
