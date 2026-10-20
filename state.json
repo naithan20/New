@@ -14,14 +14,6 @@
   "tradeCount": 131,
   "journal": [
     {
-      "at": "2026-10-13T23:28:33.027Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 54,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-14T01:49:06.503Z",
       "action": "ROTATE",
       "from": "DOPEUS",
@@ -1650,6 +1642,14 @@
       "currentScore": 0,
       "candidateScore": 72,
       "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-20T00:25:59.921Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 70,
+      "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
