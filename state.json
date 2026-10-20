@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "FFUd9sB1Aehe5aWNX7QkBrJvXPkLvh18RW9iMpqtpump",
-  "currentSymbol": "GDC",
-  "entryPriceUsd": 0.0004327,
-  "entryNotionalGbp": 1.1860431579807449e-71,
-  "peakNotionalGbp": 1.2257880754541e-71,
-  "realisedNotionalGbp": 1.2041047289144617e-71,
+  "currentToken": "5YY5qcnh5F3JaAybXqr5wLvb2GXZcE34GgE7DPyzpump",
+  "currentSymbol": "LEONIDA",
+  "entryPriceUsd": 0.000155,
+  "entryNotionalGbp": 5.739016834134808e-74,
+  "peakNotionalGbp": 5.739016834134808e-74,
+  "realisedNotionalGbp": 5.826413029578485e-74,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-20",
-  "tradeCount": 131,
+  "tradeCount": 132,
   "journal": [
-    {
-      "at": "2026-10-14T02:29:23.819Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 63,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-14T02:39:26.637Z",
       "action": "ROTATE",
@@ -1648,6 +1640,16 @@
       "currentScore": 52,
       "candidateScore": 59,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-20T05:56:33.441Z",
+      "action": "ROTATE",
+      "from": "GDC",
+      "to": "LEONIDA",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 56,
+      "reason": "Risk exit triggered at -99.5% P/L; best eligible destination selected"
     }
   ]
 }
