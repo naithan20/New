@@ -14,14 +14,6 @@
   "tradeCount": 133,
   "journal": [
     {
-      "at": "2026-10-14T07:40:07.007Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 54,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-14T07:50:08.956Z",
       "action": "ROTATE",
       "from": "Hydra",
@@ -1649,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 49,
       "candidateScore": 74,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-20T06:26:41.145Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 41,
+      "candidateScore": 53,
       "reason": "Daily trade cap reached"
     }
   ]
