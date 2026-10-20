@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "4EwkXtSRpVxMAHM8ecRDdfK3gjR2F2JgTmqqqwNQpump",
-  "currentSymbol": "LSCW",
-  "entryPriceUsd": 0.0002226,
-  "entryNotionalGbp": 1.2024544601024162e-69,
-  "peakNotionalGbp": 1.2024544601024162e-69,
-  "realisedNotionalGbp": 1.2207659493425546e-69,
+  "currentToken": "FFUd9sB1Aehe5aWNX7QkBrJvXPkLvh18RW9iMpqtpump",
+  "currentSymbol": "GDC",
+  "entryPriceUsd": 0.0004327,
+  "entryNotionalGbp": 1.1860431579807449e-71,
+  "peakNotionalGbp": 1.1860431579807449e-71,
+  "realisedNotionalGbp": 1.2041047289144617e-71,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-19",
-  "tradeCount": 130,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-20",
+  "tradeCount": 131,
   "journal": [
-    {
-      "at": "2026-10-13T23:18:30.682Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 53,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-13T23:28:33.027Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 53,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-20T00:15:57.846Z",
+      "action": "ROTATE",
+      "from": "LSCW",
+      "to": "GDC",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 72,
+      "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
     }
   ]
 }
