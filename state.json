@@ -6,21 +6,13 @@
   "currentSymbol": "KIMCHI",
   "entryPriceUsd": 0.005881,
   "entryNotionalGbp": 3.3887434356520033e-74,
-  "peakNotionalGbp": 3.3887434356520033e-74,
+  "peakNotionalGbp": 3.69125836571786e-74,
   "realisedNotionalGbp": 3.4403486656365515e-74,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-21",
   "tradeCount": 134,
   "journal": [
-    {
-      "at": "2026-10-15T01:34:30.759Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 63,
-      "candidateScore": 65,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-15T01:44:33.846Z",
       "action": "HOLD",
@@ -1650,6 +1642,14 @@
       "currentScore": 39,
       "candidateScore": 86,
       "reason": "Risk exit triggered at -32.9% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-21T00:18:14.925Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 82,
+      "candidateScore": 74,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
