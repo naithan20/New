@@ -14,14 +14,6 @@
   "tradeCount": 136,
   "journal": [
     {
-      "at": "2026-10-16T01:23:28.478Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 74,
-      "candidateScore": 57,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-16T01:33:30.658Z",
       "action": "ROTATE",
       "from": "grokazon",
@@ -1645,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 36,
       "candidateScore": 67,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-21T23:44:18.747Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 25,
+      "candidateScore": 59,
       "reason": "Daily trade cap reached"
     }
   ]
