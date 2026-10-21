@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump",
-  "currentSymbol": "MOMO",
-  "entryPriceUsd": 0.0001483,
-  "entryNotionalGbp": 5.2089029235178994e-74,
-  "peakNotionalGbp": 5.472333617559601e-74,
-  "realisedNotionalGbp": 5.2882263182922835e-74,
+  "currentToken": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
+  "currentSymbol": "KIMCHI",
+  "entryPriceUsd": 0.005881,
+  "entryNotionalGbp": 3.3887434356520033e-74,
+  "peakNotionalGbp": 3.3887434356520033e-74,
+  "realisedNotionalGbp": 3.4403486656365515e-74,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-20",
-  "tradeCount": 133,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-21",
+  "tradeCount": 134,
   "journal": [
-    {
-      "at": "2026-10-15T01:24:27.831Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 60,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-15T01:34:30.759Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 49,
       "candidateScore": 67,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-21T00:08:12.409Z",
+      "action": "ROTATE",
+      "from": "MOMO",
+      "to": "KIMCHI",
+      "notionalGbp": 0,
+      "currentScore": 39,
+      "candidateScore": 86,
+      "reason": "Risk exit triggered at -32.9% P/L; best eligible destination selected"
     }
   ]
 }
