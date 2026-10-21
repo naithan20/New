@@ -6,23 +6,13 @@
   "currentSymbol": "KIMCHIBOSS",
   "entryPriceUsd": 0.0005339,
   "entryNotionalGbp": 4.9644705265629194e-74,
-  "peakNotionalGbp": 4.9644705265629194e-74,
+  "peakNotionalGbp": 6.21325942283076e-74,
   "realisedNotionalGbp": 5.040071600571492e-74,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-21",
   "tradeCount": 135,
   "journal": [
-    {
-      "at": "2026-10-15T02:04:40.474Z",
-      "action": "ROTATE",
-      "from": "SI276",
-      "to": "STREAM",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 68,
-      "reason": "Candidate advantage 17 points"
-    },
     {
       "at": "2026-10-15T02:14:43.945Z",
       "action": "HOLD",
@@ -1652,6 +1642,14 @@
       "currentScore": 81,
       "candidateScore": 95,
       "reason": "Candidate advantage 14 points"
+    },
+    {
+      "at": "2026-10-21T04:33:47.890Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 43,
+      "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
