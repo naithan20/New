@@ -14,14 +14,6 @@
   "tradeCount": 136,
   "journal": [
     {
-      "at": "2026-10-15T23:00:44.075Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 76,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-16T01:13:26.015Z",
       "action": "ROTATE",
       "from": "SYCAMORE",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 76,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-21T23:24:13.894Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 22,
+      "candidateScore": 78,
       "reason": "Daily trade cap reached"
     }
   ]
