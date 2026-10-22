@@ -6,21 +6,13 @@
   "currentSymbol": "CHOO",
   "entryPriceUsd": 0.0006911,
   "entryNotionalGbp": 5.031672260639329e-77,
-  "peakNotionalGbp": 5.031672260639329e-77,
+  "peakNotionalGbp": 5.0418652011181234e-77,
   "realisedNotionalGbp": 5.108296711308963e-77,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-22",
   "tradeCount": 137,
   "journal": [
-    {
-      "at": "2026-10-16T01:53:34.815Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 48,
-      "candidateScore": 74,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-16T02:03:36.977Z",
       "action": "HOLD",
@@ -1644,6 +1636,14 @@
       "currentScore": 40,
       "candidateScore": 66,
       "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-22T04:32:25.679Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 52,
+      "candidateScore": 58,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
