@@ -6,21 +6,13 @@
   "currentSymbol": "GATO",
   "entryPriceUsd": 0.003693,
   "entryNotionalGbp": 9.009496728849146e-82,
-  "peakNotionalGbp": 9.009496728849146e-82,
+  "peakNotionalGbp": 9.7779753287916e-82,
   "realisedNotionalGbp": 9.14669718664888e-82,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-23",
   "tradeCount": 142,
   "journal": [
-    {
-      "at": "2026-10-17T14:09:44.601Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 47,
-      "candidateScore": 54,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-17T14:19:46.296Z",
       "action": "HOLD",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 61,
       "candidateScore": 64,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-23T15:47:53.018Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 52,
       "reason": "Daily trade cap reached"
     }
   ]
