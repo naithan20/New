@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
-  "currentSymbol": "NOOX",
-  "entryPriceUsd": 0.0002933,
-  "entryNotionalGbp": 5.3032866243818356e-77,
-  "peakNotionalGbp": 5.3032866243818356e-77,
-  "realisedNotionalGbp": 5.384047334397803e-77,
+  "currentToken": "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
+  "currentSymbol": "KIMCHINU",
+  "entryPriceUsd": 0.0006764,
+  "entryNotionalGbp": 4.510322275034834e-79,
+  "peakNotionalGbp": 4.510322275034834e-79,
+  "realisedNotionalGbp": 4.579007385822167e-79,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-22",
-  "tradeCount": 139,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-23",
+  "tradeCount": 140,
   "journal": [
-    {
-      "at": "2026-10-17T00:00:35.211Z",
-      "action": "ROTATE",
-      "from": "SYCAMORE",
-      "to": "SR",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 65,
-      "reason": "Risk exit triggered at -98.6% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-10-17T00:10:37.659Z",
       "action": "HOLD",
@@ -1648,6 +1638,16 @@
       "currentScore": 0,
       "candidateScore": 88,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-23T00:06:37.075Z",
+      "action": "ROTATE",
+      "from": "NOOX",
+      "to": "KIMCHINU",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 82,
+      "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
     }
   ]
 }
