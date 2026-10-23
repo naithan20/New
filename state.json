@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
-  "currentSymbol": "KIMCHINU",
-  "entryPriceUsd": 0.0006764,
-  "entryNotionalGbp": 4.510322275034834e-79,
-  "peakNotionalGbp": 4.510322275034834e-79,
-  "realisedNotionalGbp": 4.579007385822167e-79,
+  "currentToken": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+  "currentSymbol": "zonki",
+  "entryPriceUsd": 0.0001775,
+  "entryNotionalGbp": 1.4136043662050624e-81,
+  "peakNotionalGbp": 1.4136043662050624e-81,
+  "realisedNotionalGbp": 1.4351313362487943e-81,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-23",
-  "tradeCount": 140,
+  "tradeCount": 141,
   "journal": [
-    {
-      "at": "2026-10-17T00:10:37.659Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 55,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-17T00:20:40.294Z",
       "action": "ROTATE",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 82,
       "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-23T04:37:38.591Z",
+      "action": "ROTATE",
+      "from": "KIMCHINU",
+      "to": "zonki",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 58,
+      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
     }
   ]
 }
