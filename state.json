@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-  "currentSymbol": "GATO",
-  "entryPriceUsd": 0.003693,
-  "entryNotionalGbp": 9.009496728849146e-82,
-  "peakNotionalGbp": 9.7779753287916e-82,
-  "realisedNotionalGbp": 9.14669718664888e-82,
+  "currentToken": "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
+  "currentSymbol": "YMBCOIN",
+  "entryPriceUsd": 0.001149,
+  "entryNotionalGbp": 8.187366795451709e-82,
+  "peakNotionalGbp": 8.187366795451709e-82,
+  "realisedNotionalGbp": 8.3120475080728e-82,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-23",
-  "tradeCount": 142,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-24",
+  "tradeCount": 143,
   "journal": [
-    {
-      "at": "2026-10-17T19:58:08.683Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 22,
-      "candidateScore": 55,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-17T20:08:11.261Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 51,
       "candidateScore": 98,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-24T00:36:49.490Z",
+      "action": "ROTATE",
+      "from": "GATO",
+      "to": "YMBCOIN",
+      "notionalGbp": 0,
+      "currentScore": 38,
+      "candidateScore": 77,
+      "reason": "Candidate advantage 39 points"
     }
   ]
 }
