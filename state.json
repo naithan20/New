@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
-  "currentSymbol": "BITCHES",
-  "entryPriceUsd": 0.00499,
-  "entryNotionalGbp": 7.791491400047876e-82,
-  "peakNotionalGbp": 7.791491400047876e-82,
-  "realisedNotionalGbp": 7.910143553348097e-82,
+  "currentToken": "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
+  "currentSymbol": "YMBCOIN",
+  "entryPriceUsd": 0.001166,
+  "entryNotionalGbp": 3.488883348604644e-82,
+  "peakNotionalGbp": 3.488883348604644e-82,
+  "realisedNotionalGbp": 3.542013551882887e-82,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-10-24",
-  "tradeCount": 144,
+  "tradeCount": 145,
   "journal": [
-    {
-      "at": "2026-10-17T22:23:15.218Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 19,
-      "candidateScore": 85,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-17T22:33:17.456Z",
       "action": "HOLD",
@@ -1652,6 +1644,16 @@
       "currentScore": 59,
       "candidateScore": 86,
       "reason": "Candidate advantage 27 points"
+    },
+    {
+      "at": "2026-10-24T01:06:57.478Z",
+      "action": "ROTATE",
+      "from": "BITCHES",
+      "to": "YMBCOIN",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 60,
+      "reason": "Risk exit triggered at -53.8% P/L; best eligible destination selected"
     }
   ]
 }
