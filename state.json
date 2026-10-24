@@ -14,14 +14,6 @@
   "tradeCount": 145,
   "journal": [
     {
-      "at": "2026-10-18T01:15:17.232Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 93,
-      "candidateScore": 64,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-18T01:25:19.180Z",
       "action": "ROTATE",
       "from": "Eternia",
@@ -1651,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 30,
       "candidateScore": 63,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-24T06:23:19.928Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 65,
       "reason": "Daily trade cap reached"
     }
   ]
