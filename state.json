@@ -14,16 +14,6 @@
   "tradeCount": 145,
   "journal": [
     {
-      "at": "2026-10-18T00:55:13.392Z",
-      "action": "ROTATE",
-      "from": "XSTOK",
-      "to": "Eternia",
-      "notionalGbp": 0,
-      "currentScore": 17,
-      "candidateScore": 77,
-      "reason": "Risk exit triggered at -33.9% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-18T01:05:15.318Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1653,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 40,
       "candidateScore": 61,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-24T06:03:16.255Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 30,
+      "candidateScore": 56,
       "reason": "Daily trade cap reached"
     }
   ]
