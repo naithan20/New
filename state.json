@@ -14,16 +14,6 @@
   "tradeCount": 145,
   "journal": [
     {
-      "at": "2026-10-18T01:35:20.916Z",
-      "action": "ROTATE",
-      "from": "MINTER",
-      "to": "iMolest ",
-      "notionalGbp": 0,
-      "currentScore": 57,
-      "candidateScore": 74,
-      "reason": "Candidate advantage 17 points"
-    },
-    {
       "at": "2026-10-18T01:45:22.699Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 67,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-24T10:49:45.710Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 64,
       "reason": "Daily trade cap reached"
     }
   ]
