@@ -14,14 +14,6 @@
   "tradeCount": 145,
   "journal": [
     {
-      "at": "2026-10-17T23:03:23.473Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 18,
-      "candidateScore": 64,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-18T00:55:13.392Z",
       "action": "ROTATE",
       "from": "XSTOK",
@@ -1649,6 +1641,14 @@
     },
     {
       "at": "2026-10-24T05:43:12.289Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 40,
+      "candidateScore": 61,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-24T05:53:14.405Z",
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 40,
