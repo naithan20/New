@@ -14,16 +14,6 @@
   "tradeCount": 148,
   "journal": [
     {
-      "at": "2026-10-20T00:15:57.846Z",
-      "action": "ROTATE",
-      "from": "LSCW",
-      "to": "GDC",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 72,
-      "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-20T00:25:59.921Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 69,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-25T22:01:22.087Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 64,
       "reason": "Daily trade cap reached"
     }
   ]
