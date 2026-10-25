@@ -6,21 +6,13 @@
   "currentSymbol": "MAYA",
   "entryPriceUsd": 0.0008438,
   "entryNotionalGbp": 4.742601003125085e-85,
-  "peakNotionalGbp": 8.486996343587199e-85,
+  "peakNotionalGbp": 8.610647945944097e-85,
   "realisedNotionalGbp": 4.814823353426482e-85,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-25",
   "tradeCount": 148,
   "journal": [
-    {
-      "at": "2026-10-18T23:53:02.514Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 75,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-19T01:08:14.078Z",
       "action": "ROTATE",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 59,
       "candidateScore": 62,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-25T06:13:04.965Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 56,
       "reason": "Daily trade cap reached"
     }
   ]
