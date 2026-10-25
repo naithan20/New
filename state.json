@@ -14,14 +14,6 @@
   "tradeCount": 148,
   "journal": [
     {
-      "at": "2026-10-19T21:50:10.880Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 53,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-20T00:15:57.846Z",
       "action": "ROTATE",
       "from": "LSCW",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 65,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-25T21:51:19.353Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 69,
       "reason": "Daily trade cap reached"
     }
   ]
