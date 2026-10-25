@@ -14,16 +14,6 @@
   "tradeCount": 148,
   "journal": [
     {
-      "at": "2026-10-19T01:18:16.542Z",
-      "action": "ROTATE",
-      "from": "Doomsday",
-      "to": "startupSI",
-      "notionalGbp": 0,
-      "currentScore": 58,
-      "candidateScore": 71,
-      "reason": "Candidate advantage 13 points"
-    },
-    {
       "at": "2026-10-19T01:28:18.809Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 56,
       "candidateScore": 66,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-25T06:33:09.470Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 69,
       "reason": "Daily trade cap reached"
     }
   ]
