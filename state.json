@@ -14,16 +14,6 @@
   "tradeCount": 148,
   "journal": [
     {
-      "at": "2026-10-19T08:00:42.332Z",
-      "action": "ROTATE",
-      "from": "startupSI",
-      "to": "LSCW",
-      "notionalGbp": 0,
-      "currentScore": 57,
-      "candidateScore": 75,
-      "reason": "Candidate advantage 18 points"
-    },
-    {
       "at": "2026-10-19T08:10:44.361Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 16,
       "candidateScore": 68,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-25T11:56:10.647Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 84,
       "reason": "Daily trade cap reached"
     }
   ]
