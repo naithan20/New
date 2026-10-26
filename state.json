@@ -6,21 +6,13 @@
   "currentSymbol": "GTA",
   "entryPriceUsd": 0.0003209,
   "entryNotionalGbp": 1.2754979078292495e-87,
-  "peakNotionalGbp": 1.2754979078292495e-87,
+  "peakNotionalGbp": 1.4487970938104128e-87,
   "realisedNotionalGbp": 1.2949217338368014e-87,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-26",
   "tradeCount": 149,
   "journal": [
-    {
-      "at": "2026-10-20T01:06:07.780Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 52,
-      "candidateScore": 59,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-20T05:56:33.441Z",
       "action": "ROTATE",
@@ -1648,6 +1640,14 @@
       "currentScore": 0,
       "candidateScore": 66,
       "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-26T00:21:21.797Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 84,
+      "candidateScore": 58,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
