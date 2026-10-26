@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
-  "currentSymbol": "MAYA",
-  "entryPriceUsd": 0.0008438,
-  "entryNotionalGbp": 4.742601003125085e-85,
-  "peakNotionalGbp": 1.2854146117737699e-84,
-  "realisedNotionalGbp": 4.814823353426482e-85,
+  "currentToken": "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
+  "currentSymbol": "GTA",
+  "entryPriceUsd": 0.0003209,
+  "entryNotionalGbp": 1.2754979078292495e-87,
+  "peakNotionalGbp": 1.2754979078292495e-87,
+  "realisedNotionalGbp": 1.2949217338368014e-87,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-25",
-  "tradeCount": 148,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-26",
+  "tradeCount": 149,
   "journal": [
-    {
-      "at": "2026-10-20T00:56:05.635Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 60,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-20T01:06:07.780Z",
       "action": "HOLD",
@@ -1646,6 +1638,16 @@
       "currentScore": 0,
       "candidateScore": 60,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-26T00:11:19.132Z",
+      "action": "ROTATE",
+      "from": "MAYA",
+      "to": "GTA",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 66,
+      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
     }
   ]
 }
