@@ -6,21 +6,13 @@
   "currentSymbol": "Chop",
   "entryPriceUsd": 0.0004049,
   "entryNotionalGbp": 1.6879769141781174e-87,
-  "peakNotionalGbp": 2.295798682731265e-87,
+  "peakNotionalGbp": 2.3812605912041015e-87,
   "realisedNotionalGbp": 1.7136821463737233e-87,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-26",
   "tradeCount": 151,
   "journal": [
-    {
-      "at": "2026-10-20T06:46:46.174Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 40,
-      "candidateScore": 56,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-20T11:25:44.605Z",
       "action": "HOLD",
@@ -1647,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 69,
       "candidateScore": 69,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-26T06:12:45.327Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 62,
+      "candidateScore": 78,
       "reason": "Daily trade cap reached"
     }
   ]
