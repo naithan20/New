@@ -14,16 +14,6 @@
   "tradeCount": 153,
   "journal": [
     {
-      "at": "2026-10-21T05:03:55.634Z",
-      "action": "ROTATE",
-      "from": "KIMCHIBOSS",
-      "to": "KIMCHI",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 56,
-      "reason": "Risk exit triggered at -33.1% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-21T05:13:57.865Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1647,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 58,
       "candidateScore": 69,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-27T05:43:37.698Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 63,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
