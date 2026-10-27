@@ -14,14 +14,6 @@
   "tradeCount": 153,
   "journal": [
     {
-      "at": "2026-10-21T05:13:57.865Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 80,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-21T05:24:01.486Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1645,6 +1637,14 @@
       "notionalGbp": 0,
       "currentScore": 53,
       "candidateScore": 63,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-27T10:25:56.235Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 66,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
