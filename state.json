@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-  "currentSymbol": "CHICO",
-  "entryPriceUsd": 0.0007508,
-  "entryNotionalGbp": 9.816597020455398e-90,
-  "peakNotionalGbp": 2.9862956306233525e-89,
-  "realisedNotionalGbp": 9.96608834564e-90,
+  "currentToken": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
+  "currentSymbol": "███WIF",
+  "entryPriceUsd": 0.00126,
+  "entryNotionalGbp": 2.2935466944941104e-89,
+  "peakNotionalGbp": 2.2935466944941104e-89,
+  "realisedNotionalGbp": 2.3284738015168633e-89,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-27",
-  "tradeCount": 152,
+  "tradeCount": 153,
   "journal": [
-    {
-      "at": "2026-10-21T00:18:14.925Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 82,
-      "candidateScore": 74,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-21T00:28:17.311Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 87,
       "candidateScore": 90,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-27T00:37:33.560Z",
+      "action": "ROTATE",
+      "from": "CHICO",
+      "to": "███WIF",
+      "notionalGbp": 0,
+      "currentScore": 79,
+      "candidateScore": 83,
+      "reason": "Risk exit triggered at 140.8% P/L; best eligible destination selected"
     }
   ]
 }
