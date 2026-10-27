@@ -6,21 +6,13 @@
   "currentSymbol": "CHICO",
   "entryPriceUsd": 0.0007508,
   "entryNotionalGbp": 9.816597020455398e-90,
-  "peakNotionalGbp": 9.816597020455398e-90,
+  "peakNotionalGbp": 1.368936744861055e-89,
   "realisedNotionalGbp": 9.96608834564e-90,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-27",
   "tradeCount": 152,
   "journal": [
-    {
-      "at": "2026-10-20T23:58:09.995Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 49,
-      "candidateScore": 67,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-21T00:08:12.409Z",
       "action": "ROTATE",
@@ -1650,6 +1642,14 @@
       "currentScore": 0,
       "candidateScore": 96,
       "reason": "Risk exit triggered at -99.4% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-27T00:17:28.353Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 93,
+      "candidateScore": 85,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
