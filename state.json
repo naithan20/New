@@ -6,21 +6,13 @@
   "currentSymbol": "███WIF",
   "entryPriceUsd": 0.00126,
   "entryNotionalGbp": 2.2935466944941104e-89,
-  "peakNotionalGbp": 2.2935466944941104e-89,
+  "peakNotionalGbp": 3.1235921648824553e-89,
   "realisedNotionalGbp": 2.3284738015168633e-89,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-27",
   "tradeCount": 153,
   "journal": [
-    {
-      "at": "2026-10-21T00:28:17.311Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 77,
-      "candidateScore": 82,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-10-21T00:38:19.786Z",
       "action": "ROTATE",
@@ -1650,6 +1642,14 @@
       "currentScore": 79,
       "candidateScore": 83,
       "reason": "Risk exit triggered at 140.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-27T04:53:25.080Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 68,
+      "candidateScore": 54,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
