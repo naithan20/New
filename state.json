@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
-  "currentSymbol": "Chop",
-  "entryPriceUsd": 0.0004049,
-  "entryNotionalGbp": 1.6879769141781174e-87,
-  "peakNotionalGbp": 5.09853239328189e-87,
-  "realisedNotionalGbp": 1.7136821463737233e-87,
+  "currentToken": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+  "currentSymbol": "CHICO",
+  "entryPriceUsd": 0.0007508,
+  "entryNotionalGbp": 9.816597020455398e-90,
+  "peakNotionalGbp": 9.816597020455398e-90,
+  "realisedNotionalGbp": 9.96608834564e-90,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-26",
-  "tradeCount": 151,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-27",
+  "tradeCount": 152,
   "journal": [
-    {
-      "at": "2026-10-20T23:48:07.719Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 62,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-20T23:58:09.995Z",
       "action": "HOLD",
@@ -1648,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 63,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-27T00:07:25.372Z",
+      "action": "ROTATE",
+      "from": "Chop",
+      "to": "CHICO",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 96,
+      "reason": "Risk exit triggered at -99.4% P/L; best eligible destination selected"
     }
   ]
 }
