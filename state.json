@@ -6,21 +6,13 @@
   "currentSymbol": "FRONGUS",
   "entryPriceUsd": 0.0002493,
   "entryNotionalGbp": 2.5635916477161164e-91,
-  "peakNotionalGbp": 2.5635916477161164e-91,
+  "peakNotionalGbp": 2.953323390389365e-91,
   "realisedNotionalGbp": 2.602631114432606e-91,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-28",
   "tradeCount": 155,
   "journal": [
-    {
-      "at": "2026-10-21T20:54:49.949Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 17,
-      "candidateScore": 68,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-21T23:14:11.336Z",
       "action": "HOLD",
@@ -1650,6 +1642,14 @@
       "currentScore": 0,
       "candidateScore": 68,
       "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-28T01:23:44.412Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 62,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
