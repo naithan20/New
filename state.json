@@ -14,16 +14,6 @@
   "tradeCount": 157,
   "journal": [
     {
-      "at": "2026-10-22T05:12:33.597Z",
-      "action": "ROTATE",
-      "from": "KIMCHIBULL",
-      "to": "NOOX",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 80,
-      "reason": "Candidate advantage 13 points"
-    },
-    {
       "at": "2026-10-22T05:22:35.596Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 64,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-28T15:56:51.741Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 84,
       "reason": "Daily trade cap reached"
     }
   ]
