@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump",
-  "currentSymbol": "FRONGUS",
-  "entryPriceUsd": 0.0002493,
-  "entryNotionalGbp": 2.5635916477161164e-91,
-  "peakNotionalGbp": 2.953323390389365e-91,
-  "realisedNotionalGbp": 2.602631114432606e-91,
+  "currentToken": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
+  "currentSymbol": "Something",
+  "entryPriceUsd": 0.00169,
+  "entryNotionalGbp": 2.4523412821277164e-91,
+  "peakNotionalGbp": 2.4523412821277164e-91,
+  "realisedNotionalGbp": 2.489686580840321e-91,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-10-28",
-  "tradeCount": 155,
+  "tradeCount": 156,
   "journal": [
-    {
-      "at": "2026-10-21T23:14:11.336Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 76,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-21T23:24:13.894Z",
       "action": "HOLD",
@@ -1650,6 +1642,16 @@
       "currentScore": 71,
       "candidateScore": 62,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-28T01:33:46.651Z",
+      "action": "ROTATE",
+      "from": "FRONGUS",
+      "to": "Something",
+      "notionalGbp": 0,
+      "currentScore": 47,
+      "candidateScore": 74,
+      "reason": "Candidate advantage 27 points"
     }
   ]
 }
