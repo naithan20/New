@@ -14,14 +14,6 @@
   "tradeCount": 157,
   "journal": [
     {
-      "at": "2026-10-21T23:54:21.235Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 25,
-      "candidateScore": 64,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-22T00:04:23.734Z",
       "action": "ROTATE",
       "from": "KIMCHI",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 71,
       "candidateScore": 67,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-28T08:19:53.381Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 79,
       "reason": "Daily trade cap reached"
     }
   ]
