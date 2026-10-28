@@ -14,14 +14,6 @@
   "tradeCount": 157,
   "journal": [
     {
-      "at": "2026-10-21T23:44:18.747Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 25,
-      "candidateScore": 59,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-21T23:54:21.235Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1654,6 +1646,14 @@
       "currentScore": 62,
       "candidateScore": 69,
       "reason": "Risk exit triggered at -13.1% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-28T02:03:54.004Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 67,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
