@@ -14,16 +14,6 @@
   "tradeCount": 157,
   "journal": [
     {
-      "at": "2026-10-22T05:02:31.495Z",
-      "action": "ROTATE",
-      "from": "CHOO",
-      "to": "KIMCHIBULL",
-      "notionalGbp": 0,
-      "currentScore": 48,
-      "candidateScore": 68,
-      "reason": "Candidate advantage 20 points"
-    },
-    {
       "at": "2026-10-22T05:12:33.597Z",
       "action": "ROTATE",
       "from": "KIMCHIBULL",
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 68,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-28T09:10:04.440Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 64,
       "reason": "Daily trade cap reached"
     }
   ]
