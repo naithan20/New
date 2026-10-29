@@ -6,21 +6,13 @@
   "currentSymbol": "FLOATER",
   "entryPriceUsd": 0.000163,
   "entryNotionalGbp": 1.8816040335735734e-93,
-  "peakNotionalGbp": 1.8816040335735734e-93,
+  "peakNotionalGbp": 1.8896845416932146e-93,
   "realisedNotionalGbp": 1.9102579021051507e-93,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-10-29",
   "tradeCount": 158,
   "journal": [
-    {
-      "at": "2026-10-22T16:00:36.159Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 65,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-22T19:59:41.605Z",
       "action": "HOLD",
@@ -1650,6 +1642,14 @@
       "currentScore": 0,
       "candidateScore": 74,
       "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-29T00:59:21.640Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 73,
+      "candidateScore": 65,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
