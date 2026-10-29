@@ -14,16 +14,6 @@
   "tradeCount": 160,
   "journal": [
     {
-      "at": "2026-10-23T09:57:54.925Z",
-      "action": "ROTATE",
-      "from": "zonki",
-      "to": "GATO",
-      "notionalGbp": 0,
-      "currentScore": 41,
-      "candidateScore": 55,
-      "reason": "Risk exit triggered at -34.3% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-23T10:07:56.944Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1649,6 +1639,14 @@
       "notionalGbp": 0,
       "currentScore": 43,
       "candidateScore": 81,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-29T20:33:45.054Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 44,
+      "candidateScore": 58,
       "reason": "Daily trade cap reached"
     }
   ]
