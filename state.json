@@ -14,16 +14,6 @@
   "tradeCount": 160,
   "journal": [
     {
-      "at": "2026-10-23T04:37:38.591Z",
-      "action": "ROTATE",
-      "from": "KIMCHINU",
-      "to": "zonki",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 58,
-      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-23T04:47:41.293Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1651,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 51,
       "candidateScore": 54,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-29T14:29:56.498Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 50,
+      "candidateScore": 49,
       "reason": "Daily trade cap reached"
     }
   ]
