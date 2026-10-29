@@ -6,21 +6,13 @@
   "currentSymbol": "CATBOT",
   "entryPriceUsd": 0.003171,
   "entryNotionalGbp": 2.2892540091906088e-95,
-  "peakNotionalGbp": 2.2892540091906088e-95,
+  "peakNotionalGbp": 2.3657790564861636e-95,
   "realisedNotionalGbp": 2.3241157453711765e-95,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-29",
   "tradeCount": 159,
   "journal": [
-    {
-      "at": "2026-10-22T20:49:54.667Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 59,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-22T23:16:21.098Z",
       "action": "HOLD",
@@ -1652,6 +1644,14 @@
       "currentScore": 0,
       "candidateScore": 53,
       "reason": "Risk exit triggered at -98.7% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-10-29T07:08:14.607Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 74,
+      "candidateScore": 48,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
