@@ -14,14 +14,6 @@
   "tradeCount": 160,
   "journal": [
     {
-      "at": "2026-10-23T05:27:51.358Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 59,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-23T09:57:54.925Z",
       "action": "ROTATE",
       "from": "zonki",
@@ -1649,6 +1641,14 @@
       "notionalGbp": 0,
       "currentScore": 44,
       "candidateScore": 76,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-29T20:23:43.154Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 43,
+      "candidateScore": 81,
       "reason": "Daily trade cap reached"
     }
   ]
