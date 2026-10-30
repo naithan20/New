@@ -6,21 +6,13 @@
   "currentSymbol": "HEXN",
   "entryPriceUsd": 0.0005855,
   "entryNotionalGbp": 1.8388843469581497e-98,
-  "peakNotionalGbp": 1.844537620783128e-98,
+  "peakNotionalGbp": 2.170543078023531e-98,
   "realisedNotionalGbp": 1.8668876618864466e-98,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-10-30",
   "tradeCount": 163,
   "journal": [
-    {
-      "at": "2026-10-23T15:47:53.018Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 71,
-      "candidateScore": 52,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-23T19:06:27.195Z",
       "action": "HOLD",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 80,
       "candidateScore": 65,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-30T07:11:11.382Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 80,
+      "candidateScore": 66,
       "reason": "Daily trade cap reached"
     }
   ]
