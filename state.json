@@ -6,21 +6,13 @@
   "currentSymbol": "three",
   "entryPriceUsd": 0.0005873,
   "entryNotionalGbp": 1.811423796038891e-98,
-  "peakNotionalGbp": 1.8435007711432747e-98,
+  "peakNotionalGbp": 1.9079631538049683e-98,
   "realisedNotionalGbp": 1.8390089299887218e-98,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-10-30",
   "tradeCount": 162,
   "journal": [
-    {
-      "at": "2026-10-23T15:07:43.279Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 52,
-      "candidateScore": 82,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-23T15:17:45.863Z",
       "action": "HOLD",
@@ -1651,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 53,
       "candidateScore": 49,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-10-30T01:20:28.255Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 59,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
