@@ -14,14 +14,6 @@
   "tradeCount": 163,
   "journal": [
     {
-      "at": "2026-10-23T22:55:42.380Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 98,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-24T00:36:49.490Z",
       "action": "ROTATE",
       "from": "GATO",
@@ -1653,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 75,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-30T20:04:57.158Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 53,
       "reason": "Daily trade cap reached"
     }
   ]
