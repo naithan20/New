@@ -14,16 +14,6 @@
   "tradeCount": 163,
   "journal": [
     {
-      "at": "2026-10-24T00:36:49.490Z",
-      "action": "ROTATE",
-      "from": "GATO",
-      "to": "YMBCOIN",
-      "notionalGbp": 0,
-      "currentScore": 38,
-      "candidateScore": 77,
-      "reason": "Candidate advantage 39 points"
-    },
-    {
       "at": "2026-10-24T00:46:52.180Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1653,6 +1643,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 53,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-30T23:39:35.441Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 74,
       "reason": "Daily trade cap reached"
     }
   ]
