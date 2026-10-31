@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
-  "currentSymbol": "HEXN",
-  "entryPriceUsd": 0.0005855,
-  "entryNotionalGbp": 1.8388843469581497e-98,
-  "peakNotionalGbp": 2.170543078023531e-98,
-  "realisedNotionalGbp": 1.8668876618864466e-98,
+  "currentToken": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
+  "currentSymbol": "AgenC",
+  "entryPriceUsd": 0.001335,
+  "entryNotionalGbp": 9.513336887406941e-101,
+  "peakNotionalGbp": 9.513336887406941e-101,
+  "realisedNotionalGbp": 9.65821003797659e-101,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-30",
-  "tradeCount": 163,
+  "tradesToday": 1,
+  "tradeDate": "2026-10-31",
+  "tradeCount": 164,
   "journal": [
-    {
-      "at": "2026-10-24T01:06:57.478Z",
-      "action": "ROTATE",
-      "from": "BITCHES",
-      "to": "YMBCOIN",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 60,
-      "reason": "Risk exit triggered at -53.8% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-10-24T01:16:59.795Z",
       "action": "HOLD",
@@ -1650,6 +1640,16 @@
       "currentScore": 0,
       "candidateScore": 85,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-10-31T00:09:44.306Z",
+      "action": "ROTATE",
+      "from": "HEXN",
+      "to": "AgenC",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 79,
+      "reason": "Risk exit triggered at -99.5% P/L; best eligible destination selected"
     }
   ]
 }
