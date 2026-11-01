@@ -14,16 +14,6 @@
   "tradeCount": 169,
   "journal": [
     {
-      "at": "2026-10-25T01:26:39.961Z",
-      "action": "ROTATE",
-      "from": "KURUMI",
-      "to": "MAYA",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 75,
-      "reason": "Candidate advantage 20 points"
-    },
-    {
       "at": "2026-10-25T01:36:41.956Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1655,6 +1645,14 @@
       "notionalGbp": 0,
       "currentScore": 28,
       "candidateScore": 76,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-01T15:19:27.955Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 50,
       "reason": "Daily trade cap reached"
     }
   ]
