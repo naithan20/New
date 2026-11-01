@@ -14,14 +14,6 @@
   "tradeCount": 169,
   "journal": [
     {
-      "at": "2026-10-24T23:57:14.694Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 74,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-10-25T01:06:34.834Z",
       "action": "ROTATE",
       "from": "YMBCOIN",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 46,
       "candidateScore": 61,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-01T08:15:54.870Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 41,
+      "candidateScore": 60,
       "reason": "Daily trade cap reached"
     }
   ]
