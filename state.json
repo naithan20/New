@@ -14,16 +14,6 @@
   "tradeCount": 169,
   "journal": [
     {
-      "at": "2026-10-25T01:06:34.834Z",
-      "action": "ROTATE",
-      "from": "YMBCOIN",
-      "to": "MAYA",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 84,
-      "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-25T01:16:37.970Z",
       "action": "ROTATE",
       "from": "MAYA",
@@ -1659,6 +1649,14 @@
       "notionalGbp": 0,
       "currentScore": 41,
       "candidateScore": 60,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-01T14:59:22.942Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 24,
+      "candidateScore": 65,
       "reason": "Daily trade cap reached"
     }
   ]
