@@ -14,16 +14,6 @@
   "tradeCount": 169,
   "journal": [
     {
-      "at": "2026-10-25T01:16:37.970Z",
-      "action": "ROTATE",
-      "from": "MAYA",
-      "to": "KURUMI",
-      "notionalGbp": 0,
-      "currentScore": 74,
-      "candidateScore": 65,
-      "reason": "Risk exit triggered at -22.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-25T01:26:39.961Z",
       "action": "ROTATE",
       "from": "KURUMI",
@@ -1657,6 +1647,14 @@
       "notionalGbp": 0,
       "currentScore": 24,
       "candidateScore": 65,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-01T15:09:25.477Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 28,
+      "candidateScore": 76,
       "reason": "Daily trade cap reached"
     }
   ]
