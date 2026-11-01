@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
-  "currentSymbol": "Leverhedge",
-  "entryPriceUsd": 0.0005601,
-  "entryNotionalGbp": 3.008773477231451e-101,
-  "peakNotionalGbp": 1.0679238837236432e-100,
-  "realisedNotionalGbp": 3.054592362671524e-101,
+  "currentToken": "GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump",
+  "currentSymbol": "AAPLCAT",
+  "entryPriceUsd": 0.00125,
+  "entryNotionalGbp": 4.605759275356118e-101,
+  "peakNotionalGbp": 4.605759275356118e-101,
+  "realisedNotionalGbp": 4.6758977414782923e-101,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-10-31",
-  "tradeCount": 166,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-01",
+  "tradeCount": 167,
   "journal": [
-    {
-      "at": "2026-10-24T20:42:08.261Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 85,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-24T20:52:10.733Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 33,
       "candidateScore": 83,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-01T01:01:36.192Z",
+      "action": "ROTATE",
+      "from": "Leverhedge",
+      "to": "AAPLCAT",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 84,
+      "reason": "Risk exit triggered at 57.8% P/L; best eligible destination selected"
     }
   ]
 }
