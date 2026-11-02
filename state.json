@@ -6,21 +6,13 @@
   "currentSymbol": "ANAKIN",
   "entryPriceUsd": 0.003298,
   "entryNotionalGbp": 6.743430215278902e-101,
-  "peakNotionalGbp": 6.921319368926343e-101,
+  "peakNotionalGbp": 6.974481644729027e-101,
   "realisedNotionalGbp": 6.846122045968428e-101,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-11-02",
   "tradeCount": 172,
   "journal": [
-    {
-      "at": "2026-10-25T16:24:06.693Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 60,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-25T16:34:09.539Z",
       "action": "HOLD",
@@ -1659,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 66,
       "candidateScore": 44,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-02T06:12:08.501Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 61,
+      "candidateScore": 60,
       "reason": "Daily trade cap reached"
     }
   ]
