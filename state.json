@@ -6,21 +6,13 @@
   "currentSymbol": "WASTED",
   "entryPriceUsd": 0.0004207,
   "entryNotionalGbp": 3.8744188462809616e-101,
-  "peakNotionalGbp": 3.8744188462809616e-101,
+  "peakNotionalGbp": 4.017165440332197e-101,
   "realisedNotionalGbp": 3.9334201485085905e-101,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-11-02",
   "tradeCount": 171,
   "journal": [
-    {
-      "at": "2026-10-25T12:06:12.365Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 85,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-25T16:04:01.138Z",
       "action": "HOLD",
@@ -1658,6 +1650,14 @@
       "currentScore": 61,
       "candidateScore": 92,
       "reason": "Candidate advantage 31 points"
+    },
+    {
+      "at": "2026-11-02T00:21:00.793Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 69,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
