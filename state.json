@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-  "currentSymbol": "WASTED",
-  "entryPriceUsd": 0.0001708,
-  "entryNotionalGbp": 2.5163025617621488e-101,
-  "peakNotionalGbp": 5.037024858703037e-101,
-  "realisedNotionalGbp": 2.5546218901138568e-101,
+  "currentToken": "8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump",
+  "currentSymbol": "ANAKIN",
+  "entryPriceUsd": 0.00219,
+  "entryNotionalGbp": 4.359606523188715e-101,
+  "peakNotionalGbp": 4.359606523188715e-101,
+  "realisedNotionalGbp": 4.425996470242351e-101,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-01",
-  "tradeCount": 169,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-02",
+  "tradeCount": 170,
   "journal": [
-    {
-      "at": "2026-10-25T11:46:08.819Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 16,
-      "candidateScore": 68,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-25T11:56:10.647Z",
       "action": "HOLD",
@@ -1654,6 +1646,16 @@
       "currentScore": 82,
       "candidateScore": 59,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-02T00:00:57.245Z",
+      "action": "ROTATE",
+      "from": "WASTED",
+      "to": "ANAKIN",
+      "notionalGbp": 0,
+      "currentScore": 48,
+      "candidateScore": 77,
+      "reason": "Risk exit triggered at 78.6% P/L; best eligible destination selected"
     }
   ]
 }
