@@ -14,14 +14,6 @@
   "tradeCount": 178,
   "journal": [
     {
-      "at": "2026-10-27T00:27:31.040Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 87,
-      "candidateScore": 90,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-27T00:37:33.560Z",
       "action": "ROTATE",
       "from": "CHICO",
@@ -1663,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 40,
       "candidateScore": 71,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-04T09:41:24.818Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 40,
+      "candidateScore": 66,
       "reason": "Daily trade cap reached"
     }
   ]
