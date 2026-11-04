@@ -6,21 +6,13 @@
   "currentSymbol": "three",
   "entryPriceUsd": 0.0006396,
   "entryNotionalGbp": 9.083920572735095e-105,
-  "peakNotionalGbp": 9.083920572735095e-105,
+  "peakNotionalGbp": 9.47448939035582e-105,
   "realisedNotionalGbp": 9.222254388563548e-105,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-11-04",
   "tradeCount": 178,
   "journal": [
-    {
-      "at": "2026-10-26T20:02:07.640Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 63,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-26T23:47:20.119Z",
       "action": "HOLD",
@@ -1666,6 +1658,14 @@
       "currentScore": 57,
       "candidateScore": 57,
       "reason": "Risk exit triggered at -13.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-04T02:06:16.796Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 60,
+      "candidateScore": 63,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
