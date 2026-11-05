@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-  "currentSymbol": "three",
-  "entryPriceUsd": 0.0006396,
-  "entryNotionalGbp": 9.083920572735095e-105,
-  "peakNotionalGbp": 9.47448939035582e-105,
-  "realisedNotionalGbp": 9.222254388563548e-105,
+  "currentToken": "5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump",
+  "currentSymbol": "AMD",
+  "entryPriceUsd": 0.0009478,
+  "entryNotionalGbp": 7.76619549361714e-105,
+  "peakNotionalGbp": 7.76619549361714e-105,
+  "realisedNotionalGbp": 7.884462430068163e-105,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-04",
-  "tradeCount": 178,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-05",
+  "tradeCount": 179,
   "journal": [
-    {
-      "at": "2026-10-27T10:56:03.979Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 58,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-27T11:06:06.432Z",
       "action": "HOLD",
@@ -1660,6 +1652,16 @@
       "currentScore": 31,
       "candidateScore": 84,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-05T00:05:00.787Z",
+      "action": "ROTATE",
+      "from": "three",
+      "to": "AMD",
+      "notionalGbp": 0,
+      "currentScore": 30,
+      "candidateScore": 81,
+      "reason": "Candidate advantage 51 points"
     }
   ]
 }
