@@ -14,14 +14,6 @@
   "tradeCount": 181,
   "journal": [
     {
-      "at": "2026-10-28T01:23:44.412Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 71,
-      "candidateScore": 62,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-28T01:33:46.651Z",
       "action": "ROTATE",
       "from": "FRONGUS",
@@ -1663,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 39,
       "candidateScore": 81,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-05T22:25:59.360Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 71,
       "reason": "Daily trade cap reached"
     }
   ]
