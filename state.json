@@ -14,16 +14,6 @@
   "tradeCount": 181,
   "journal": [
     {
-      "at": "2026-10-28T01:13:41.096Z",
-      "action": "ROTATE",
-      "from": "TRUMP2028",
-      "to": "FRONGUS",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 68,
-      "reason": "Risk exit triggered at -99.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-28T01:23:44.412Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1665,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 61,
       "candidateScore": 88,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-05T22:15:56.361Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 39,
+      "candidateScore": 81,
       "reason": "Daily trade cap reached"
     }
   ]
