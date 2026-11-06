@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
-  "currentSymbol": "Democat",
-  "entryPriceUsd": 0.0009625,
-  "entryNotionalGbp": 5.474926995738255e-107,
-  "peakNotionalGbp": 6.040906461791197e-107,
-  "realisedNotionalGbp": 5.558301518515995e-107,
+  "currentToken": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+  "currentSymbol": "three",
+  "entryPriceUsd": 0.0007754,
+  "entryNotionalGbp": 2.16725970613158e-109,
+  "peakNotionalGbp": 2.16725970613158e-109,
+  "realisedNotionalGbp": 2.20026366104729e-109,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-05",
-  "tradeCount": 181,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-06",
+  "tradeCount": 182,
   "journal": [
-    {
-      "at": "2026-10-28T01:53:51.399Z",
-      "action": "ROTATE",
-      "from": "Something",
-      "to": "FRONGUS",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 69,
-      "reason": "Risk exit triggered at -13.1% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-10-28T02:03:54.004Z",
       "action": "HOLD",
@@ -1662,6 +1652,16 @@
       "currentScore": 0,
       "candidateScore": 91,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-06T02:17:02.455Z",
+      "action": "ROTATE",
+      "from": "Democat",
+      "to": "three",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 59,
+      "reason": "Risk exit triggered at -99.6% P/L; best eligible destination selected"
     }
   ]
 }
