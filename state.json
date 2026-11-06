@@ -14,16 +14,6 @@
   "tradeCount": 184,
   "journal": [
     {
-      "at": "2026-10-29T00:49:18.338Z",
-      "action": "ROTATE",
-      "from": "FRONGUS",
-      "to": "FLOATER",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 74,
-      "reason": "Risk exit triggered at -99.1% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-29T00:59:21.640Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1665,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 63,
       "candidateScore": 52,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-06T23:21:09.361Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 45,
+      "candidateScore": 56,
       "reason": "Daily trade cap reached"
     }
   ]
