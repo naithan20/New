@@ -6,21 +6,13 @@
   "currentSymbol": "AMD",
   "entryPriceUsd": 0.00177,
   "entryNotionalGbp": 4.700073485387045e-109,
-  "peakNotionalGbp": 4.970925177765281e-109,
+  "peakNotionalGbp": 7.413901226667022e-109,
   "realisedNotionalGbp": 4.7716482085147665e-109,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-11-06",
   "tradeCount": 184,
   "journal": [
-    {
-      "at": "2026-10-28T16:37:03.976Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 98,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-28T16:47:06.420Z",
       "action": "HOLD",
@@ -1665,6 +1657,14 @@
       "notionalGbp": 0,
       "currentScore": 51,
       "candidateScore": 58,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-06T17:54:14.357Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 56,
       "reason": "Daily trade cap reached"
     }
   ]
