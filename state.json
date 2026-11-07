@@ -6,21 +6,13 @@
   "currentSymbol": "HODL",
   "entryPriceUsd": 0.004031,
   "entryNotionalGbp": 5.044481460582026e-109,
-  "peakNotionalGbp": 5.044481460582026e-109,
+  "peakNotionalGbp": 5.366096874962969e-109,
   "realisedNotionalGbp": 5.121300975210178e-109,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-07",
   "tradeCount": 185,
   "journal": [
-    {
-      "at": "2026-10-29T14:19:53.955Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 54,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-29T14:29:56.498Z",
       "action": "HOLD",
@@ -1661,6 +1653,14 @@
       "notionalGbp": 0,
       "currentScore": 49,
       "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-07T10:26:32.163Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 58,
+      "candidateScore": 59,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
