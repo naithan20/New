@@ -14,14 +14,6 @@
   "tradeCount": 185,
   "journal": [
     {
-      "at": "2026-10-29T07:48:24.422Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 45,
-      "candidateScore": 57,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-10-29T14:09:51.395Z",
       "action": "ROTATE",
       "from": "CATBOT",
@@ -1663,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 58,
       "candidateScore": 59,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-07T10:06:27.908Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 64,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
