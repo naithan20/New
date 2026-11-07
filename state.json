@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
-  "currentSymbol": "HODL",
-  "entryPriceUsd": 0.004031,
-  "entryNotionalGbp": 5.044481460582026e-109,
-  "peakNotionalGbp": 6.300908993805632e-109,
-  "realisedNotionalGbp": 5.121300975210178e-109,
+  "currentToken": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+  "currentSymbol": "Leonida",
+  "entryPriceUsd": 0.0003617,
+  "entryNotionalGbp": 4.917351079540422e-109,
+  "peakNotionalGbp": 4.917351079540422e-109,
+  "realisedNotionalGbp": 4.992234598518196e-109,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-11-07",
-  "tradeCount": 185,
+  "tradeCount": 186,
   "journal": [
-    {
-      "at": "2026-10-29T20:23:43.154Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 81,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-29T20:33:45.054Z",
       "action": "HOLD",
@@ -1662,6 +1654,16 @@
       "currentScore": 63,
       "candidateScore": 58,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-07T16:50:55.538Z",
+      "action": "ROTATE",
+      "from": "HODL",
+      "to": "Leonida",
+      "notionalGbp": 0,
+      "currentScore": 55,
+      "candidateScore": 74,
+      "reason": "Candidate advantage 19 points"
     }
   ]
 }
