@@ -14,16 +14,6 @@
   "tradeCount": 185,
   "journal": [
     {
-      "at": "2026-10-29T06:58:11.988Z",
-      "action": "ROTATE",
-      "from": "FLOATER",
-      "to": "CATBOT",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 53,
-      "reason": "Risk exit triggered at -98.7% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-29T07:08:14.607Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1665,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 61,
       "candidateScore": 55,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-07T03:03:15.068Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 65,
+      "candidateScore": 57,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
