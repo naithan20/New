@@ -14,16 +14,6 @@
   "tradeCount": 190,
   "journal": [
     {
-      "at": "2026-10-31T05:36:11.449Z",
-      "action": "ROTATE",
-      "from": "BNB",
-      "to": "Leverhedge",
-      "notionalGbp": 0,
-      "currentScore": 39,
-      "candidateScore": 58,
-      "reason": "Risk exit triggered at -38.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-31T05:46:13.239Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1661,6 +1651,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 83,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-08T20:24:01.588Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 70,
       "reason": "Daily trade cap reached"
     }
   ]
