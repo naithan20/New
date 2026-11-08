@@ -14,16 +14,6 @@
   "tradeCount": 190,
   "journal": [
     {
-      "at": "2026-10-31T00:09:44.306Z",
-      "action": "ROTATE",
-      "from": "HEXN",
-      "to": "AgenC",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 79,
-      "reason": "Risk exit triggered at -99.5% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-10-31T00:19:46.913Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1665,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 81,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-08T19:43:54.740Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 68,
       "reason": "Daily trade cap reached"
     }
   ]
