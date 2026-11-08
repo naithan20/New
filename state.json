@@ -6,21 +6,13 @@
   "currentSymbol": "Tungmas",
   "entryPriceUsd": 0.00009656,
   "entryNotionalGbp": 2.8577942168140545e-112,
-  "peakNotionalGbp": 2.8577942168140545e-112,
+  "peakNotionalGbp": 3.054311963289255e-112,
   "realisedNotionalGbp": 2.9013139256995476e-112,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-11-08",
   "tradeCount": 189,
   "journal": [
-    {
-      "at": "2026-10-30T07:51:18.886Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 70,
-      "candidateScore": 83,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-30T14:01:41.857Z",
       "action": "HOLD",
@@ -1664,6 +1656,14 @@
       "currentScore": 47,
       "candidateScore": 57,
       "reason": "Risk exit triggered at -71.6% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-08T07:22:52.492Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 55,
+      "candidateScore": 57,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
