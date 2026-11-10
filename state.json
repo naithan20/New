@@ -6,21 +6,13 @@
   "currentSymbol": "OnlyCats",
   "entryPriceUsd": 0.001254,
   "entryNotionalGbp": 3.5159921101077673e-116,
-  "peakNotionalGbp": 3.5159921101077673e-116,
+  "peakNotionalGbp": 3.6870252191321483e-116,
   "realisedNotionalGbp": 3.569535137165246e-116,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-10",
   "tradeCount": 194,
   "journal": [
-    {
-      "at": "2026-10-31T22:06:10.104Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 67,
-      "candidateScore": 76,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-31T22:16:11.966Z",
       "action": "HOLD",
@@ -1668,6 +1660,14 @@
       "currentScore": 41,
       "candidateScore": 76,
       "reason": "Candidate advantage 35 points"
+    },
+    {
+      "at": "2026-11-10T01:46:56.905Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 71,
+      "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
