@@ -14,16 +14,6 @@
   "tradeCount": 194,
   "journal": [
     {
-      "at": "2026-11-01T01:11:38.556Z",
-      "action": "ROTATE",
-      "from": "AAPLCAT",
-      "to": "PAWCAT",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 69,
-      "reason": "Risk exit triggered at -27.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-01T01:21:40.541Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1665,6 +1655,14 @@
       "notionalGbp": 0,
       "currentScore": 63,
       "candidateScore": 62,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-10T02:17:05.333Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 69,
+      "candidateScore": 47,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
