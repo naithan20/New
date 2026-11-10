@@ -14,16 +14,6 @@
   "tradeCount": 194,
   "journal": [
     {
-      "at": "2026-11-01T01:01:36.192Z",
-      "action": "ROTATE",
-      "from": "Leverhedge",
-      "to": "AAPLCAT",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 84,
-      "reason": "Risk exit triggered at 57.8% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-01T01:11:38.556Z",
       "action": "ROTATE",
       "from": "AAPLCAT",
@@ -1667,6 +1657,14 @@
       "notionalGbp": 0,
       "currentScore": 57,
       "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-10T02:07:02.611Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 63,
+      "candidateScore": 62,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
