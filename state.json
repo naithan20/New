@@ -9,18 +9,10 @@
   "peakNotionalGbp": 3.6618055491053983e-116,
   "realisedNotionalGbp": 3.34438974438186e-116,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-09",
+  "tradesToday": 0,
+  "tradeDate": "2026-11-10",
   "tradeCount": 193,
   "journal": [
-    {
-      "at": "2026-10-31T21:46:06.167Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 64,
-      "candidateScore": 79,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-10-31T21:56:08.054Z",
       "action": "HOLD",
@@ -1666,6 +1658,14 @@
       "currentScore": 55,
       "candidateScore": 54,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-10T01:26:52.200Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 35,
+      "candidateScore": 58,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
