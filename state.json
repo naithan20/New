@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-  "currentSymbol": "DESSA",
-  "entryPriceUsd": 0.01713,
-  "entryNotionalGbp": 5.8704887036469276e-117,
-  "peakNotionalGbp": 5.8704887036469276e-117,
-  "realisedNotionalGbp": 5.959887008778607e-117,
+  "currentToken": "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump",
+  "currentSymbol": "Steve",
+  "entryPriceUsd": 0.0001491,
+  "entryNotionalGbp": 5.699019884925785e-117,
+  "peakNotionalGbp": 5.699019884925785e-117,
+  "realisedNotionalGbp": 5.78580698977237e-117,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-11-10",
-  "tradeCount": 195,
+  "tradeCount": 196,
   "journal": [
-    {
-      "at": "2026-11-01T07:35:44.011Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 24,
-      "candidateScore": 66,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-01T07:45:46.408Z",
       "action": "HOLD",
@@ -1664,6 +1656,16 @@
       "currentScore": 54,
       "candidateScore": 65,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-10T10:29:45.292Z",
+      "action": "ROTATE",
+      "from": "DESSA",
+      "to": "Steve",
+      "notionalGbp": 0,
+      "currentScore": 47,
+      "candidateScore": 69,
+      "reason": "Candidate advantage 22 points"
     }
   ]
 }
