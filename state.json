@@ -14,14 +14,6 @@
   "tradeCount": 194,
   "journal": [
     {
-      "at": "2026-10-31T22:16:11.966Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 33,
-      "candidateScore": 83,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-11-01T01:01:36.192Z",
       "action": "ROTATE",
       "from": "Leverhedge",
@@ -1667,6 +1659,14 @@
       "notionalGbp": 0,
       "currentScore": 71,
       "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-10T01:56:59.855Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 56,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
