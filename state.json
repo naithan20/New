@@ -14,16 +14,6 @@
   "tradeCount": 199,
   "journal": [
     {
-      "at": "2026-11-02T00:00:57.245Z",
-      "action": "ROTATE",
-      "from": "WASTED",
-      "to": "ANAKIN",
-      "notionalGbp": 0,
-      "currentScore": 48,
-      "candidateScore": 77,
-      "reason": "Risk exit triggered at 78.6% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-02T00:10:59.012Z",
       "action": "ROTATE",
       "from": "ANAKIN",
@@ -1671,6 +1661,14 @@
       "notionalGbp": 0,
       "currentScore": 41,
       "candidateScore": 78,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-11T14:15:20.088Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 39,
+      "candidateScore": 79,
       "reason": "Daily trade cap reached"
     }
   ]
