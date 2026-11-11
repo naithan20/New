@@ -6,21 +6,13 @@
   "currentSymbol": "VEYL",
   "entryPriceUsd": 0.0005059,
   "entryNotionalGbp": 3.1229646583860774e-117,
-  "peakNotionalGbp": 3.1229646583860774e-117,
+  "peakNotionalGbp": 4.1248566608689005e-117,
   "realisedNotionalGbp": 3.170522495823429e-117,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-11-11",
   "tradeCount": 198,
   "journal": [
-    {
-      "at": "2026-11-01T20:03:54.391Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 29,
-      "candidateScore": 63,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-01T20:13:56.910Z",
       "action": "HOLD",
@@ -1670,6 +1662,14 @@
       "currentScore": 53,
       "candidateScore": 80,
       "reason": "Candidate advantage 27 points"
+    },
+    {
+      "at": "2026-11-11T06:08:55.134Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 76,
+      "candidateScore": 60,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
