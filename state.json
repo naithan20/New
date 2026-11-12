@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "currentSymbol": "CBUCKS",
-  "entryPriceUsd": 0.004782,
-  "entryNotionalGbp": 2.631092122613916e-117,
-  "peakNotionalGbp": 2.8313676417756615e-117,
-  "realisedNotionalGbp": 2.6711595153440773e-117,
+  "currentToken": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+  "currentSymbol": "GATO",
+  "entryPriceUsd": 0.005848,
+  "entryNotionalGbp": 2.2399298795830854e-117,
+  "peakNotionalGbp": 2.2399298795830854e-117,
+  "realisedNotionalGbp": 2.274040486886381e-117,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-11",
-  "tradeCount": 199,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-12",
+  "tradeCount": 200,
   "journal": [
-    {
-      "at": "2026-11-02T15:58:00.769Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 52,
-      "candidateScore": 62,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-02T16:08:03.754Z",
       "action": "HOLD",
@@ -1666,6 +1658,16 @@
       "currentScore": 34,
       "candidateScore": 61,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-12T02:52:38.909Z",
+      "action": "ROTATE",
+      "from": "CBUCKS",
+      "to": "GATO",
+      "notionalGbp": 0,
+      "currentScore": 41,
+      "candidateScore": 57,
+      "reason": "Risk exit triggered at -12.3% P/L; best eligible destination selected"
     }
   ]
 }
