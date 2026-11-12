@@ -14,16 +14,6 @@
   "tradeCount": 202,
   "journal": [
     {
-      "at": "2026-11-03T00:16:38.226Z",
-      "action": "ROTATE",
-      "from": "WASTED",
-      "to": "WWIII",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 61,
-      "reason": "Risk exit triggered at -13.5% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-03T06:36:18.178Z",
       "action": "ROTATE",
       "from": "WWIII",
@@ -1669,6 +1659,14 @@
       "notionalGbp": 0,
       "currentScore": 34,
       "candidateScore": 62,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-12T11:25:07.542Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 32,
+      "candidateScore": 72,
       "reason": "Daily trade cap reached"
     }
   ]
