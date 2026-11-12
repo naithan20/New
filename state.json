@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
-  "currentSymbol": "NOBUSHIBA",
-  "entryPriceUsd": 0.001107,
-  "entryNotionalGbp": 2.1349590685395478e-117,
-  "peakNotionalGbp": 2.1349590685395478e-117,
-  "realisedNotionalGbp": 2.167471135573145e-117,
+  "currentToken": "AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump",
+  "currentSymbol": "AIB",
+  "entryPriceUsd": 0.0006076,
+  "entryNotionalGbp": 1.8805308180534343e-117,
+  "peakNotionalGbp": 1.8805308180534343e-117,
+  "realisedNotionalGbp": 1.9091683432014562e-117,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-11-12",
-  "tradeCount": 201,
+  "tradeCount": 202,
   "journal": [
-    {
-      "at": "2026-11-02T23:26:23.360Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 40,
-      "candidateScore": 72,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-02T23:36:26.421Z",
       "action": "HOLD",
@@ -1670,6 +1662,16 @@
       "currentScore": 63,
       "candidateScore": 68,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-12T03:32:46.957Z",
+      "action": "ROTATE",
+      "from": "NOBUSHIBA",
+      "to": "AIB",
+      "notionalGbp": 0,
+      "currentScore": 63,
+      "candidateScore": 76,
+      "reason": "Candidate advantage 13 points"
     }
   ]
 }
