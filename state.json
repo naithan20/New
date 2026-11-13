@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
-  "currentSymbol": "NOBUSHIBA",
-  "entryPriceUsd": 0.0003217,
-  "entryNotionalGbp": 8.011631696082362e-120,
-  "peakNotionalGbp": 8.011631696082362e-120,
-  "realisedNotionalGbp": 8.133636239677525e-120,
+  "currentToken": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
+  "currentSymbol": "Christmax",
+  "entryPriceUsd": 0.0001501,
+  "entryNotionalGbp": 8.135523287214854e-120,
+  "peakNotionalGbp": 8.135523287214854e-120,
+  "realisedNotionalGbp": 8.259414504786655e-120,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-11-13",
-  "tradeCount": 203,
+  "tradeCount": 204,
   "journal": [
-    {
-      "at": "2026-11-03T15:30:35.317Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 45,
-      "candidateScore": 77,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-03T15:40:38.897Z",
       "action": "HOLD",
@@ -1668,6 +1660,16 @@
       "currentScore": 0,
       "candidateScore": 65,
       "reason": "Risk exit triggered at -99.6% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-13T00:21:14.756Z",
+      "action": "ROTATE",
+      "from": "NOBUSHIBA",
+      "to": "Christmax",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 70,
+      "reason": "Candidate advantage 17 points"
     }
   ]
 }
