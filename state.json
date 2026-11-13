@@ -14,16 +14,6 @@
   "tradeCount": 205,
   "journal": [
     {
-      "at": "2026-11-04T01:26:09.419Z",
-      "action": "ROTATE",
-      "from": "MEOWNERO",
-      "to": "ANONVOYAGE",
-      "notionalGbp": 0,
-      "currentScore": 35,
-      "candidateScore": 65,
-      "reason": "Risk exit triggered at -18.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-04T01:36:11.266Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1669,6 +1659,14 @@
       "notionalGbp": 0,
       "currentScore": 35,
       "candidateScore": 59,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-13T08:40:14.122Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 35,
+      "candidateScore": 58,
       "reason": "Daily trade cap reached"
     }
   ]
