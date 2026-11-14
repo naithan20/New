@@ -14,16 +14,6 @@
   "tradeCount": 205,
   "journal": [
     {
-      "at": "2026-11-05T00:15:02.916Z",
-      "action": "ROTATE",
-      "from": "AMD",
-      "to": "VI",
-      "notionalGbp": 0,
-      "currentScore": 54,
-      "candidateScore": 73,
-      "reason": "Candidate advantage 19 points"
-    },
-    {
       "at": "2026-11-05T00:25:04.848Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1663,6 +1653,14 @@
       "notionalGbp": 0,
       "currentScore": 41,
       "candidateScore": 52,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-14T10:34:39.510Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 43,
+      "candidateScore": 61,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
