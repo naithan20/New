@@ -14,16 +14,6 @@
   "tradeCount": 206,
   "journal": [
     {
-      "at": "2026-11-05T06:32:19.850Z",
-      "action": "ROTATE",
-      "from": "VI",
-      "to": "Democat",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 64,
-      "reason": "Risk exit triggered at -99.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-05T06:42:21.819Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1664,6 +1654,14 @@
       "currentScore": 23,
       "candidateScore": 68,
       "reason": "Candidate advantage 45 points"
+    },
+    {
+      "at": "2026-11-14T10:54:43.906Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 47,
+      "candidateScore": 57,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
