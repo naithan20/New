@@ -14,14 +14,6 @@
   "tradeCount": 211,
   "journal": [
     {
-      "at": "2026-11-06T23:51:17.444Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 54,
-      "candidateScore": 78,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-11-07T02:43:11.048Z",
       "action": "ROTATE",
       "from": "AMD",
@@ -1665,6 +1657,14 @@
       "notionalGbp": 0,
       "currentScore": 48,
       "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-16T02:04:35.584Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 44,
+      "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
