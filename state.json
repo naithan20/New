@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
-  "currentSymbol": "BUTTHOLE",
-  "entryPriceUsd": 0.0005153,
-  "entryNotionalGbp": 5.254685293154035e-121,
-  "peakNotionalGbp": 5.254685293154035e-121,
-  "realisedNotionalGbp": 5.334705881374654e-121,
+  "currentToken": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+  "currentSymbol": "WASTED",
+  "entryPriceUsd": 0.003414,
+  "entryNotionalGbp": 4.222633999715311e-121,
+  "peakNotionalGbp": 4.222633999715311e-121,
+  "realisedNotionalGbp": 4.286938070776965e-121,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-11-16",
-  "tradeCount": 212,
+  "tradeCount": 213,
   "journal": [
-    {
-      "at": "2026-11-07T03:23:19.381Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 59,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-07T03:33:21.261Z",
       "action": "HOLD",
@@ -1666,6 +1658,16 @@
       "currentScore": 50,
       "candidateScore": 72,
       "reason": "Candidate advantage 22 points"
+    },
+    {
+      "at": "2026-11-16T09:29:44.687Z",
+      "action": "ROTATE",
+      "from": "BUTTHOLE",
+      "to": "WASTED",
+      "notionalGbp": 0,
+      "currentScore": 35,
+      "candidateScore": 64,
+      "reason": "Risk exit triggered at -17.2% P/L; best eligible destination selected"
     }
   ]
 }
