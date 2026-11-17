@@ -14,14 +14,6 @@
   "tradeCount": 215,
   "journal": [
     {
-      "at": "2026-11-07T17:11:00.157Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 62,
-      "candidateScore": 60,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-11-07T20:49:54.393Z",
       "action": "ROTATE",
       "from": "Leonida",
@@ -1670,6 +1662,14 @@
       "currentScore": 53,
       "candidateScore": 63,
       "reason": "Risk exit triggered at -23.6% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-17T03:53:29.209Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 58,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
