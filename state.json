@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump",
-  "currentSymbol": "COGE",
-  "entryPriceUsd": 0.0002612,
-  "entryNotionalGbp": 3.932500855936995e-121,
-  "peakNotionalGbp": 6.725299128434363e-121,
-  "realisedNotionalGbp": 3.992386655773599e-121,
+  "currentToken": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
+  "currentSymbol": "GTA",
+  "entryPriceUsd": 0.001231,
+  "entryNotionalGbp": 2.9156047639093163e-121,
+  "peakNotionalGbp": 2.9156047639093163e-121,
+  "realisedNotionalGbp": 2.9600048364561588e-121,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-16",
-  "tradeCount": 214,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-17",
+  "tradeCount": 215,
   "journal": [
-    {
-      "at": "2026-11-07T17:00:57.605Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 62,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-07T17:11:00.157Z",
       "action": "HOLD",
@@ -1668,6 +1660,16 @@
       "currentScore": 80,
       "candidateScore": 73,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-17T03:43:26.875Z",
+      "action": "ROTATE",
+      "from": "COGE",
+      "to": "GTA",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 63,
+      "reason": "Risk exit triggered at -23.6% P/L; best eligible destination selected"
     }
   ]
 }
