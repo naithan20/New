@@ -6,21 +6,13 @@
   "currentSymbol": "LEOSTAR",
   "entryPriceUsd": 0.001128,
   "entryNotionalGbp": 2.307154998044006e-121,
-  "peakNotionalGbp": 2.409422506822552e-121,
+  "peakNotionalGbp": 2.450329510333971e-121,
   "realisedNotionalGbp": 2.342289338115742e-121,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-11-17",
   "tradeCount": 216,
   "journal": [
-    {
-      "at": "2026-11-07T21:09:59.303Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 46,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-07T21:20:01.581Z",
       "action": "HOLD",
@@ -1669,6 +1661,14 @@
       "notionalGbp": 0,
       "currentScore": 53,
       "candidateScore": 59,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-17T04:23:37.013Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
