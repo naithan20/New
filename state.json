@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
-  "currentSymbol": "GTA",
-  "entryPriceUsd": 0.001231,
-  "entryNotionalGbp": 2.9156047639093163e-121,
-  "peakNotionalGbp": 2.9156047639093163e-121,
-  "realisedNotionalGbp": 2.9600048364561588e-121,
+  "currentToken": "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
+  "currentSymbol": "LEOSTAR",
+  "entryPriceUsd": 0.001128,
+  "entryNotionalGbp": 2.307154998044006e-121,
+  "peakNotionalGbp": 2.307154998044006e-121,
+  "realisedNotionalGbp": 2.342289338115742e-121,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-11-17",
-  "tradeCount": 215,
+  "tradeCount": 216,
   "journal": [
-    {
-      "at": "2026-11-07T20:49:54.393Z",
-      "action": "ROTATE",
-      "from": "Leonida",
-      "to": "HODL",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 60,
-      "reason": "Risk exit triggered at -39.0% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-11-07T20:59:57.036Z",
       "action": "HOLD",
@@ -1670,6 +1660,16 @@
       "currentScore": 59,
       "candidateScore": 58,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-17T04:03:31.798Z",
+      "action": "ROTATE",
+      "from": "GTA",
+      "to": "LEOSTAR",
+      "notionalGbp": 0,
+      "currentScore": 59,
+      "candidateScore": 63,
+      "reason": "Risk exit triggered at -18.4% P/L; best eligible destination selected"
     }
   ]
 }
