@@ -14,16 +14,6 @@
   "tradeCount": 218,
   "journal": [
     {
-      "at": "2026-11-08T08:03:00.032Z",
-      "action": "ROTATE",
-      "from": "Tungmas",
-      "to": "Respect",
-      "notionalGbp": 0,
-      "currentScore": 25,
-      "candidateScore": 71,
-      "reason": "Risk exit triggered at -15.5% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-08T15:03:06.767Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1670,6 +1660,14 @@
       "currentScore": 14,
       "candidateScore": 71,
       "reason": "Risk exit triggered at -73.4% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-18T04:21:35.324Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 62,
+      "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
