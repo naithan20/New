@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
-  "currentSymbol": "GTAVI",
-  "entryPriceUsd": 0.002643,
-  "entryNotionalGbp": 3.671264423739495e-123,
-  "peakNotionalGbp": 3.6740425277302176e-123,
-  "realisedNotionalGbp": 3.727172003796442e-123,
+  "currentToken": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+  "currentSymbol": "DIGS",
+  "entryPriceUsd": 0.000371,
+  "entryNotionalGbp": 2.1455272117412267e-123,
+  "peakNotionalGbp": 2.1455272117412267e-123,
+  "realisedNotionalGbp": 2.1782002149657126e-123,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-11-18",
-  "tradeCount": 219,
+  "tradeCount": 220,
   "journal": [
-    {
-      "at": "2026-11-08T15:43:16.320Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 0,
-      "candidateScore": 58,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-08T15:53:18.667Z",
       "action": "HOLD",
@@ -1670,6 +1662,16 @@
       "currentScore": 54,
       "candidateScore": 65,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-18T13:50:36.080Z",
+      "action": "ROTATE",
+      "from": "GTAVI",
+      "to": "DIGS",
+      "notionalGbp": 0,
+      "currentScore": 39,
+      "candidateScore": 61,
+      "reason": "Risk exit triggered at -39.8% P/L; best eligible destination selected"
     }
   ]
 }
