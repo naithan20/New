@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump",
-  "currentSymbol": "SOYOUARE",
-  "entryPriceUsd": 0.00008816,
-  "entryNotionalGbp": 1.966589825226463e-122,
-  "peakNotionalGbp": 1.966589825226463e-122,
-  "realisedNotionalGbp": 1.996537893630927e-122,
+  "currentToken": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
+  "currentSymbol": "JALU",
+  "entryPriceUsd": 0.0007472,
+  "entryNotionalGbp": 5.068758012781724e-123,
+  "peakNotionalGbp": 5.068758012781724e-123,
+  "realisedNotionalGbp": 5.1459472210981974e-123,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-17",
-  "tradeCount": 217,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-18",
+  "tradeCount": 218,
   "journal": [
-    {
-      "at": "2026-11-08T07:52:58.095Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 31,
-      "candidateScore": 57,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-08T08:03:00.032Z",
       "action": "ROTATE",
@@ -1668,6 +1660,16 @@
       "currentScore": 3,
       "candidateScore": 56,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-18T04:11:32.563Z",
+      "action": "ROTATE",
+      "from": "SOYOUARE",
+      "to": "JALU",
+      "notionalGbp": 0,
+      "currentScore": 14,
+      "candidateScore": 71,
+      "reason": "Risk exit triggered at -73.4% P/L; best eligible destination selected"
     }
   ]
 }
