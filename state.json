@@ -6,21 +6,13 @@
   "currentSymbol": "PUMP",
   "entryPriceUsd": 0.002633,
   "entryNotionalGbp": 1.2987989339238145e-123,
-  "peakNotionalGbp": 1.3500997653435171e-123,
+  "peakNotionalGbp": 1.3540459831450326e-123,
   "realisedNotionalGbp": 1.3185775978921976e-123,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 2,
   "tradeDate": "2026-11-19",
   "tradeCount": 222,
   "journal": [
-    {
-      "at": "2026-11-09T17:23:58.290Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 38,
-      "candidateScore": 62,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-09T17:34:01.112Z",
       "action": "ROTATE",
@@ -1671,6 +1663,14 @@
       "notionalGbp": 0,
       "currentScore": 60,
       "candidateScore": 69,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-19T13:12:40.218Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 45,
+      "candidateScore": 56,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
