@@ -14,14 +14,6 @@
   "tradeCount": 223,
   "journal": [
     {
-      "at": "2026-11-10T01:26:52.200Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 35,
-      "candidateScore": 58,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-11-10T01:36:54.503Z",
       "action": "ROTATE",
       "from": "CBUCKS",
@@ -1672,6 +1664,14 @@
       "currentScore": 43,
       "candidateScore": 68,
       "reason": "Candidate advantage 25 points"
+    },
+    {
+      "at": "2026-11-19T21:44:48.788Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 64,
+      "candidateScore": 57,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
