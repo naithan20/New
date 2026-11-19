@@ -14,16 +14,6 @@
   "tradeCount": 223,
   "journal": [
     {
-      "at": "2026-11-10T01:36:54.503Z",
-      "action": "ROTATE",
-      "from": "CBUCKS",
-      "to": "OnlyCats",
-      "notionalGbp": 0,
-      "currentScore": 41,
-      "candidateScore": 76,
-      "reason": "Candidate advantage 35 points"
-    },
-    {
       "at": "2026-11-10T01:46:56.905Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1671,6 +1661,14 @@
       "notionalGbp": 0,
       "currentScore": 64,
       "candidateScore": 57,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-19T21:54:51.001Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 47,
+      "candidateScore": 58,
       "reason": "Daily trade cap reached"
     }
   ]
