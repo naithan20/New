@@ -14,14 +14,6 @@
   "tradeCount": 224,
   "journal": [
     {
-      "at": "2026-11-10T10:09:39.527Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 55,
-      "candidateScore": 54,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-11-10T10:19:42.465Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1669,6 +1661,14 @@
       "notionalGbp": 0,
       "currentScore": 68,
       "candidateScore": 64,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-20T03:52:03.008Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 57,
+      "candidateScore": 59,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
