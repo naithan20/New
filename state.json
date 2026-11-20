@@ -6,21 +6,13 @@
   "currentSymbol": "LOOSY",
   "entryPriceUsd": 0.001347,
   "entryNotionalGbp": 9.24124756479565e-124,
-  "peakNotionalGbp": 1.2225614818460168e-123,
+  "peakNotionalGbp": 1.2383408949113694e-123,
   "realisedNotionalGbp": 9.381977223142793e-124,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-20",
   "tradeCount": 224,
   "journal": [
-    {
-      "at": "2026-11-10T18:11:58.862Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 37,
-      "candidateScore": 63,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-10T18:22:01.152Z",
       "action": "HOLD",
@@ -1667,6 +1659,14 @@
       "notionalGbp": 0,
       "currentScore": 69,
       "candidateScore": 57,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-20T12:13:54.212Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 69,
+      "candidateScore": 63,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
