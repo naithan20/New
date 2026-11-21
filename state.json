@@ -14,14 +14,6 @@
   "tradeCount": 229,
   "journal": [
     {
-      "at": "2026-11-11T06:39:02.069Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 52,
-      "candidateScore": 65,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-11-11T06:49:04.831Z",
       "action": "ROTATE",
       "from": "VEYL",
@@ -1674,6 +1666,14 @@
       "currentScore": 40,
       "candidateScore": 67,
       "reason": "Candidate advantage 27 points"
+    },
+    {
+      "at": "2026-11-21T09:38:38.667Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 54,
+      "candidateScore": 58,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
