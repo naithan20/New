@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
-  "currentSymbol": "OGTA",
-  "entryPriceUsd": 0.0001321,
-  "entryNotionalGbp": 1.8077242980213148e-124,
-  "peakNotionalGbp": 1.8077242980213148e-124,
-  "realisedNotionalGbp": 1.835253094437883e-124,
+  "currentToken": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
+  "currentSymbol": "JENSEN",
+  "entryPriceUsd": 0.001713,
+  "entryNotionalGbp": 3.190476937801435e-126,
+  "peakNotionalGbp": 3.190476937801435e-126,
+  "realisedNotionalGbp": 3.2390628810166856e-126,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-20",
-  "tradeCount": 226,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-21",
+  "tradeCount": 227,
   "journal": [
-    {
-      "at": "2026-11-10T23:51:46.696Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 28,
-      "candidateScore": 71,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-11T00:01:49.916Z",
       "action": "ROTATE",
@@ -1672,6 +1664,16 @@
       "currentScore": 31,
       "candidateScore": 89,
       "reason": "Candidate advantage 58 points"
+    },
+    {
+      "at": "2026-11-21T01:24:51.242Z",
+      "action": "ROTATE",
+      "from": "OGTA",
+      "to": "JENSEN",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 75,
+      "reason": "Risk exit triggered at -98.2% P/L; best eligible destination selected"
     }
   ]
 }
