@@ -6,23 +6,13 @@
   "currentSymbol": "JENSEN",
   "entryPriceUsd": 0.001713,
   "entryNotionalGbp": 3.190476937801435e-126,
-  "peakNotionalGbp": 3.190476937801435e-126,
+  "peakNotionalGbp": 3.5201409296233e-126,
   "realisedNotionalGbp": 3.2390628810166856e-126,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-21",
   "tradeCount": 227,
   "journal": [
-    {
-      "at": "2026-11-11T00:01:49.916Z",
-      "action": "ROTATE",
-      "from": "Steve",
-      "to": "DACITY",
-      "notionalGbp": 0,
-      "currentScore": 21,
-      "candidateScore": 62,
-      "reason": "Risk exit triggered at -56.3% P/L; best eligible destination selected"
-    },
     {
       "at": "2026-11-11T05:58:52.889Z",
       "action": "ROTATE",
@@ -1674,6 +1664,14 @@
       "currentScore": 0,
       "candidateScore": 75,
       "reason": "Risk exit triggered at -98.2% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-21T01:34:54.949Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 53,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
