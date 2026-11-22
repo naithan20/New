@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-  "currentSymbol": "BLOB",
-  "entryPriceUsd": 0.01574,
-  "entryNotionalGbp": 3.6463716623549065e-129,
-  "peakNotionalGbp": 3.6463716623549065e-129,
-  "realisedNotionalGbp": 3.7019001648273165e-129,
+  "currentToken": "3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump",
+  "currentSymbol": "PushCoin",
+  "entryPriceUsd": 0.001196,
+  "entryNotionalGbp": 3.477114398748109e-129,
+  "peakNotionalGbp": 3.477114398748109e-129,
+  "realisedNotionalGbp": 3.530065379439704e-129,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-11-22",
-  "tradeCount": 231,
+  "tradeCount": 232,
   "journal": [
-    {
-      "at": "2026-11-12T11:45:11.868Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 50,
-      "candidateScore": 58,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-12T18:50:17.264Z",
       "action": "HOLD",
@@ -1670,6 +1662,16 @@
       "currentScore": 51,
       "candidateScore": 63,
       "reason": "Risk exit triggered at -27.0% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-22T11:19:29.053Z",
+      "action": "ROTATE",
+      "from": "BLOB",
+      "to": "PushCoin",
+      "notionalGbp": 0,
+      "currentScore": 49,
+      "candidateScore": 70,
+      "reason": "Candidate advantage 21 points"
     }
   ]
 }
