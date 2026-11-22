@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump",
-  "currentSymbol": "PushCoin",
-  "entryPriceUsd": 0.001452,
-  "entryNotionalGbp": 5.1481266538926e-129,
-  "peakNotionalGbp": 5.882053800831835e-129,
-  "realisedNotionalGbp": 5.226524521718376e-129,
+  "currentToken": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
+  "currentSymbol": "BLOB",
+  "entryPriceUsd": 0.01574,
+  "entryNotionalGbp": 3.6463716623549065e-129,
+  "peakNotionalGbp": 3.6463716623549065e-129,
+  "realisedNotionalGbp": 3.7019001648273165e-129,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-11-22",
-  "tradeCount": 230,
+  "tradeCount": 231,
   "journal": [
-    {
-      "at": "2026-11-12T11:35:09.825Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 52,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-12T11:45:11.868Z",
       "action": "HOLD",
@@ -1668,6 +1660,16 @@
       "currentScore": 51,
       "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-22T11:09:27.233Z",
+      "action": "ROTATE",
+      "from": "PushCoin",
+      "to": "BLOB",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 63,
+      "reason": "Risk exit triggered at -27.0% P/L; best eligible destination selected"
     }
   ]
 }
