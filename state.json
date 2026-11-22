@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
-  "currentSymbol": "JENSEN",
-  "entryPriceUsd": 0.001694,
-  "entryNotionalGbp": 3.630275021850753e-126,
-  "peakNotionalGbp": 3.630275021850753e-126,
-  "realisedNotionalGbp": 3.6855583978180236e-126,
+  "currentToken": "3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump",
+  "currentSymbol": "PushCoin",
+  "entryPriceUsd": 0.001452,
+  "entryNotionalGbp": 5.1481266538926e-129,
+  "peakNotionalGbp": 5.1481266538926e-129,
+  "realisedNotionalGbp": 5.226524521718376e-129,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-21",
-  "tradeCount": 229,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-22",
+  "tradeCount": 230,
   "journal": [
-    {
-      "at": "2026-11-12T03:32:46.957Z",
-      "action": "ROTATE",
-      "from": "NOBUSHIBA",
-      "to": "AIB",
-      "notionalGbp": 0,
-      "currentScore": 63,
-      "candidateScore": 76,
-      "reason": "Candidate advantage 13 points"
-    },
     {
       "at": "2026-11-12T03:42:48.764Z",
       "action": "HOLD",
@@ -1668,6 +1658,16 @@
       "currentScore": 0,
       "candidateScore": 54,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-22T03:03:40.674Z",
+      "action": "ROTATE",
+      "from": "JENSEN",
+      "to": "PushCoin",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 70,
+      "reason": "Risk exit triggered at -99.9% P/L; best eligible destination selected"
     }
   ]
 }
