@@ -6,21 +6,13 @@
   "currentSymbol": "PushCoin",
   "entryPriceUsd": 0.001452,
   "entryNotionalGbp": 5.1481266538926e-129,
-  "peakNotionalGbp": 5.1481266538926e-129,
+  "peakNotionalGbp": 5.882053800831835e-129,
   "realisedNotionalGbp": 5.226524521718376e-129,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-22",
   "tradeCount": 230,
   "journal": [
-    {
-      "at": "2026-11-12T10:55:00.156Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 40,
-      "candidateScore": 66,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-12T11:05:02.712Z",
       "action": "HOLD",
@@ -1667,6 +1659,14 @@
       "notionalGbp": 0,
       "currentScore": 61,
       "candidateScore": 42,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-22T03:23:45.675Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 64,
+      "candidateScore": 50,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
