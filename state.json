@@ -6,21 +6,13 @@
   "currentSymbol": "COPIUM",
   "entryPriceUsd": 0.0005917,
   "entryNotionalGbp": 3.7641147165321947e-132,
-  "peakNotionalGbp": 3.7641147165321947e-132,
+  "peakNotionalGbp": 4.7883203433053626e-132,
   "realisedNotionalGbp": 3.8214362604387764e-132,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-11-23",
   "tradeCount": 235,
   "journal": [
-    {
-      "at": "2026-11-13T16:51:20.453Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 34,
-      "candidateScore": 61,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-13T17:01:31.364Z",
       "action": "HOLD",
@@ -1670,6 +1662,14 @@
       "action": "HOLD",
       "notionalGbp": 0,
       "currentScore": 50,
+      "candidateScore": 72,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-23T21:14:25.518Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 48,
       "candidateScore": 72,
       "reason": "Daily trade cap reached"
     }
