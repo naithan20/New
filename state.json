@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-  "currentSymbol": "DESSA",
-  "entryPriceUsd": 0.003171,
-  "entryNotionalGbp": 4.665266976529382e-132,
-  "peakNotionalGbp": 4.665266976529382e-132,
-  "realisedNotionalGbp": 4.736311651298865e-132,
+  "currentToken": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
+  "currentSymbol": "COPIUM",
+  "entryPriceUsd": 0.0005917,
+  "entryNotionalGbp": 3.7641147165321947e-132,
+  "peakNotionalGbp": 3.7641147165321947e-132,
+  "realisedNotionalGbp": 3.8214362604387764e-132,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-11-23",
-  "tradeCount": 234,
+  "tradeCount": 235,
   "journal": [
-    {
-      "at": "2026-11-13T08:00:06.359Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 34,
-      "candidateScore": 59,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-13T08:10:08.353Z",
       "action": "HOLD",
@@ -1670,6 +1662,16 @@
       "currentScore": 52,
       "candidateScore": 60,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-23T01:16:16.187Z",
+      "action": "ROTATE",
+      "from": "DESSA",
+      "to": "COPIUM",
+      "notionalGbp": 0,
+      "currentScore": 46,
+      "candidateScore": 56,
+      "reason": "Risk exit triggered at -16.8% P/L; best eligible destination selected"
     }
   ]
 }
