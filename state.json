@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
-  "currentSymbol": "COPIUM",
-  "entryPriceUsd": 0.0005917,
-  "entryNotionalGbp": 3.7641147165321947e-132,
-  "peakNotionalGbp": 5.004612214797832e-132,
-  "realisedNotionalGbp": 3.8214362604387764e-132,
+  "currentToken": "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
+  "currentSymbol": "DONJENSEN",
+  "entryPriceUsd": 0.001996,
+  "entryNotionalGbp": 1.2659000084397697e-134,
+  "peakNotionalGbp": 1.2659000084397697e-134,
+  "realisedNotionalGbp": 1.2851776735429133e-134,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 0,
+  "tradesToday": 1,
   "tradeDate": "2026-11-24",
-  "tradeCount": 235,
+  "tradeCount": 236,
   "journal": [
-    {
-      "at": "2026-11-14T03:45:43.847Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 46,
-      "candidateScore": 61,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-14T03:55:48.128Z",
       "action": "HOLD",
@@ -1672,6 +1664,16 @@
       "currentScore": 46,
       "candidateScore": 57,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-24T17:31:41.843Z",
+      "action": "ROTATE",
+      "from": "COPIUM",
+      "to": "DONJENSEN",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 65,
+      "reason": "Risk exit triggered at -99.7% P/L; best eligible destination selected"
     }
   ]
 }
