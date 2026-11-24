@@ -14,16 +14,6 @@
   "tradeCount": 236,
   "journal": [
     {
-      "at": "2026-11-14T10:44:41.264Z",
-      "action": "ROTATE",
-      "from": "SHARKBUX",
-      "to": "Gato",
-      "notionalGbp": 0,
-      "currentScore": 23,
-      "candidateScore": 68,
-      "reason": "Candidate advantage 45 points"
-    },
-    {
       "at": "2026-11-14T10:54:43.906Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1673,6 +1663,14 @@
       "notionalGbp": 0,
       "currentScore": 56,
       "candidateScore": 56,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-24T18:21:56.698Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 51,
+      "candidateScore": 52,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
