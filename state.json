@@ -14,14 +14,6 @@
   "tradeCount": 236,
   "journal": [
     {
-      "at": "2026-11-14T10:34:39.510Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 43,
-      "candidateScore": 61,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-11-14T10:44:41.264Z",
       "action": "ROTATE",
       "from": "SHARKBUX",
@@ -1673,6 +1665,14 @@
       "notionalGbp": 0,
       "currentScore": 51,
       "candidateScore": 52,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-24T18:11:54.779Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 56,
+      "candidateScore": 56,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
