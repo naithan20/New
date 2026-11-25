@@ -6,21 +6,13 @@
   "currentSymbol": "DongCoin",
   "entryPriceUsd": 0.0006922,
   "entryNotionalGbp": 4.8553543417989395e-136,
-  "peakNotionalGbp": 4.8553543417989395e-136,
+  "peakNotionalGbp": 5.636054917127199e-136,
   "realisedNotionalGbp": 4.929293748019228e-136,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 3,
   "tradeDate": "2026-11-25",
   "tradeCount": 239,
   "journal": [
-    {
-      "at": "2026-11-14T17:09:36.501Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 60,
-      "candidateScore": 55,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-14T17:19:40.159Z",
       "action": "HOLD",
@@ -1674,6 +1666,14 @@
       "currentScore": 33,
       "candidateScore": 81,
       "reason": "Candidate advantage 48 points"
+    },
+    {
+      "at": "2026-11-25T02:48:48.405Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 86,
+      "candidateScore": 52,
+      "reason": "Daily trade cap reached"
     }
   ]
 }
