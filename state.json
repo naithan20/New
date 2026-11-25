@@ -14,16 +14,6 @@
   "tradeCount": 239,
   "journal": [
     {
-      "at": "2026-11-15T01:48:00.432Z",
-      "action": "ROTATE",
-      "from": "Angel",
-      "to": "GATO",
-      "notionalGbp": 0,
-      "currentScore": 45,
-      "candidateScore": 53,
-      "reason": "Risk exit triggered at -85.0% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-15T01:58:02.959Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1673,6 +1663,14 @@
       "notionalGbp": 0,
       "currentScore": 0,
       "candidateScore": 67,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-25T22:46:21.993Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 66,
       "reason": "Daily trade cap reached"
     }
   ]
