@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
-  "currentSymbol": "PUMPCHAN",
-  "entryPriceUsd": 0.001597,
-  "entryNotionalGbp": 8.996907413769749e-139,
-  "peakNotionalGbp": 4.9153423409606175e-138,
-  "realisedNotionalGbp": 9.13391615611142e-139,
+  "currentToken": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+  "currentSymbol": "BRUH",
+  "entryPriceUsd": 0.008526,
+  "entryNotionalGbp": 4.683173567793118e-138,
+  "peakNotionalGbp": 4.683173567793118e-138,
+  "realisedNotionalGbp": 4.754490931769663e-138,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 1,
+  "tradesToday": 2,
   "tradeDate": "2026-11-26",
-  "tradeCount": 240,
+  "tradeCount": 241,
   "journal": [
-    {
-      "at": "2026-11-15T16:59:30.670Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 42,
-      "candidateScore": 67,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-15T17:09:33.342Z",
       "action": "HOLD",
@@ -1670,6 +1662,16 @@
       "currentScore": 47,
       "candidateScore": 58,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-26T15:21:36.782Z",
+      "action": "ROTATE",
+      "from": "PUMPCHAN",
+      "to": "BRUH",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 67,
+      "reason": "Candidate advantage 14 points"
     }
   ]
 }
