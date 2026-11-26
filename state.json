@@ -14,14 +14,6 @@
   "tradeCount": 240,
   "journal": [
     {
-      "at": "2026-11-15T02:38:12.743Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 48,
-      "reason": "No candidate cleared the rotation threshold"
-    },
-    {
       "at": "2026-11-15T09:13:05.460Z",
       "action": "ROTATE",
       "from": "PumpMas",
@@ -1672,6 +1664,14 @@
       "currentScore": 0,
       "candidateScore": 68,
       "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
+    },
+    {
+      "at": "2026-11-26T05:06:47.468Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 63,
+      "candidateScore": 60,
+      "reason": "No candidate cleared the rotation threshold"
     }
   ]
 }
