@@ -6,21 +6,13 @@
   "currentSymbol": "PUMPCHAN",
   "entryPriceUsd": 0.001597,
   "entryNotionalGbp": 8.996907413769749e-139,
-  "peakNotionalGbp": 4.717038558265129e-138,
+  "peakNotionalGbp": 4.9153423409606175e-138,
   "realisedNotionalGbp": 9.13391615611142e-139,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-26",
   "tradeCount": 240,
   "journal": [
-    {
-      "at": "2026-11-15T10:03:24.374Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 38,
-      "candidateScore": 35,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-15T16:59:30.670Z",
       "action": "HOLD",
@@ -1669,6 +1661,14 @@
       "notionalGbp": 0,
       "currentScore": 56,
       "candidateScore": 63,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-26T15:11:32.821Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 47,
+      "candidateScore": 58,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
