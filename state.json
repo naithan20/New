@@ -2,27 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
-  "currentSymbol": "DongCoin",
-  "entryPriceUsd": 0.0006922,
-  "entryNotionalGbp": 4.8553543417989395e-136,
-  "peakNotionalGbp": 5.636054917127199e-136,
-  "realisedNotionalGbp": 4.929293748019228e-136,
+  "currentToken": "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
+  "currentSymbol": "PUMPCHAN",
+  "entryPriceUsd": 0.001597,
+  "entryNotionalGbp": 8.996907413769749e-139,
+  "peakNotionalGbp": 8.996907413769749e-139,
+  "realisedNotionalGbp": 9.13391615611142e-139,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-25",
-  "tradeCount": 239,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-26",
+  "tradeCount": 240,
   "journal": [
-    {
-      "at": "2026-11-15T02:28:10.173Z",
-      "action": "ROTATE",
-      "from": "GATO",
-      "to": "PumpMas",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 73,
-      "reason": "Candidate advantage 22 points"
-    },
     {
       "at": "2026-11-15T02:38:12.743Z",
       "action": "HOLD",
@@ -1672,6 +1662,16 @@
       "currentScore": 0,
       "candidateScore": 67,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-26T04:56:45.535Z",
+      "action": "ROTATE",
+      "from": "DongCoin",
+      "to": "PUMPCHAN",
+      "notionalGbp": 0,
+      "currentScore": 0,
+      "candidateScore": 68,
+      "reason": "Risk exit triggered at -99.8% P/L; best eligible destination selected"
     }
   ]
 }
