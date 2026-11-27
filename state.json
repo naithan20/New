@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
-  "currentSymbol": "CINU",
-  "entryPriceUsd": 0.0001648,
-  "entryNotionalGbp": 4.307112670493926e-138,
-  "peakNotionalGbp": 4.759254959326116e-138,
-  "realisedNotionalGbp": 4.3727032187755594e-138,
+  "currentToken": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+  "currentSymbol": "JIMMY",
+  "entryPriceUsd": 0.0005682,
+  "entryNotionalGbp": 3.156972783045395e-138,
+  "peakNotionalGbp": 3.156972783045395e-138,
+  "realisedNotionalGbp": 3.205048510705985e-138,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 3,
-  "tradeDate": "2026-11-26",
-  "tradeCount": 242,
+  "tradesToday": 1,
+  "tradeDate": "2026-11-27",
+  "tradeCount": 243,
   "journal": [
-    {
-      "at": "2026-11-15T21:41:42.164Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 49,
-      "candidateScore": 74,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-15T21:51:44.878Z",
       "action": "HOLD",
@@ -1674,6 +1666,16 @@
       "currentScore": 53,
       "candidateScore": 58,
       "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-27T00:05:59.366Z",
+      "action": "ROTATE",
+      "from": "CINU",
+      "to": "JIMMY",
+      "notionalGbp": 0,
+      "currentScore": 41,
+      "candidateScore": 60,
+      "reason": "Risk exit triggered at -24.5% P/L; best eligible destination selected"
     }
   ]
 }
