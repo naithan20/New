@@ -14,16 +14,6 @@
   "tradeCount": 245,
   "journal": [
     {
-      "at": "2026-11-16T09:29:44.687Z",
-      "action": "ROTATE",
-      "from": "BUTTHOLE",
-      "to": "WASTED",
-      "notionalGbp": 0,
-      "currentScore": 35,
-      "candidateScore": 64,
-      "reason": "Risk exit triggered at -17.2% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-16T09:39:46.994Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1677,6 +1667,14 @@
       "notionalGbp": 0,
       "currentScore": 42,
       "candidateScore": 51,
+      "reason": "Daily trade cap reached"
+    },
+    {
+      "at": "2026-11-27T19:12:03.911Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 40,
+      "candidateScore": 58,
       "reason": "Daily trade cap reached"
     }
   ]
