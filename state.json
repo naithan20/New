@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
-  "currentSymbol": "Snowball",
-  "entryPriceUsd": 0.0009108,
-  "entryNotionalGbp": 3.2883035731123423e-138,
-  "peakNotionalGbp": 3.2883035731123423e-138,
-  "realisedNotionalGbp": 3.338379262042987e-138,
+  "currentToken": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
+  "currentSymbol": "enu",
+  "entryPriceUsd": 0.000306,
+  "entryNotionalGbp": 2.3010211222562996e-138,
+  "peakNotionalGbp": 2.3010211222562996e-138,
+  "realisedNotionalGbp": 2.3360620530520807e-138,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 2,
+  "tradesToday": 3,
   "tradeDate": "2026-11-27",
-  "tradeCount": 244,
+  "tradeCount": 245,
   "journal": [
-    {
-      "at": "2026-11-16T02:34:45.218Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 48,
-      "candidateScore": 62,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-16T02:44:48.103Z",
       "action": "ROTATE",
@@ -1678,6 +1670,16 @@
       "currentScore": 74,
       "candidateScore": 53,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-27T18:51:59.791Z",
+      "action": "ROTATE",
+      "from": "Snowball",
+      "to": "enu",
+      "notionalGbp": 0,
+      "currentScore": 44,
+      "candidateScore": 63,
+      "reason": "Risk exit triggered at -27.9% P/L; best eligible destination selected"
     }
   ]
 }
