@@ -6,21 +6,13 @@
   "currentSymbol": "JIMMY",
   "entryPriceUsd": 0.0005682,
   "entryNotionalGbp": 3.156972783045395e-138,
-  "peakNotionalGbp": 3.156972783045395e-138,
+  "peakNotionalGbp": 3.187531301712677e-138,
   "realisedNotionalGbp": 3.205048510705985e-138,
   "benchmarkStartPriceUsd": 0.00001397,
   "tradesToday": 1,
   "tradeDate": "2026-11-27",
   "tradeCount": 243,
   "journal": [
-    {
-      "at": "2026-11-15T22:21:52.039Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 57,
-      "reason": "Daily trade cap reached"
-    },
     {
       "at": "2026-11-15T22:31:54.679Z",
       "action": "HOLD",
@@ -1675,6 +1667,14 @@
       "notionalGbp": 0,
       "currentScore": 32,
       "candidateScore": 64,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-27T08:12:06.520Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 53,
+      "candidateScore": 49,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
