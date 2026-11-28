@@ -14,16 +14,6 @@
   "tradeCount": 245,
   "journal": [
     {
-      "at": "2026-11-17T04:03:31.798Z",
-      "action": "ROTATE",
-      "from": "GTA",
-      "to": "LEOSTAR",
-      "notionalGbp": 0,
-      "currentScore": 59,
-      "candidateScore": 63,
-      "reason": "Risk exit triggered at -18.4% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-17T04:13:34.518Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1671,6 +1661,14 @@
       "notionalGbp": 0,
       "currentScore": 39,
       "candidateScore": 63,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-28T10:54:54.597Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 23,
+      "candidateScore": 57,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
