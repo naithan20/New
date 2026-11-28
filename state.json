@@ -14,16 +14,6 @@
   "tradeCount": 245,
   "journal": [
     {
-      "at": "2026-11-16T20:20:08.630Z",
-      "action": "ROTATE",
-      "from": "WASTED",
-      "to": "COGE",
-      "notionalGbp": 0,
-      "currentScore": 51,
-      "candidateScore": 67,
-      "reason": "Candidate advantage 16 points"
-    },
-    {
       "at": "2026-11-16T20:30:10.912Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1675,6 +1665,14 @@
       "notionalGbp": 0,
       "currentScore": 36,
       "candidateScore": 55,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-28T02:14:08.633Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 42,
+      "candidateScore": 56,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
