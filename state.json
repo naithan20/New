@@ -14,16 +14,6 @@
   "tradeCount": 245,
   "journal": [
     {
-      "at": "2026-11-17T03:43:26.875Z",
-      "action": "ROTATE",
-      "from": "COGE",
-      "to": "GTA",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 63,
-      "reason": "Risk exit triggered at -23.6% P/L; best eligible destination selected"
-    },
-    {
       "at": "2026-11-17T03:53:29.209Z",
       "action": "HOLD",
       "notionalGbp": 0,
@@ -1673,6 +1663,14 @@
       "notionalGbp": 0,
       "currentScore": 40,
       "candidateScore": 55,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-28T10:34:51.417Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 42,
+      "candidateScore": 62,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
