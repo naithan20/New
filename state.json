@@ -14,14 +14,6 @@
   "tradeCount": 245,
   "journal": [
     {
-      "at": "2026-11-16T21:10:20.761Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 80,
-      "candidateScore": 73,
-      "reason": "Daily trade cap reached"
-    },
-    {
       "at": "2026-11-17T03:43:26.875Z",
       "action": "ROTATE",
       "from": "COGE",
@@ -1673,6 +1665,14 @@
       "notionalGbp": 0,
       "currentScore": 32,
       "candidateScore": 61,
+      "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-28T10:24:49.708Z",
+      "action": "HOLD",
+      "notionalGbp": 0,
+      "currentScore": 40,
+      "candidateScore": 55,
       "reason": "No candidate cleared the rotation threshold"
     }
   ]
