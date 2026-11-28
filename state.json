@@ -2,25 +2,17 @@
   "version": 1,
   "startedAt": "2026-09-06T14:29:47.293Z",
   "startingNotionalGbp": 7,
-  "currentToken": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
-  "currentSymbol": "enu",
-  "entryPriceUsd": 0.000306,
-  "entryNotionalGbp": 2.3010211222562996e-138,
-  "peakNotionalGbp": 2.5025484623754787e-138,
-  "realisedNotionalGbp": 2.3360620530520807e-138,
+  "currentToken": "ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump",
+  "currentSymbol": "BITCOINU",
+  "entryPriceUsd": 0.001219,
+  "entryNotionalGbp": 1.9384883451412913e-138,
+  "peakNotionalGbp": 1.9384883451412913e-138,
+  "realisedNotionalGbp": 1.9680084722246612e-138,
   "benchmarkStartPriceUsd": 0.00001397,
-  "tradesToday": 0,
+  "tradesToday": 1,
   "tradeDate": "2026-11-28",
-  "tradeCount": 245,
+  "tradeCount": 246,
   "journal": [
-    {
-      "at": "2026-11-17T04:13:34.518Z",
-      "action": "HOLD",
-      "notionalGbp": 0,
-      "currentScore": 53,
-      "candidateScore": 59,
-      "reason": "No candidate cleared the rotation threshold"
-    },
     {
       "at": "2026-11-17T04:23:37.013Z",
       "action": "HOLD",
@@ -1670,6 +1662,16 @@
       "currentScore": 23,
       "candidateScore": 57,
       "reason": "No candidate cleared the rotation threshold"
+    },
+    {
+      "at": "2026-11-28T11:04:56.207Z",
+      "action": "ROTATE",
+      "from": "enu",
+      "to": "BITCOINU",
+      "notionalGbp": 0,
+      "currentScore": 21,
+      "candidateScore": 60,
+      "reason": "Risk exit triggered at -13.2% P/L; best eligible destination selected"
     }
   ]
 }
